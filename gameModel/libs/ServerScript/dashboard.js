@@ -102,38 +102,105 @@ var MediaGameDashboards = (function () {
     });
     WegasDashboard.registerVariable(HISTORY);
 
-    WegasDashboard.registerAction("sendmail", function (team, payload) {
-        new Y.Wegas.ImpactsTeamModal({
-            "team": team,
-            "customImpacts": [
-                ["Send Mail inside Simulation",
-                    'PMGHelper.sendMessage(${"type":"string", "view": {"label":"From"}}, ${"type":"string", "view": {"label":"Subject"}}, ${"type": "string", "view": {"label":"Body", "type": "html", "required":true}}, []);'],
-            ],
-            "showAdvancedImpacts": false
-        }).render();
-    }, {
+    WegasDashboard.registerAction("sendmail", {
+		type: 'ModalAction',
+    	actions: [{
+        	doFn: function (team, payload) {
+				if (!payload.from)
+					payload.from = '';
+				if (!payload.subject)
+					payload.subject = '';
+				if (!payload.body)
+					payload.body = '';
+				PMGHelper.sendMessage(payload.from, payload.subject, payload.body, []);
+			},
+        	schemaFn: function() {
+				return {
+              		description: 'Send Mail inside Simulation',
+              		properties: {
+                		from: {
+							value: 'from',
+                  			view: {
+                    			type: 'string',
+                    			label: "From",
+                  			}
+                		},
+                		subject: {
+							value: 'message subject',
+                  			view: {
+                    			type: 'string',
+                    			label: "Subject",
+                  			}
+                		},
+                		body: {
+							value: 'message content',
+                  			view: {
+                    			type: 'html',
+                    			label: "Body",
+                  			}
+                		}
+              		}
+				};
+			}
+		}],
+		showAdvancedImpact: false
+	},
+	{
         section: "impacts",
         hasGlobal: true,
-        icon: "fa fa-envelope-o",
+        icon: "envelope",
         label: "Send Mail inside Simulation"
-    });
+	}
+    );
 
-    WegasDashboard.registerAction("impacts", function (team, payload) {
-        new Y.Wegas.ImpactsTeamModal({
-            "team": team,
-            "customImpacts": [
-                ["Ajouter un nombre à une variable",
-                    'Variable.find(gameModel, "timeCards").add(self, ${"type":"number", "view": {"label":"' + I18n.t(Y.Wegas.Facade.Variable.cache.find("name", "timeCards").get("label")) + '"}});'
-                        + 'Variable.find(gameModel, "caisse").add(self, ${"type":"number", "view": {"label": "' + I18n.t(Y.Wegas.Facade.Variable.cache.find("name", "caisse").get("label")) + '"}});'
-                        + 'Variable.find(gameModel, "depensesMensuelles").add(self, ${"type":"number", "view": {"label": "' + I18n.t(Y.Wegas.Facade.Variable.cache.find("name", "depensesMensuelles").get("label")) + '"}});']
-            ],
-            "showAdvancedImpacts": true
-        }).render();
-    }, {
+	WegasDashboard.registerAction("impacts", {
+		type: 'ModalAction',
+    	actions: [{
+        	doFn: function (team, payload) {
+				if (payload.timeCards)
+					Variable.find(gameModel, "timeCards").add(self, payload.timeCards);
+				if (payload.caisse)
+					Variable.find(gameModel, "caisse").add(self, payload.caisse);
+				if (payload.depensesMensuelles)
+					Variable.find(gameModel, "depensesMensuelles").add(self, payload.depensesMensuelles);
+			},
+        	schemaFn: function() {
+				return {
+              		description: 'Ajouter un nombre à une variable',
+					properties: {
+						timeCards: {
+							value: 0,
+							view: {
+								type: 'number',
+								label: I18n.toString(Variable.find("name", "timeCards"))
+							}
+						},
+						caisse: {
+							value: 0,
+							view: {
+								type: 'number',
+								label: I18n.toString(Variable.find("name", "caisse"))
+							}
+						},
+						depensesMensuelles: {
+							value: 0,
+							view: {
+								type: 'number',
+								label:  I18n.toString(Variable.find("name", "depensesMensuelles"))
+							}
+						}
+					}
+				};
+			}
+		}],
+		showAdvancedImpact: true
+	},
+	{
         section: "impacts",
         hasGlobal: true,
-        icon: "fa fa-pencil",
+        icon: "pen",
         label: "Add to project variables"
-    });
+	}
+    );
 
 })();

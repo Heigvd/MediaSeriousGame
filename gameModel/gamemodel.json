@@ -4,7 +4,7 @@
   "comments" : null,
   "createdById" : null,
   "createdByName" : null,
-  "createdTime" : 1685109765814,
+  "createdTime" : 1685110369693,
   "description" : null,
   "items" : [ {
     "@class" : "ListDescriptor",
@@ -18347,14 +18347,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957879:IiHafg",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:27957878:yMxrJu",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:27957879:IiHafg",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18402,14 +18402,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957883:IVmpVq",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:27957882:asFACb",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:27957883:IVmpVq",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18457,14 +18457,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957880:VuSr8f",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:27957881:uJdKMG",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:27957880:VuSr8f",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18567,11 +18567,6 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957884:1Qh6GC",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:27957885:PcGPmG",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
@@ -18580,6 +18575,11 @@
           "refId" : "TransitionDependency:27957886:VPn2Su",
           "scope" : "CHILDREN",
           "variableName" : "heuresSupplementaires"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:27957884:1Qh6GC",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18746,6 +18746,11 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:27957761:2nG7eK",
+          "scope" : "SELF",
+          "variableName" : "a_Accepter_2"
+        }, {
+          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:27957760:zCpqbc",
           "scope" : "SELF",
           "variableName" : "caisse"
@@ -18759,11 +18764,6 @@
           "refId" : "TransitionDependency:27958002:hnsVJn",
           "scope" : "SELF",
           "variableName" : "societeCreee"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957761:2nG7eK",
-          "scope" : "SELF",
-          "variableName" : "a_Accepter_2"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -19475,14 +19475,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957890:c7ofFl",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:27957889:qMa751",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:27957890:c7ofFl",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -19613,19 +19613,23 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923252:aiFQRQ",
+                "refId" : "TransitionDependency:26923256:B2eQsv",
                 "scope" : "SELF",
-                "variableName" : "a_BureauxClassiques"
+                "variableName" : "c_HomeOffice"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
               "label" : null,
-              "nextStateId" : 4,
-              "preStateImpact" : null,
-              "refId" : "transition:12059339aNz6PR",
+              "nextStateId" : 6,
+              "preStateImpact" : {
+                "@class" : "Script",
+                "content" : "",
+                "language" : "JavaScript"
+              },
+              "refId" : "transition:12059338t2v8hY",
               "triggerCondition" : {
                 "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"a_BureauxClassiques\").hasBeenSelected(self);",
+                "content" : "Variable.find(gameModel, \"c_HomeOffice\").hasBeenSelected(self);",
                 "language" : "JavaScript"
               },
               "version" : null
@@ -19657,23 +19661,19 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923256:B2eQsv",
+                "refId" : "TransitionDependency:26923252:aiFQRQ",
                 "scope" : "SELF",
-                "variableName" : "c_HomeOffice"
+                "variableName" : "a_BureauxClassiques"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
               "label" : null,
-              "nextStateId" : 6,
-              "preStateImpact" : {
-                "@class" : "Script",
-                "content" : "",
-                "language" : "JavaScript"
-              },
-              "refId" : "transition:12059338t2v8hY",
+              "nextStateId" : 4,
+              "preStateImpact" : null,
+              "refId" : "transition:12059339aNz6PR",
               "triggerCondition" : {
                 "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"c_HomeOffice\").hasBeenSelected(self);",
+                "content" : "Variable.find(gameModel, \"a_BureauxClassiques\").hasBeenSelected(self);",
                 "language" : "JavaScript"
               },
               "version" : null
@@ -19785,6 +19785,26 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923261:k0YhvR",
+                "scope" : "SELF",
+                "variableName" : "a_ToutHautDeGamme_11"
+              } ],
+              "dependsOnStrategy" : "AUTO",
+              "index" : 0,
+              "label" : null,
+              "nextStateId" : 3,
+              "preStateImpact" : null,
+              "refId" : "transition:12059326vYs9EF",
+              "triggerCondition" : {
+                "@class" : "Script",
+                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_11\").hasBeenSelected(self);",
+                "language" : "JavaScript"
+              },
+              "version" : null
+            }, {
+              "@class" : "Transition",
+              "dependencies" : [ {
+                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923263:laVlCB",
                 "scope" : "SELF",
                 "variableName" : "a_ToutHautDeGamme_12"
@@ -19818,26 +19838,6 @@
               "triggerCondition" : {
                 "@class" : "Script",
                 "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_9\").hasBeenSelected(self);",
-                "language" : "JavaScript"
-              },
-              "version" : null
-            }, {
-              "@class" : "Transition",
-              "dependencies" : [ {
-                "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923261:k0YhvR",
-                "scope" : "SELF",
-                "variableName" : "a_ToutHautDeGamme_11"
-              } ],
-              "dependsOnStrategy" : "AUTO",
-              "index" : 0,
-              "label" : null,
-              "nextStateId" : 3,
-              "preStateImpact" : null,
-              "refId" : "transition:12059326vYs9EF",
-              "triggerCondition" : {
-                "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_11\").hasBeenSelected(self);",
                 "language" : "JavaScript"
               },
               "version" : null
@@ -20079,14 +20079,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957871:EtPbS9",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:27957870:bKqbbq",
           "scope" : "SELF",
           "variableName" : "a_AccepterLaParticipation"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:27957871:EtPbS9",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -20272,26 +20272,6 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923279:4ZDlVR",
-                "scope" : "SELF",
-                "variableName" : "a_ToutHautDeGamme_8"
-              } ],
-              "dependsOnStrategy" : "AUTO",
-              "index" : 0,
-              "label" : null,
-              "nextStateId" : 5,
-              "preStateImpact" : null,
-              "refId" : "transition:12059379gIcSwj",
-              "triggerCondition" : {
-                "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_8\").hasBeenSelected(self);",
-                "language" : "JavaScript"
-              },
-              "version" : null
-            }, {
-              "@class" : "Transition",
-              "dependencies" : [ {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923277:XC0VRJ",
                 "scope" : "SELF",
                 "variableName" : "a_ToutHautDeGamme_7"
@@ -20305,6 +20285,26 @@
               "triggerCondition" : {
                 "@class" : "Script",
                 "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_7\").hasBeenSelected(self);",
+                "language" : "JavaScript"
+              },
+              "version" : null
+            }, {
+              "@class" : "Transition",
+              "dependencies" : [ {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923279:4ZDlVR",
+                "scope" : "SELF",
+                "variableName" : "a_ToutHautDeGamme_8"
+              } ],
+              "dependsOnStrategy" : "AUTO",
+              "index" : 0,
+              "label" : null,
+              "nextStateId" : 5,
+              "preStateImpact" : null,
+              "refId" : "transition:12059379gIcSwj",
+              "triggerCondition" : {
+                "@class" : "Script",
+                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_8\").hasBeenSelected(self);",
                 "language" : "JavaScript"
               },
               "version" : null
@@ -20421,19 +20421,19 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923272:bq0Ep3",
+                "refId" : "TransitionDependency:26923266:kG1FAJ",
                 "scope" : "SELF",
-                "variableName" : "a_ToutHautDeGamme_4"
+                "variableName" : "a_ToutHautDeGamme"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
               "label" : null,
-              "nextStateId" : 4,
+              "nextStateId" : 2,
               "preStateImpact" : null,
-              "refId" : "transition:12059395EY4cCW",
+              "refId" : "transition:12059394Lwtwg2",
               "triggerCondition" : {
                 "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_4\").hasBeenSelected(self);",
+                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme\").hasBeenSelected(self);",
                 "language" : "JavaScript"
               },
               "version" : null
@@ -20461,19 +20461,19 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923266:kG1FAJ",
+                "refId" : "TransitionDependency:26923272:bq0Ep3",
                 "scope" : "SELF",
-                "variableName" : "a_ToutHautDeGamme"
+                "variableName" : "a_ToutHautDeGamme_4"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
               "label" : null,
-              "nextStateId" : 2,
+              "nextStateId" : 4,
               "preStateImpact" : null,
-              "refId" : "transition:12059394Lwtwg2",
+              "refId" : "transition:12059395EY4cCW",
               "triggerCondition" : {
                 "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme\").hasBeenSelected(self);",
+                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_4\").hasBeenSelected(self);",
                 "language" : "JavaScript"
               },
               "version" : null
@@ -20537,14 +20537,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923123:jt3LvF",
-                "scope" : "SELF",
-                "variableName" : "timeCards"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923122:ekYXUe",
                 "scope" : "SELF",
                 "variableName" : "phaseMSG"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923123:jt3LvF",
+                "scope" : "SELF",
+                "variableName" : "timeCards"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -20632,6 +20632,31 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923181:GrWyjE",
+                "scope" : "SELF",
+                "variableName" : "caisse"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923182:SFngBS",
+                "scope" : "SELF",
+                "variableName" : "depensesMensuelles"
+              } ],
+              "dependsOnStrategy" : "AUTO",
+              "index" : 0,
+              "label" : null,
+              "nextStateId" : 4,
+              "preStateImpact" : null,
+              "refId" : "Transition:15708458:AmYZg0",
+              "triggerCondition" : {
+                "@class" : "Script",
+                "content" : "Variable.find(gameModel, \"caisse\").getValue(self) < Variable.find(gameModel, \"depensesMensuelles\").getValue(self);",
+                "language" : "JavaScript"
+              },
+              "version" : null
+            }, {
+              "@class" : "Transition",
+              "dependencies" : [ {
+                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923184:PoRz3W",
                 "scope" : "SELF",
                 "variableName" : "depensesMensuelles"
@@ -20650,31 +20675,6 @@
               "triggerCondition" : {
                 "@class" : "Script",
                 "content" : "Variable.find(gameModel, \"caisse\").getValue(self) >= Variable.find(gameModel, \"depensesMensuelles\").getValue(self);",
-                "language" : "JavaScript"
-              },
-              "version" : null
-            }, {
-              "@class" : "Transition",
-              "dependencies" : [ {
-                "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923182:SFngBS",
-                "scope" : "SELF",
-                "variableName" : "depensesMensuelles"
-              }, {
-                "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923181:GrWyjE",
-                "scope" : "SELF",
-                "variableName" : "caisse"
-              } ],
-              "dependsOnStrategy" : "AUTO",
-              "index" : 0,
-              "label" : null,
-              "nextStateId" : 4,
-              "preStateImpact" : null,
-              "refId" : "Transition:15708458:AmYZg0",
-              "triggerCondition" : {
-                "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"caisse\").getValue(self) < Variable.find(gameModel, \"depensesMensuelles\").getValue(self);",
                 "language" : "JavaScript"
               },
               "version" : null
@@ -21797,7 +21797,7 @@
     "version" : null,
     "visibility" : "PRIVATE"
   } ],
-  "name" : "Media Serious Game v3.0 (react) (Jess)",
+  "name" : "Media Serious Game v3.0 React",
   "pages" : { },
   "properties" : {
     "@class" : "GameModelProperties",
