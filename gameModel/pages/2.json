@@ -1,0 +1,88 @@
+{
+  "props" : {
+    "children" : [ {
+      "props" : {
+        "children" : [ {
+          "props" : {
+            "layoutStyle" : { },
+            "style" : {
+              "color" : "#685C4F",
+              "flexWrap" : "wrap",
+              "fontWeight" : "bold"
+            },
+            "text" : {
+              "@class" : "Script",
+              "content" : "\"<p>Média Serious Game - Bienvenue</p>\"",
+              "language" : "TypeScript"
+            }
+          },
+          "type" : "Text"
+        }, {
+          "props" : {
+            "layoutStyle" : { },
+            "style" : { },
+            "text" : {
+              "@class" : "Script",
+              "content" : "\"<p>Vous êtes un(e) jeune ingénieur(e) des médias et vous avez comme projet de créer une entreprise dans ce domaine.</p><p>Vous avez effectué les opérations suivantes:</p><ul><li>Réuni 5’000.- d'économies prêts à être investis.</li><li>Discuté de votre projet avec votre tante Martha, avec qui vous avez un très bon contact.&nbsp;Elle a une expérience en création et gestion d'entreprise.</li><li>Rencontré votre banquier, M. Dubuis. Il semble ouvert à soutenir votre projet de création d'entreprise.</li></ul>\"",
+              "language" : "TypeScript"
+            }
+          },
+          "type" : "Text"
+        } ],
+        "className" : "brownBoxes",
+        "layout" : {
+          "flexDirection" : "column"
+        },
+        "layoutStyle" : { },
+        "style" : { }
+      },
+      "type" : "FlexList"
+    }, {
+      "props" : {
+        "children" : [ {
+          "props" : {
+            "layoutStyle" : { },
+            "style" : { },
+            "text" : {
+              "@class" : "Script",
+              "content" : "\"<p>Ce serious game a été créé pour la filiaire Ingénierie des Médias. </p><p>Contributeurs: Gabor Maksay, Sébastien Pahud, Arnaud Dufour, Dominique Jaccard, Yves Germanier, Eric Chevalley, Jarle Hulaas, Sandrine Divorne</p>\"",
+              "language" : "TypeScript"
+            }
+          },
+          "type" : "Text"
+        }, {
+          "props" : {
+            "layoutStyle" : { },
+            "script" : {
+              "@class" : "Script",
+              "content" : "\"/Logos COMEM/HEIG-VD_Logo.jpeg\"",
+              "language" : "TypeScript"
+            },
+            "style" : {
+              "max-width" : "250px"
+            }
+          },
+          "type" : "Image"
+        } ],
+        "className" : "brownBoxes",
+        "layout" : {
+          "flexDirection" : "column"
+        },
+        "layoutStyle" : { },
+        "style" : { }
+      },
+      "type" : "FlexList"
+    } ],
+    "className" : "",
+    "layout" : {
+      "flexDirection" : "row"
+    },
+    "layoutStyle" : {
+      "height" : "100%",
+      "overflow" : "auto",
+      "width" : "100%"
+    },
+    "style" : { }
+  },
+  "type" : "FlexList"
+}

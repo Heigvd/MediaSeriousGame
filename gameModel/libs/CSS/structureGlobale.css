@@ -1,0 +1,115 @@
+.global-layout > * {
+	background-color: #FCFAF7;
+	/*box-shadow: 2px -2px 2px #eee, -2px 2px 2px #eee;*/
+}
+
+button.nextphase {
+	background-color: #685C4F;
+}
+
+button.nextphase:hover {
+	background-color: #857665;
+	
+
+	
+}
+
+button.nextphase.disabled {
+	background-color: #FAF5F0;
+	border: 3px solid #685C4F;
+	border-radius: 10px;
+}
+
+/*
+.navigation, .indicators {
+	width: 200px;
+}
+*/
+
+.navigation > * {
+	padding: 0;
+}
+
+.page-title, .navigation button {
+	color: #685C4F;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.navigation button {
+	color: #685C4F;
+	height: 48px;
+	border-radius: 10px 10px 0px 0px;
+	background-color: #FAF5F0;
+	border: 3px solid #685C4F;
+	margin-bottom: 0px;
+
+	/*
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	*/
+}
+
+
+.navigation button:hover{
+	background-color: #F0E0D1;
+	/*
+	text-shadow: 0px 0px 10px pink;
+	box-shadow: 0px 2px 1px #f0f0f0, 0px -1px 1px #f0f0f0;
+	*/
+}
+
+
+
+.navigation button:focus{
+background-color: #685C4F ;
+color: #FAF5F0;
+}
+
+.navigation button svg {
+	margin-right: .8rem;
+	height: auto;
+	
+}
+
+.indicators {
+	color: #685C4F;
+	background-color: fff;
+	max-height: 200px;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+/* indicatorTitle{
+	margin: 0px;
+	padding:0px;
+} */
+
+.pdf-button svg {
+	height: 100%;
+	color: #685C4F;
+}
+
+.timebudget > div {
+	margin: 0px;
+	padding:0px;
+	gap: 5px;
+}
+
+
+.phaseDotStyle{
+	border-color: #685C4F;
+}
+
+ .phasePathStyle{
+	background-color: #685C4F;
+	color:  #685C4F;
+} 
+
+.txtBudgetTemps p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}

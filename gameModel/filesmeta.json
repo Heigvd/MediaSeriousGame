@@ -1,0 +1,194 @@
+{
+  "/" : {
+    "description" : "",
+    "mimeType" : "application/wfs-directory",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Cahier des charges _simulation_ 1.0.pdf" : {
+    "description" : "",
+    "mimeType" : "application/pdf",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Cahier des charges _simulation_ 1.1.pdf" : {
+    "description" : "",
+    "mimeType" : "application/pdf",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Devis imprimeurs/" : {
+    "description" : "",
+    "mimeType" : "application/wfs-directory",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Devis imprimeurs/Offre 1000 affiches.pdf" : {
+    "description" : "",
+    "mimeType" : "application/pdf",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Devis imprimeurs/Offre 200 affiches.pdf" : {
+    "description" : "",
+    "mimeType" : "application/pdf",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Devis imprimeurs/Offre 20000 flyers.pdf" : {
+    "description" : "",
+    "mimeType" : "application/pdf",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Devis imprimeurs/Offre 5000 flyers.pdf" : {
+    "description" : "",
+    "mimeType" : "application/pdf",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Devis/" : {
+    "description" : "",
+    "mimeType" : "application/wfs-directory",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Devis/Tarifs Leman Bleu.png" : {
+    "description" : "",
+    "mimeType" : "image/png",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Documents/" : {
+    "description" : "",
+    "mimeType" : "application/wfs-directory",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Documents/Bail - exemple.png" : {
+    "description" : "",
+    "mimeType" : "image/png",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Images festival/" : {
+    "description" : "",
+    "mimeType" : "application/wfs-directory",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Images festival/Festival 1.png" : {
+    "description" : "",
+    "mimeType" : "image/png",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Images festival/Scene 1.png" : {
+    "description" : "",
+    "mimeType" : "image/png",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Images festival/Scene 2.png" : {
+    "description" : "",
+    "mimeType" : "image/png",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Logos COMEM/" : {
+    "description" : "",
+    "mimeType" : "application/wfs-directory",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Logos COMEM/HEIG-VD_Logo.jpeg" : {
+    "description" : "",
+    "mimeType" : "image/jpeg",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Logos COMEM/Logo-HEIG-VD.png" : {
+    "description" : "",
+    "mimeType" : "image/jpeg",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Logos COMEM/media-engineering.png" : {
+    "description" : "",
+    "mimeType" : "image/png",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Logos Sponsorts/" : {
+    "description" : "",
+    "mimeType" : "application/wfs-directory",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Logos Sponsorts/AssureTout.png" : {
+    "description" : "",
+    "mimeType" : "image/png",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Logos Sponsorts/Logo LaProx.png" : {
+    "description" : "",
+    "mimeType" : "image/png",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Logos Sponsorts/Loterie.png" : {
+    "description" : "",
+    "mimeType" : "image/png",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/Themes pour affiche.docx" : {
+    "description" : "",
+    "mimeType" : "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/portraits/" : {
+    "description" : "",
+    "mimeType" : "application/wfs-directory",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/portraits/CV/" : {
+    "description" : "",
+    "mimeType" : "application/wfs-directory",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/portraits/CV/CV Julien.png" : {
+    "description" : "",
+    "mimeType" : "image/png",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/portraits/Consultant_Media.png" : {
+    "description" : "",
+    "mimeType" : "image/png",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/portraits/Designer.png" : {
+    "description" : "",
+    "mimeType" : "image/png",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/portraits/Steiner.jpg" : {
+    "description" : "",
+    "mimeType" : "image/jpeg",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  },
+  "/portraits/cliente.png" : {
+    "description" : "",
+    "mimeType" : "image/png",
+    "note" : "",
+    "visibility" : "PRIVATE"
+  }
+}

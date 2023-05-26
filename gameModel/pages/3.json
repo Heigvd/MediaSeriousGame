@@ -1,0 +1,56 @@
+{
+  "props" : {
+    "children" : [ {
+      "props" : {
+        "children" : [ {
+          "props" : {
+            "className" : "page-title",
+            "layoutStyle" : { },
+            "name" : "votreCourrier",
+            "style" : {
+              "color" : "#fff",
+              "font-weight" : "bold"
+            },
+            "text" : {
+              "@class" : "Script",
+              "content" : "I18n.toString(Variable.find(gameModel,'mailTitle'))",
+              "language" : "TypeScript"
+            }
+          },
+          "type" : "Text"
+        } ],
+        "layout" : { },
+        "layoutStyle" : { },
+        "style" : {
+          "justify-content" : "space-between"
+        }
+      },
+      "type" : "FlexList"
+    }, {
+      "props" : {
+        "inbox" : {
+          "@class" : "Script",
+          "content" : "Variable.find(gameModel,'inbox')",
+          "language" : "TypeScript"
+        },
+        "layoutStyle" : { },
+        "mobileDisplay" : true,
+        "style" : {
+          "overflow" : "auto"
+        }
+      },
+      "type" : "Inbox"
+    } ],
+    "className" : "brownBoxes",
+    "layout" : {
+      "flexDirection" : "column"
+    },
+    "layoutStyle" : {
+      "height" : "100%",
+      "overflow" : "auto",
+      "width" : "100%"
+    },
+    "style" : { }
+  },
+  "type" : "FlexList"
+}

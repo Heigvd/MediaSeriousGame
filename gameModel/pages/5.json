@@ -1,0 +1,69 @@
+{
+  "props" : {
+    "children" : [ {
+      "props" : {
+        "children" : [ {
+          "props" : {
+            "className" : "page-title",
+            "layoutStyle" : { },
+            "style" : {
+              "color" : "#685C4F"
+            },
+            "text" : {
+              "@class" : "Script",
+              "content" : "I18n.toString(Variable.find(gameModel,'historiqueTitle'))",
+              "language" : "TypeScript"
+            }
+          },
+          "type" : "Text"
+        }, {
+          "props" : {
+            "className" : "pdf-button",
+            "icon" : "file-pdf",
+            "label" : {
+              "@class" : "Script",
+              "content" : "\"\"",
+              "language" : "TypeScript"
+            },
+            "layoutStyle" : { },
+            "style" : { }
+          },
+          "type" : "Button"
+        } ],
+        "layout" : {
+          "flexDirection" : "row"
+        },
+        "layoutStyle" : { },
+        "style" : {
+          "justify-content" : "space-between"
+        }
+      },
+      "type" : "FlexList"
+    }, {
+      "props" : {
+        "flexGrow" : 1,
+        "inbox" : {
+          "@class" : "Script",
+          "content" : "Variable.find(gameModel,'history')",
+          "language" : "TypeScript"
+        },
+        "layoutStyle" : { },
+        "style" : {
+          "overflow" : "auto"
+        }
+      },
+      "type" : "Inbox"
+    } ],
+    "className" : "brownBoxes",
+    "layout" : {
+      "flexDirection" : "column"
+    },
+    "layoutStyle" : {
+      "height" : "100%",
+      "overflow" : "auto",
+      "width" : "100%"
+    },
+    "style" : { }
+  },
+  "type" : "FlexList"
+}

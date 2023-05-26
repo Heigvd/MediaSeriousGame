@@ -1,0 +1,44 @@
+{
+  "defaultPageId" : "1",
+  "root" : {
+    "@class" : "Folder",
+    "items" : [ {
+      "@class" : "Page",
+      "id" : "1",
+      "name" : "Structure globale",
+      "scenaristPage" : true,
+      "trainerPage" : true
+    }, {
+      "@class" : "Page",
+      "id" : "2",
+      "name" : "Accueil",
+      "scenaristPage" : null,
+      "trainerPage" : null
+    }, {
+      "@class" : "Page",
+      "id" : "3",
+      "name" : "Mail",
+      "scenaristPage" : null,
+      "trainerPage" : null
+    }, {
+      "@class" : "Page",
+      "id" : "4",
+      "name" : "Actions",
+      "scenaristPage" : null,
+      "trainerPage" : null
+    }, {
+      "@class" : "Page",
+      "id" : "5",
+      "name" : "Historique",
+      "scenaristPage" : null,
+      "trainerPage" : null
+    }, {
+      "@class" : "Page",
+      "id" : "6",
+      "name" : "Options de jeu",
+      "scenaristPage" : true,
+      "trainerPage" : null
+    } ],
+    "name" : null
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "props" : {
+    "children" : [ {
+      "props" : {
+        "label" : {
+          "@class" : "Script",
+          "content" : "\"Phase 2 accessible\"",
+          "language" : "TypeScript"
+        },
+        "layoutStyle" : { },
+        "onVariableChange" : {
+          "server" : {
+            "@class" : "Script",
+            "content" : "MediaHelper.setMaxPhase(2);",
+            "language" : "javascript"
+          }
+        },
+        "script" : {
+          "@class" : "Script",
+          "content" : "Variable.find(gameModel, \"phaseMaxPlayer\").getValue(self) >= 2;",
+          "language" : "TypeScript"
+        },
+        "style" : { },
+        "type" : "checkbox"
+      },
+      "type" : "Boolean"
+    }, {
+      "props" : {
+        "label" : {
+          "@class" : "Script",
+          "content" : "\"Phase 3 accessible\"",
+          "language" : "TypeScript"
+        },
+        "layoutStyle" : { },
+        "onVariableChange" : {
+          "server" : {
+            "@class" : "Script",
+            "content" : "MediaHelper.setMaxPhase(3);",
+            "language" : "javascript"
+          }
+        },
+        "script" : {
+          "@class" : "Script",
+          "content" : "Variable.find(gameModel, \"phaseMaxPlayer\").getValue(self) >= 3;",
+          "language" : "TypeScript"
+        },
+        "style" : { },
+        "type" : "checkbox"
+      },
+      "type" : "Boolean"
+    }, {
+      "props" : {
+        "label" : {
+          "@class" : "Script",
+          "content" : "\"Phase 4 accessible\"",
+          "language" : "TypeScript"
+        },
+        "layoutStyle" : { },
+        "onVariableChange" : {
+          "server" : {
+            "@class" : "Script",
+            "content" : "MediaHelper.setMaxPhase(4);",
+            "language" : "javascript"
+          }
+        },
+        "script" : {
+          "@class" : "Script",
+          "content" : "Variable.find(gameModel, \"phaseMaxPlayer\").getValue(self) >= 4;",
+          "language" : "TypeScript"
+        },
+        "style" : { },
+        "type" : "checkbox"
+      },
+      "type" : "Boolean"
+    } ],
+    "layout" : {
+      "flexDirection" : "column"
+    },
+    "layoutStyle" : {
+      "height" : "100%",
+      "overflow" : "auto",
+      "width" : "100%"
+    }
+  },
+  "type" : "FlexList"
+}
