@@ -8,9 +8,14 @@
               "props" : {
                 "className" : "",
                 "layoutClassName" : "",
-                "layoutStyle" : { },
+                "layoutStyle" : {
+                  "margin" : "0",
+                  "padding" : "0"
+                },
                 "name" : "nomPhase",
                 "style" : {
+                  "color" : "var(--primary-green)",
+                  "fontSize" : "1.2rem",
                   "fontWeight" : "bold",
                   "textTransform" : "uppercase"
                 },
@@ -23,74 +28,83 @@
               "type" : "Text"
             }, {
               "props" : {
+                "children" : [ {
+                  "props" : {
+                    "layoutStyle" : {
+                      "margin" : "0",
+                      "maxWidth" : "30rem",
+                      "minWidth" : "25rem",
+                      "padding" : "0"
+                    },
+                    "phase" : {
+                      "@class" : "Script",
+                      "content" : "Variable.find(gameModel,'phaseMSG')",
+                      "language" : "TypeScript"
+                    },
+                    "phaseMax" : {
+                      "@class" : "Script",
+                      "content" : "Variable.find(gameModel,'phaseMin')",
+                      "language" : "TypeScript"
+                    },
+                    "phaseMin" : {
+                      "@class" : "Script",
+                      "content" : "Variable.find(gameModel,'numberDescriptor_qfRhTT')",
+                      "language" : "TypeScript"
+                    },
+                    "style" : { }
+                  },
+                  "type" : "Phases"
+                }, {
+                  "props" : {
+                    "className" : "",
+                    "confirm" : false,
+                    "disableIf" : {
+                      "@class" : "Script",
+                      "content" : "Variable.find(gameModel, \"phaseMaxPlayer\").getValue(self) <= Variable.find(gameModel, \"phaseMSG\").getValue(self);",
+                      "language" : "typescript"
+                    },
+                    "icon" : "arrow-alt-circle-right",
+                    "impactVariable" : {
+                      "impact" : {
+                        "@class" : "Script",
+                        "content" : "Event.fire(\"PhaseSuivante\");",
+                        "language" : "javascript"
+                      }
+                    },
+                    "label" : {
+                      "@class" : "Script",
+                      "content" : "I18n.toString(Variable.find(gameModel,'nextPhaseButton'))",
+                      "language" : "TypeScript"
+                    },
+                    "layoutStyle" : {
+                      "marginLeft" : "2em"
+                    },
+                    "name" : "phaseSuivante",
+                    "prefixedLabel" : true,
+                    "style" : {
+                      "padding" : ".6rem"
+                    }
+                  },
+                  "type" : "Button"
+                } ],
+                "layout" : { },
                 "layoutStyle" : {
-                  "flex-grow" : "2",
-                  "max-width" : "400px",
-                  "min-width" : "300px"
+                  "margin" : "0",
+                  "padding" : "0"
                 },
-                "phase" : {
-                  "@class" : "Script",
-                  "content" : "Variable.find(gameModel,'phaseMSG')",
-                  "language" : "TypeScript"
-                },
-                "phaseMax" : {
-                  "@class" : "Script",
-                  "content" : "Variable.find(gameModel,'phaseMin')",
-                  "language" : "TypeScript"
-                },
-                "phaseMin" : {
-                  "@class" : "Script",
-                  "content" : "Variable.find(gameModel,'numberDescriptor_qfRhTT')",
-                  "language" : "TypeScript"
-                },
+                "name" : "",
                 "style" : { }
               },
-              "type" : "Phases"
-            }, {
-              "props" : {
-                "className" : "nextphase",
-                "disableIf" : {
-                  "@class" : "Script",
-                  "content" : "Variable.find(gameModel, \"phaseMaxPlayer\").getValue(self) <= Variable.find(gameModel, \"phaseMSG\").getValue(self);",
-                  "language" : "typescript"
-                },
-                "icon" : "arrow-alt-circle-right",
-                "impactVariable" : {
-                  "impact" : {
-                    "@class" : "Script",
-                    "content" : "Event.fire(\"PhaseSuivante\");",
-                    "language" : "javascript"
-                  }
-                },
-                "label" : {
-                  "@class" : "Script",
-                  "content" : "I18n.toString(Variable.find(gameModel,'nextPhaseButton'))",
-                  "language" : "TypeScript"
-                },
-                "layoutStyle" : {
-                  "fontSize" : "1em"
-                },
-                "name" : "phaseSuivante",
-                "prefixedLabel" : true,
-                "style" : {
-                  "backgroundColor" : "#685C4F",
-                  "border-radius" : "10px",
-                  "padding" : "8px 24px 8px 24px"
-                }
-              },
-              "type" : "Button"
+              "type" : "FlexList"
             } ],
-            "className" : "brownBoxes",
+            "className" : "",
             "layout" : {
-              "alignItems" : "center",
-              "flexDirection" : "row",
-              "justifyContent" : "space-around"
+              "flexDirection" : "column",
+              "justifyContent" : "center"
             },
             "layoutStyle" : { },
-            "name" : "phases",
-            "style" : {
-              "minWidth" : "50%"
-            }
+            "name" : "left-container",
+            "style" : { }
           },
           "type" : "FlexList"
         }, {
@@ -99,108 +113,89 @@
               "props" : {
                 "children" : [ {
                   "props" : {
-                    "children" : [ {
-                      "props" : {
-                        "layoutStyle" : {
-                          "margin-top" : "0px",
-                          "padding" : "0px"
-                        },
-                        "name" : "liquidite",
-                        "style" : { },
-                        "text" : {
-                          "@class" : "Script",
-                          "content" : "I18n.toString(Variable.find(gameModel,'liquidites'))",
-                          "language" : "TypeScript"
-                        }
-                      },
-                      "type" : "Text"
-                    }, {
-                      "props" : {
-                        "layoutStyle" : {
-                          "padding" : "0px"
-                        },
-                        "name" : "barreLiquidite",
-                        "style" : { },
-                        "text" : {
-                          "@class" : "Script",
-                          "content" : " const maxWidth = 150;\n const depMens = Variable.find(gameModel,'depensesMensuelles').getValue(self);\n const liquidites = Variable.find(gameModel,'caisse').getValue(self);\n //const widthdepMens = depMens > liquidites ? maxWidth : (maxWidth * liquidites)/depMens;\n const widthliquidites = liquidites > depMens ? maxWidth : (maxWidth * liquidites)/depMens;\n if(liquidites < 30){\n\t return `<div style=\"color: #649368; display: flex; align-items: center; gap: 3px;\"><div style=\"width:${depMens < 3 ? '3' : depMens}px; height: 30px; background-color: #649368\"></div>${depMens}</div>`\n }\n `<div style=\"width:${widthliquidites}px; height: 30px; min-width: min-content; padding: 2px; max-width: 150px; background-color: #649368; color: white\">${liquidites}</div>`;",
-                          "language" : "TypeScript"
-                        }
-                      },
-                      "type" : "Text"
-                    }, {
-                      "props" : {
-                        "layoutStyle" : {
-                          "margin" : "0px",
-                          "padding" : "0px"
-                        },
-                        "name" : "depenseMens",
-                        "style" : {
-                          "padding" : "0px"
-                        },
-                        "text" : {
-                          "@class" : "Script",
-                          "content" : "I18n.toString(Variable.find(gameModel,'titreDepensesMensuelles'))",
-                          "language" : "TypeScript"
-                        }
-                      },
-                      "type" : "Text"
-                    }, {
-                      "props" : {
-                        "layoutStyle" : {
-                          "padding" : "0px"
-                        },
-                        "name" : "barreDepenses",
-                        "style" : { },
-                        "text" : {
-                          "@class" : "Script",
-                          "content" : " const maxWidth = 150;\n const depMens = Variable.find(gameModel,'depensesMensuelles').getValue(self);\n const liquidites = Variable.find(gameModel,'caisse').getValue(self);\n const widthdepMens = depMens > liquidites ? maxWidth : (maxWidth * liquidites)/depMens;\n //const widthliquidites = liquidites > depMens ? maxWidth : (maxWidth * liquidites)/depMens;\n if(depMens < 30){\n\t return `<div style=\"color: #DA574E; display: flex; align-items: center; gap: 3px;\"><div style=\"width:${depMens < 3 ? '3' : depMens}px; height: 30px; background-color: #DA574E\"></div>${depMens}</div>`\n }\n `<div style=\"width:${widthdepMens}px; height: 30px; min-width: min-content; padding: 2px; max-width: 150px; background-color: #DA574E; color: white\">${depMens}</div>`;",
-                          "language" : "TypeScript"
-                        }
-                      },
-                      "type" : "Text"
-                    } ],
-                    "layout" : {
-                      "flexDirection" : "column"
-                    },
                     "layoutStyle" : {
-                      "height" : "50%"
+                      "fontWeight" : "bold"
                     },
-                    "name" : "liquidite",
-                    "style" : {
-                      "align-items" : "flex-start",
-                      "font-size" : "12px",
-                      "padding" : "0px"
+                    "name" : "liquidite-label",
+                    "style" : { },
+                    "text" : {
+                      "@class" : "Script",
+                      "content" : "I18n.toString(Variable.find(gameModel,'liquidites'))",
+                      "language" : "TypeScript"
                     }
                   },
-                  "type" : "FlexList"
+                  "type" : "Text"
+                }, {
+                  "props" : {
+                    "layoutStyle" : { },
+                    "name" : "liquidite-display",
+                    "style" : { },
+                    "text" : {
+                      "@class" : "Script",
+                      "content" : "import { convertToCurrency } from \"./utils\";\n  convertToCurrency(Variable.find(gameModel, 'caisse').getInstance(self).getValue())",
+                      "language" : "TypeScript"
+                    }
+                  },
+                  "type" : "Text"
                 } ],
-                "className" : "brownBoxes",
                 "layout" : {
+                  "alignItems" : "flex-start",
                   "flexDirection" : "column"
                 },
-                "layoutStyle" : {
-                  "flexGrow" : "1",
-                  "minWidth" : "300px"
-                },
-                "name" : "argent",
-                "style" : {
-                  "font-size" : ".5em",
-                  "marginRight" : "10px",
-                  "padding" : "0px"
-                }
+                "layoutStyle" : { },
+                "name" : "liquidite",
+                "style" : { }
               },
               "type" : "FlexList"
             }, {
               "props" : {
                 "children" : [ {
                   "props" : {
-                    "className" : "txtBudgetTemps",
+                    "layoutStyle" : {
+                      "fontWeight" : "bold"
+                    },
+                    "name" : "depenses-label",
+                    "style" : { },
+                    "text" : {
+                      "@class" : "Script",
+                      "content" : "I18n.toString(Variable.find(gameModel,'titreDepensesMensuelles'))",
+                      "language" : "TypeScript"
+                    }
+                  },
+                  "type" : "Text"
+                }, {
+                  "props" : {
+                    "className" : "",
+                    "id" : "",
+                    "layoutStyle" : { },
+                    "name" : "depenses-display",
+                    "style" : { },
+                    "text" : {
+                      "@class" : "Script",
+                      "content" : "import { convertToCurrency } from \"./utils\";\n convertToCurrency(Variable.find(gameModel, 'depensesMensuelles').getInstance(self).getValue())",
+                      "language" : "TypeScript"
+                    }
+                  },
+                  "type" : "Text"
+                } ],
+                "layout" : {
+                  "alignItems" : "flex-start",
+                  "flexDirection" : "column"
+                },
+                "layoutStyle" : { },
+                "name" : "depenses",
+                "style" : { }
+              },
+              "type" : "FlexList"
+            }, {
+              "props" : {
+                "children" : [ {
+                  "props" : {
+                    "className" : "",
                     "layoutClassName" : "",
                     "layoutStyle" : { },
                     "style" : {
-                      "marginBottom" : "0px",
-                      "padding" : "0px"
+                      "fontWeight" : "bold"
                     },
                     "text" : {
                       "@class" : "Script",
@@ -211,74 +206,59 @@
                   "type" : "Text"
                 }, {
                   "props" : {
-                    "layoutStyle" : {
-                      "alignSelf" : "center",
-                      "border-radius" : "15px"
-                    },
-                    "script" : {
-                      "@class" : "Script",
-                      "content" : "Variable.find(gameModel,'timeCards')",
-                      "language" : "TypeScript"
-                    },
-                    "style" : { }
-                  },
-                  "type" : "Number"
-                }, {
-                  "props" : {
                     "className" : "timebudget",
                     "hideBoxValue" : true,
                     "label" : "",
                     "layoutStyle" : {
-                      "marginTop" : "0px"
+                      "marginTop" : "0px",
+                      "maxWidth" : "8em"
                     },
                     "script" : {
                       "@class" : "Script",
                       "content" : "Variable.find(gameModel,'timeCards')",
                       "language" : "TypeScript"
                     },
-                    "showLabelValue" : false,
+                    "showLabelValue" : true,
+                    "showQuantity" : true,
                     "style" : { }
                   },
                   "type" : "Boxes"
                 } ],
-                "className" : "indicators brownBoxes ",
+                "className" : "",
                 "layout" : {
                   "flexDirection" : "column"
                 },
                 "layoutClassName" : "",
                 "layoutStyle" : { },
-                "name" : "budgTemp",
-                "style" : {
-                  "minWidth" : "250px",
-                  "padding" : "0px"
-                }
+                "name" : "temps",
+                "style" : { }
               },
               "type" : "FlexList"
             } ],
-            "className" : "indicators",
             "layout" : {
+              "alignItems" : "baseline",
               "flexDirection" : "row"
             },
-            "layoutStyle" : {
-              "flexGrow" : "1",
-              "minHeight" : "200px",
-              "padding" : "0"
-            },
-            "name" : "indicateursPerf",
+            "layoutStyle" : { },
+            "name" : "right-container",
             "style" : {
-              "font-size" : ".8em",
-              "text-align" : "center"
+              "color" : "var(--primary-green)",
+              "fontSize" : ".9rem",
+              "gap" : "2rem"
             }
           },
           "type" : "FlexList"
         } ],
+        "className" : "header",
         "layout" : {
+          "alignItems" : "flex-start",
+          "flexDirection" : "row",
           "justifyContent" : "space-between"
         },
+        "layoutClassName" : "header-container",
         "layoutStyle" : {
-          "gap-row" : "0px",
-          "heigth" : "150px",
-          "marginBottom" : "0px",
+          "marginBottom" : "1rem",
+          "maxHeigth" : "100px",
           "paddingBottom" : "0px"
         },
         "name" : "Header",
@@ -291,13 +271,31 @@
           "props" : {
             "children" : [ {
               "props" : {
+                "className" : "navigation-button",
+                "conditionnalClassNames" : [ {
+                  "applyOn" : "Inside",
+                  "className" : "navigation-button-active",
+                  "condition" : {
+                    "@class" : "Script",
+                    "content" : "import { getCurrentPage } from \"./utils\";\ngetCurrentPage() === 'accueil';",
+                    "language" : "typescript"
+                  }
+                } ],
                 "icon" : "home",
+                "id" : "",
                 "label" : {
                   "@class" : "Script",
                   "content" : "\"<p>Accueil</p>\"",
                   "language" : "TypeScript"
                 },
                 "layoutStyle" : { },
+                "localScriptEval" : {
+                  "script" : {
+                    "@class" : "ClientScript",
+                    "content" : "import { setCurrentPage } from \"./utils\";\n\nsetCurrentPage('accueil');",
+                    "language" : "TypeScript"
+                  }
+                },
                 "openPage" : {
                   "pageId" : "2",
                   "pageLoaderName" : {
@@ -306,13 +304,21 @@
                     "language" : "TypeScript"
                   }
                 },
-                "style" : {
-                  "width" : "100%"
-                }
+                "style" : { }
               },
               "type" : "Button"
             }, {
               "props" : {
+                "className" : "navigation-button",
+                "conditionnalClassNames" : [ {
+                  "applyOn" : "Inside",
+                  "className" : "navigation-button-active",
+                  "condition" : {
+                    "@class" : "Script",
+                    "content" : "import { getCurrentPage } from \"./utils\";\ngetCurrentPage() === 'mail';",
+                    "language" : "typescript"
+                  }
+                } ],
                 "icon" : "envelope",
                 "label" : {
                   "@class" : "Script",
@@ -320,6 +326,13 @@
                   "language" : "TypeScript"
                 },
                 "layoutStyle" : { },
+                "localScriptEval" : {
+                  "script" : {
+                    "@class" : "ClientScript",
+                    "content" : "import { setCurrentPage } from \"./utils\";\n\nsetCurrentPage('mail');",
+                    "language" : "TypeScript"
+                  }
+                },
                 "openPage" : {
                   "pageId" : "3",
                   "pageLoaderName" : {
@@ -329,9 +342,7 @@
                   }
                 },
                 "prefixedLabel" : false,
-                "style" : {
-                  "width" : "100%"
-                },
+                "style" : { },
                 "unreadCount" : {
                   "@class" : "Script",
                   "content" : "Variable.find(gameModel,'inbox')",
@@ -341,6 +352,16 @@
               "type" : "Button"
             }, {
               "props" : {
+                "className" : "navigation-button",
+                "conditionnalClassNames" : [ {
+                  "applyOn" : "Inside",
+                  "className" : "navigation-button-active",
+                  "condition" : {
+                    "@class" : "Script",
+                    "content" : "import { getCurrentPage } from \"./utils\";\ngetCurrentPage() === 'actions';",
+                    "language" : "typescript"
+                  }
+                } ],
                 "icon" : "list",
                 "label" : {
                   "@class" : "Script",
@@ -348,6 +369,13 @@
                   "language" : "TypeScript"
                 },
                 "layoutStyle" : { },
+                "localScriptEval" : {
+                  "script" : {
+                    "@class" : "ClientScript",
+                    "content" : "import { setCurrentPage } from \"./utils\";\n\nsetCurrentPage('actions');",
+                    "language" : "TypeScript"
+                  }
+                },
                 "openPage" : {
                   "pageId" : "4",
                   "pageLoaderName" : {
@@ -356,9 +384,7 @@
                     "language" : "TypeScript"
                   }
                 },
-                "style" : {
-                  "width" : "100%"
-                },
+                "style" : { },
                 "unreadCount" : {
                   "@class" : "Script",
                   "content" : "Variable.find(gameModel,'phase1_CreationEntreprise')",
@@ -368,14 +394,31 @@
               "type" : "Button"
             }, {
               "props" : {
+                "className" : "navigation-button",
+                "conditionnalClassNames" : [ {
+                  "applyOn" : "Inside",
+                  "className" : "navigation-button-active",
+                  "condition" : {
+                    "@class" : "Script",
+                    "content" : "import { getCurrentPage } from \"./utils\";\ngetCurrentPage() === 'historique';",
+                    "language" : "typescript"
+                  }
+                } ],
                 "icon" : "history",
                 "label" : {
                   "@class" : "Script",
                   "content" : "\"<p>Historique</p>\"",
                   "language" : "TypeScript"
                 },
-                "layoutClassName" : "menuTab",
+                "layoutClassName" : "",
                 "layoutStyle" : { },
+                "localScriptEval" : {
+                  "script" : {
+                    "@class" : "ClientScript",
+                    "content" : "import { setCurrentPage } from \"./utils\";\n\nsetCurrentPage('historique');",
+                    "language" : "TypeScript"
+                  }
+                },
                 "openPage" : {
                   "pageId" : "5",
                   "pageLoaderName" : {
@@ -384,9 +427,7 @@
                     "language" : "TypeScript"
                   }
                 },
-                "style" : {
-                  "width" : "100%"
-                },
+                "style" : { },
                 "unreadCount" : {
                   "@class" : "Script",
                   "content" : "Variable.find(gameModel,'history')",
@@ -399,63 +440,59 @@
             "layout" : {
               "flexDirection" : "row"
             },
+            "layoutClassName" : "",
             "layoutStyle" : {
-              "marginBottom" : "0px",
-              "paddingBottom" : "0px"
+              "borderBottom" : "2px solid var(--primary-green)",
+              "marginBottom" : "0",
+              "paddingBottom" : "0"
             },
-            "name" : "menu",
-            "style" : {
-              "gap" : "5px",
-              "marginBottom" : "-4px",
-              "marginLeft" : "35px"
-            }
+            "name" : "navigation",
+            "style" : { }
           },
           "type" : "FlexList"
         }, {
           "props" : {
-            "className" : "page-loader",
-            "exposePageSizeAs" : "",
-            "initialSelectedPageId" : {
-              "@class" : "Script",
-              "content" : "\"2\"",
-              "language" : "typescript"
-            },
+            "className" : "",
+            "exposePageSizeAs" : "mainLoaderSize",
+            "flexGrow" : 1,
+            "initialSelectedPageId" : "2",
             "layoutClassName" : "",
             "layoutStyle" : {
-              "backgroundColor" : "#FAF5F0",
-              "border" : "3px solid #685C4F",
               "borderRadius" : "10px",
+              "height" : "calc(100%-1px)",
               "marginLeft" : "10px",
               "padding" : "0px"
             },
             "name" : "msgMainLoader",
-            "style" : { }
+            "style" : {
+              "flex" : "1",
+              "overflow" : "hidden",
+              "padding" : "15px"
+            }
           },
           "type" : "PageLoader"
         } ],
-        "className" : "global-layout",
+        "className" : "",
+        "flexGrow" : 1,
         "layout" : {
           "flexDirection" : "column"
         },
-        "layoutStyle" : {
-          "gap" : "0px",
-          "margin-top" : "0px",
-          "padding-top" : "0px"
-        },
-        "name" : "toutSaufHeader",
+        "layoutClassName" : "",
+        "layoutStyle" : { },
+        "name" : "Body",
         "style" : { }
       },
       "type" : "FlexList"
     } ],
+    "className" : "fullSize",
     "layout" : {
       "flexDirection" : "column"
     },
+    "layoutClassName" : "fullSize",
     "layoutStyle" : {
-      "background-color" : "#f5f6fa",
       "gap" : "0em",
-      "height" : "100%",
-      "overflow" : "auto",
-      "width" : "100%"
+      "overflow" : "hidden",
+      "padding" : "2rem"
     },
     "style" : { }
   },

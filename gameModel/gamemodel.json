@@ -4,7 +4,7 @@
   "comments" : null,
   "createdById" : null,
   "createdByName" : null,
-  "createdTime" : 1685110369693,
+  "createdTime" : 1718725016670,
   "description" : null,
   "items" : [ {
     "@class" : "ListDescriptor",
@@ -55,7 +55,7 @@
     }, {
       "@class" : "NumberDescriptor",
       "broadcastScope" : "TeamScope",
-      "comments" : null,
+      "comments" : "",
       "defaultInstance" : {
         "@class" : "NumberInstance",
         "history" : [ ],
@@ -74,8 +74,8 @@
             "@class" : "Translation",
             "lang" : "FR",
             "refId" : "translatablecontent:1205639043bpBw::FR",
-            "status" : null,
-            "translation" : "Dépenses mensuelles engagées"
+            "status" : "",
+            "translation" : "Dépenses mensuelles"
           }
         }
       },
@@ -18192,7 +18192,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957896:UNuRGd",
+          "refId" : "TransitionDependency:154002:o6wAmE",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         } ],
@@ -18217,15 +18217,15 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Financement de ton entreprise\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut,</p>\\n<p>&nbsp;</p>\\n<p>J'ai repensé à notre discussion et à ton idée de créer ta société dans le domaine du multimédia. Elle me semble prometteuse!&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>Et j'ai envie de te soutenir un peu...</p>\\n<p>&nbsp;</p>\\n<p>Tu m'as dit que tu avais seulement 5'000.- de fonds personnels, j'y ai réfléchi et je pourrais te proposer un prêt à long terme, sans intérêts.</p>\\n<p>&nbsp;</p>\\n<p>Et tu sais aussi que j'ai une petite expérience dans la création d'entreprise, alors j'espère que je pourrai te donner quelques conseils.</p>\\n<p>&nbsp;</p>\\n<p>Confirme-moi juste que tu acceptes ce prêt!</p>\\n<p>&nbsp;</p>\\n<p>Ta tante Martha</p>\\n<p>&nbsp;</p>\\n<p><em>____________</em></p>\\n<p><em>Vous pouvez accepter le prêt de Martha depuis l'onglet \\\"Actions\\\"</em></p>\\n<p>&nbsp;</p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, \"mailDubuis_suiteAVotreDemande_\").enable(self);\n",
-          "language" : "JavaScript"
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Financement de ton entreprise\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut,</p>\\n<p>&nbsp;</p>\\n<p>J'ai repensé à notre discussion et à ton idée de créer ta société dans le domaine du multimédia. Elle me semble prometteuse!&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>Et j'ai envie de te soutenir un peu...</p>\\n<p>&nbsp;</p>\\n<p>Tu m'as dit que tu avais seulement 5'000.- de fonds personnels, j'y ai réfléchi et je pourrais te proposer un prêt à long terme, sans intérêts.</p>\\n<p>&nbsp;</p>\\n<p>Et tu sais aussi que j'ai une petite expérience dans la création d'entreprise, alors j'espère que je pourrai te donner quelques conseils.</p>\\n<p>&nbsp;</p>\\n<p>Confirme-moi juste que tu acceptes ce prêt!</p>\\n<p>&nbsp;</p>\\n<p>Ta tante Martha</p>\\n<p>&nbsp;</p>\\n<p><em>____________</em></p>\\n<p><em>Vous pouvez accepter le prêt de Martha depuis l'onglet \\\"Actions\\\"</em></p>\\n<p>&nbsp;</p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, 'mailDubuis_suiteAVotreDemande_').enable(self);",
+          "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059170LlqowG",
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"phaseMSG\").getValue(self) === 1;",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'phaseMSG').getValue(self) === 1;",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -18242,7 +18242,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957893:mUhEbF",
+          "refId" : "TransitionDependency:154003:aszZrY",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         } ],
@@ -18274,8 +18274,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"phaseMSG\").getValue(self) === 1;",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'phaseMSG').getValue(self) === 1;",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -18292,14 +18292,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957877:pQcCnv",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957876:xb6zJI",
+          "refId" : "TransitionDependency:153998:2ZDQmC",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153999:ONPZcc",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18329,8 +18329,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"timeCards\").getValue(self) <= 18 && Variable.find(gameModel, \"phaseMSG\").getValue(self) === 1;",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'timeCards').getValue(self) <= 18&&\nVariable.find(gameModel, 'phaseMSG').getValue(self) === 1;",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -18347,12 +18347,12 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957878:yMxrJu",
+          "refId" : "TransitionDependency:153983:WMcBcS",
           "scope" : "SELF",
           "variableName" : "timeCards"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957879:IiHafg",
+          "refId" : "TransitionDependency:153984:irofVl",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         } ],
@@ -18384,8 +18384,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"timeCards\").getValue(self) < 16 && Variable.find(gameModel, \"phaseMSG\").getValue(self) === 1;",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'timeCards').getValue(self) < 16&&\nVariable.find(gameModel, 'phaseMSG').getValue(self) === 1;",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -18402,14 +18402,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957882:asFACb",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957883:IVmpVq",
+          "refId" : "TransitionDependency:153986:KXMvFA",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153985:ZqwJB6",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18439,8 +18439,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"timeCards\").getValue(self) < 14 && Variable.find(gameModel, \"phaseMSG\").getValue(self) === 1;",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'timeCards').getValue(self) < 14&&\nVariable.find(gameModel, 'phaseMSG').getValue(self) === 1;",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -18457,14 +18457,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957881:uJdKMG",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957880:VuSr8f",
+          "refId" : "TransitionDependency:153994:KO6Upe",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153995:0Zt2F8",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18494,8 +18494,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"timeCards\").getValue(self) < 12 && Variable.find(gameModel, \"phaseMSG\").getValue(self) === 1;",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'timeCards').getValue(self) < 12&&\nVariable.find(gameModel, 'phaseMSG').getValue(self) === 1;",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -18512,14 +18512,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957892:nMH6Ai",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957891:vOpqY7",
+          "refId" : "TransitionDependency:153996:kRsf9U",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153997:hT0Xp5",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18549,8 +18549,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"timeCards\").getValue(self) < 8 && Variable.find(gameModel, \"phaseMSG\").getValue(self) === 1;",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'timeCards').getValue(self) < 8&&\nVariable.find(gameModel, 'phaseMSG').getValue(self) === 1;",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -18567,19 +18567,19 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957885:PcGPmG",
+          "refId" : "TransitionDependency:153990:9memxx",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957886:VPn2Su",
-          "scope" : "CHILDREN",
-          "variableName" : "heuresSupplementaires"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957884:1Qh6GC",
+          "refId" : "TransitionDependency:153989:Y1W3Aa",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153991:kI9lYD",
+          "scope" : "CHILDREN",
+          "variableName" : "heuresSupplementaires"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18602,15 +18602,15 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Besoin d'aide ?\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut,</p>\\n<p>&nbsp;</p>\\n<p>Je vois que tu passes passablement de temps sur ton projet et que tu dois parfois travailler le soir.</p>\\n<p>&nbsp;</p>\\n<p>Si tu veux, je peux te proposer un peu d'aide pour quelques activités.</p>\\n<p>&nbsp;</p>\\n<p>Martha</p>\\n<p>&nbsp;</p>\\n<p><em>_____</em></p>\\n<p><em>Une nouvelle question vous permet d'acceptez cette aide, ce qui augmenterait votre budget temps de 2.</em></p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, \"besoinD_aide_\").activate(self);",
-          "language" : "JavaScript"
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Besoin d'aide ?\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut,</p>\\n<p>&nbsp;</p>\\n<p>Je vois que tu passes passablement de temps sur ton projet et que tu dois parfois travailler le soir.</p>\\n<p>&nbsp;</p>\\n<p>Si tu veux, je peux te proposer un peu d'aide pour quelques activités.</p>\\n<p>&nbsp;</p>\\n<p>Martha</p>\\n<p>&nbsp;</p>\\n<p><em>_____</em></p>\\n<p><em>Une nouvelle question vous permet d'acceptez cette aide, ce qui augmenterait votre budget temps de 2.</em></p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, 'besoinD_aide_').activate(self);",
+          "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059202Qb9eGy",
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"timeCards\").getValue(self) <= 5 && Variable.find(gameModel, \"phaseMSG\").getValue(self) === 1 && Variable.find(gameModel, \"heuresSupplementaires\").isReplied(self);",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'timeCards').getValue(self) <= 5&&\nVariable.find(gameModel, 'phaseMSG').getValue(self) === 1&&\nVariable.find(gameModel, 'heuresSupplementaires').isReplied(self);",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -18746,24 +18746,24 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957761:2nG7eK",
-          "scope" : "SELF",
-          "variableName" : "a_Accepter_2"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957760:zCpqbc",
-          "scope" : "SELF",
-          "variableName" : "caisse"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957926:xFtqvW",
+          "refId" : "TransitionDependency:154106:F2DQoq",
           "scope" : "CHILDREN",
           "variableName" : "pretDeMartha_2"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27958002:hnsVJn",
+          "refId" : "TransitionDependency:153831:k6lPaO",
+          "scope" : "SELF",
+          "variableName" : "caisse"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153832:08RAqy",
           "scope" : "SELF",
           "variableName" : "societeCreee"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153868:vngxuB",
+          "scope" : "SELF",
+          "variableName" : "a_Accepter_2"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18914,7 +18914,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957936:wAhHOK",
+          "refId" : "TransitionDependency:154039:T0r5b8",
           "scope" : "CHILDREN",
           "variableName" : "p1_PropositionDeValeur"
         } ],
@@ -18946,8 +18946,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"p1_PropositionDeValeur\").isReplied(self);",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'p1_PropositionDeValeur').isReplied(self);",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -18964,7 +18964,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957945:bUcTpt",
+          "refId" : "TransitionDependency:154048:6OlyK2",
           "scope" : "CHILDREN",
           "variableName" : "p1_PropositionDeValeur_2"
         } ],
@@ -18996,8 +18996,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"p1_PropositionDeValeur_2\").isReplied(self);",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'p1_PropositionDeValeur_2').isReplied(self);",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -19014,7 +19014,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957952:UrndwB",
+          "refId" : "TransitionDependency:154055:oLf98w",
           "scope" : "CHILDREN",
           "variableName" : "p1_PropositionDeValeur_3"
         } ],
@@ -19046,8 +19046,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"p1_PropositionDeValeur_3\").isReplied(self);",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'p1_PropositionDeValeur_3').isReplied(self);",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -19095,7 +19095,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957895:ez5p5s",
+          "refId" : "TransitionDependency:154000:ShHjgc",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         } ],
@@ -19127,8 +19127,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"phaseMSG\").getValue(self) === 2;",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'phaseMSG').getValue(self) === 2;",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -19244,7 +19244,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957810:26uvIr",
+          "refId" : "TransitionDependency:153917:7f5ZLs",
           "scope" : "CHILDREN",
           "variableName" : "competencesNecessaires_2"
         } ],
@@ -19276,8 +19276,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"competencesNecessaires_2\").isReplied(self);",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'competencesNecessaires_2').isReplied(self);",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -19294,7 +19294,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957824:e6CzAM",
+          "refId" : "TransitionDependency:153931:rM2iyw",
           "scope" : "CHILDREN",
           "variableName" : "competencesNecessaires_4"
         } ],
@@ -19326,8 +19326,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"competencesNecessaires_4\").isReplied(self);",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'competencesNecessaires_4').isReplied(self);",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -19344,7 +19344,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957832:MhmSPf",
+          "refId" : "TransitionDependency:153939:FVTZft",
           "scope" : "CHILDREN",
           "variableName" : "competencesNecessaires_5"
         } ],
@@ -19376,8 +19376,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"competencesNecessaires_5\").isReplied(self);",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'competencesNecessaires_5').isReplied(self);",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -19425,7 +19425,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957894:nkfynG",
+          "refId" : "TransitionDependency:154001:gWpAVm",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         } ],
@@ -19457,8 +19457,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"phaseMSG\").getValue(self) === 3;",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'phaseMSG').getValue(self) === 3;",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -19475,12 +19475,12 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957889:qMa751",
+          "refId" : "TransitionDependency:153981:qtmo08",
           "scope" : "SELF",
           "variableName" : "timeCards"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957890:c7ofFl",
+          "refId" : "TransitionDependency:153980:sezXh0",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         } ],
@@ -19512,8 +19512,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"phaseMSG\").getValue(self) === 3 && Variable.find(gameModel, \"timeCards\").getValue(self) < 8;",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'phaseMSG').getValue(self) === 3&&\nVariable.find(gameModel, 'timeCards').getValue(self) < 8;",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -19943,14 +19943,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957874:5skdHC",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957873:7oHdXp",
+          "refId" : "TransitionDependency:153988:s9LMvm",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153987:QBfa9t",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -19980,8 +19980,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"timeCards\").getValue(self) < 8 && Variable.find(gameModel, \"phaseMSG\").getValue(self) === 3;",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'timeCards').getValue(self) < 8&&\nVariable.find(gameModel, 'phaseMSG').getValue(self) === 3;",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -20029,7 +20029,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957897:FumqMG",
+          "refId" : "TransitionDependency:154004:2PvZ09",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         } ],
@@ -20061,8 +20061,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"phaseMSG\").getValue(self) === 4;",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'phaseMSG').getValue(self) === 4;",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -20079,14 +20079,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957870:bKqbbq",
-          "scope" : "SELF",
-          "variableName" : "a_AccepterLaParticipation"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957871:EtPbS9",
+          "refId" : "TransitionDependency:153978:EWhUdk",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153977:K2CQ9I",
+          "scope" : "SELF",
+          "variableName" : "a_AccepterLaParticipation"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -20116,8 +20116,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"phaseMSG\").getValue(self) === 4 && Variable.find(gameModel, \"a_AccepterLaParticipation\").hasBeenSelected(self);",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'phaseMSG').getValue(self) === 4&&\nVariable.find(gameModel, 'a_AccepterLaParticipation').hasBeenSelected(self);",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -20134,12 +20134,12 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957899:gNutUh",
+          "refId" : "TransitionDependency:154006:hVtzl7",
           "scope" : "CHILDREN",
           "variableName" : "demandeOffreSous_traitant_5"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:27957898:0kVXRF",
+          "refId" : "TransitionDependency:154005:MoShjt",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         } ],
@@ -20171,8 +20171,8 @@
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"phaseMSG\").getValue(self) === 4 && Variable.find(gameModel, \"demandeOffreSous_traitant_5\").isReplied(self);",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'phaseMSG').getValue(self) === 4&&\nVariable.find(gameModel, 'demandeOffreSous_traitant_5').isReplied(self);",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -20537,14 +20537,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923122:ekYXUe",
-                "scope" : "SELF",
-                "variableName" : "phaseMSG"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923123:jt3LvF",
                 "scope" : "SELF",
                 "variableName" : "timeCards"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923122:ekYXUe",
+                "scope" : "SELF",
+                "variableName" : "phaseMSG"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -20657,14 +20657,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923184:PoRz3W",
-                "scope" : "SELF",
-                "variableName" : "depensesMensuelles"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923185:tIlbAE",
                 "scope" : "SELF",
                 "variableName" : "caisse"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923184:PoRz3W",
+                "scope" : "SELF",
+                "variableName" : "depensesMensuelles"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -20921,7 +20921,7 @@
     }, {
       "@class" : "TextDescriptor",
       "broadcastScope" : "GameModelScope",
-      "comments" : "Pour label à l'affichage",
+      "comments" : "",
       "defaultInstance" : {
         "@class" : "TextInstance",
         "refId" : "variableinstance:12060854ldoWjR",
@@ -20933,8 +20933,8 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:12060855AUpMZf::FR",
-              "status" : null,
-              "translation" : "<p>DÉPENSES MENSUELLES ENGAGÉES</p>"
+              "status" : "",
+              "translation" : "<p>DÉPENSES MENSUELLES<br></p>"
             }
           }
         }
@@ -21292,7 +21292,7 @@
               "lang" : "FR",
               "refId" : "TranslatableContent:27035408:hS77EF::FR",
               "status" : "",
-              "translation" : "Phase Suivante"
+              "translation" : "Phase suivante"
             }
           }
         }
@@ -21722,24 +21722,33 @@
     "indexOrder" : 0,
     "lang" : "français",
     "refId" : "gamemodellanguage:12060399ebUZIt",
-    "visibility" : "PRIVATE"
+    "visibility" : "PROTECTED"
   } ],
   "libraries" : [ {
+    "@class" : "GameModelContent",
+    "content" : "",
+    "contentKey" : "utils",
+    "contentType" : "application/typescript",
+    "libraryType" : "ClientScript",
+    "refId" : "GameModelContent:252272:1FUzGM",
+    "version" : null,
+    "visibility" : "PRIVATE"
+  }, {
+    "@class" : "GameModelContent",
+    "content" : "",
+    "contentKey" : "main",
+    "contentType" : "text/css",
+    "libraryType" : "CSS",
+    "refId" : "GameModelContent:252253:VpTmuA",
+    "version" : null,
+    "visibility" : "PRIVATE"
+  }, {
     "@class" : "GameModelContent",
     "content" : "",
     "contentKey" : "patches",
     "contentType" : "text/css",
     "libraryType" : "CSS",
     "refId" : "gamemodelcontent:124252340u7ymr",
-    "version" : null,
-    "visibility" : "PRIVATE"
-  }, {
-    "@class" : "GameModelContent",
-    "content" : "",
-    "contentKey" : "structureGlobale",
-    "contentType" : "text/css",
-    "libraryType" : "CSS",
-    "refId" : "GameModelContent:27021582:Oshqz3",
     "version" : null,
     "visibility" : "PRIVATE"
   }, {
@@ -21797,7 +21806,7 @@
     "version" : null,
     "visibility" : "PRIVATE"
   } ],
-  "name" : "Media Serious Game v3.0 React",
+  "name" : "Media Serious Game v3.1 React",
   "pages" : { },
   "properties" : {
     "@class" : "GameModelProperties",
@@ -21806,7 +21815,7 @@
     "freeForAll" : false,
     "guestAllowed" : false,
     "iconUri" : "ICON_black-red_code_fa",
-    "logID" : "media (15)",
+    "logID" : "media (16)",
     "pagesUri" : "",
     "refId" : "GameModelProperties",
     "scriptUri" : "wegas-app/js/server;",

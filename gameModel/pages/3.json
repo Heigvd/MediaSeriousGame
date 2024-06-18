@@ -2,55 +2,32 @@
   "props" : {
     "children" : [ {
       "props" : {
-        "children" : [ {
-          "props" : {
-            "className" : "page-title",
-            "layoutStyle" : { },
-            "name" : "votreCourrier",
-            "style" : {
-              "color" : "#fff",
-              "font-weight" : "bold"
-            },
-            "text" : {
-              "@class" : "Script",
-              "content" : "I18n.toString(Variable.find(gameModel,'mailTitle'))",
-              "language" : "TypeScript"
-            }
-          },
-          "type" : "Text"
-        } ],
-        "layout" : { },
-        "layoutStyle" : { },
-        "style" : {
-          "justify-content" : "space-between"
-        }
-      },
-      "type" : "FlexList"
-    }, {
-      "props" : {
+        "className" : "absoluteFix",
         "inbox" : {
           "@class" : "Script",
           "content" : "Variable.find(gameModel,'inbox')",
           "language" : "TypeScript"
         },
+        "layoutClassName" : "fullSize",
         "layoutStyle" : { },
         "mobileDisplay" : true,
-        "style" : {
-          "overflow" : "auto"
-        }
+        "style" : { }
       },
       "type" : "Inbox"
     } ],
-    "className" : "brownBoxes",
+    "className" : "fullSize",
     "layout" : {
       "flexDirection" : "column"
     },
+    "layoutClassName" : "fullSize ",
     "layoutStyle" : {
-      "height" : "100%",
-      "overflow" : "auto",
-      "width" : "100%"
+      "overflow" : "hidden",
+      "padding" : "0"
     },
-    "style" : { }
+    "style" : {
+      "margin" : "0",
+      "paddingBottom" : "0"
+    }
   },
   "type" : "FlexList"
 }
