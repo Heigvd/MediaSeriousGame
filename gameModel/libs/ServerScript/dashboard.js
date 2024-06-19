@@ -75,7 +75,7 @@ var MediaGameDashboards = (function () {
   WegasDashboard.registerVariable(CURRENT_PHASE, {
     label: "Etape",
     mapFn: function (teamId, currentPhase, nbEtapes) {
-      return currentPhase.getValue() + "&thinsp;/&thinsp;" + nbEtapes.getValue();
+      return currentPhase.getValue() + "/" + nbEtapes.getValue();
     },
     mapFnExtraArgs: [NB_ETAPES]
   });
