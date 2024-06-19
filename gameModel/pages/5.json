@@ -12,7 +12,7 @@
           "height" : "100%",
           "overflow" : "hidden"
         },
-        "mobileDisplay" : false,
+        "mobileDisplay" : true,
         "style" : {
           "overflow" : "auto"
         }

@@ -206,23 +206,46 @@
                   "type" : "Text"
                 }, {
                   "props" : {
-                    "className" : "timebudget",
-                    "hideBoxValue" : true,
-                    "label" : "",
+                    "children" : [ {
+                      "props" : {
+                        "className" : "timebudget",
+                        "hideBoxValue" : true,
+                        "label" : "",
+                        "layoutStyle" : {
+                          "marginTop" : "0px",
+                          "maxWidth" : "8em"
+                        },
+                        "script" : {
+                          "@class" : "Script",
+                          "content" : "Variable.find(gameModel,'timeCards')",
+                          "language" : "TypeScript"
+                        },
+                        "showLabelValue" : true,
+                        "showQuantity" : true,
+                        "style" : { }
+                      },
+                      "type" : "Boxes"
+                    }, {
+                      "props" : {
+                        "layoutStyle" : { },
+                        "script" : {
+                          "@class" : "Script",
+                          "content" : "Variable.find(gameModel,'timeCards')",
+                          "language" : "TypeScript"
+                        },
+                        "style" : { }
+                      },
+                      "type" : "Number"
+                    } ],
+                    "layout" : {
+                      "alignItems" : "center"
+                    },
                     "layoutStyle" : {
-                      "marginTop" : "0px",
-                      "maxWidth" : "8em"
+                      "padding" : "0"
                     },
-                    "script" : {
-                      "@class" : "Script",
-                      "content" : "Variable.find(gameModel,'timeCards')",
-                      "language" : "TypeScript"
-                    },
-                    "showLabelValue" : true,
-                    "showQuantity" : true,
                     "style" : { }
                   },
-                  "type" : "Boxes"
+                  "type" : "FlexList"
                 } ],
                 "className" : "",
                 "layout" : {
@@ -257,7 +280,6 @@
         },
         "layoutClassName" : "header-container",
         "layoutStyle" : {
-          "marginBottom" : "1rem",
           "maxHeigth" : "100px",
           "paddingBottom" : "0px"
         },
