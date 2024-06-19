@@ -1,5 +1,5 @@
 var MediaHelper = (function () {
-  "use strict";
+  'use strict';
 
   var instanceCache = {}; // descId => instance
 
@@ -12,36 +12,41 @@ var MediaHelper = (function () {
   }
 
   function setMaxPhase(phaseNoButton) {
-    var currentValue = Variable.find(gameModel, "phaseMaxPlayer").getValue(self);
+    var currentValue = Variable.find(gameModel, 'phaseMaxPlayer').getValue(self);
     if (currentValue >= phaseNoButton) {
-      Variable.find(gameModel, "phaseMaxPlayer").setValue(self, phaseNoButton - 1)
+      Variable.find(gameModel, 'phaseMaxPlayer').setValue(self, phaseNoButton - 1);
     } else {
-      Variable.find(gameModel, "phaseMaxPlayer").setValue(self, phaseNoButton)
+      Variable.find(gameModel, 'phaseMaxPlayer').setValue(self, phaseNoButton);
     }
   }
 
   function unreadCount(root) {
-    var i, child, children, current, instance,
-      stack = [], counter = 0;
+    var i,
+      child,
+      children,
+      current,
+      instance,
+      stack = [],
+      counter = 0;
 
     stack.push(root);
     while (stack.length > 0) {
       current = stack.pop();
 
       switch (current.getJSONClassName()) {
-        case "ListDescriptor":
+        case 'ListDescriptor':
           children = current.getItems();
           for (i = 0; i < children.size(); i += 1) {
             child = children.get(i);
             stack.push(child);
           }
           break;
-        case "WhQuestionDescriptor":
-        case "QuestionDescriptor":
+        case 'WhQuestionDescriptor':
+        case 'QuestionDescriptor':
           counter += current.getUnreadCount(self);
           break;
-        case "DialogueDescriptor":
-          counter += (StateMachineFacade.countValidTransition(current, self) > 0 ? 1 : 0);
+        case 'DialogueDescriptor':
+          counter += StateMachineFacade.countValidTransition(current, self) > 0 ? 1 : 0;
           break;
 
         default:
@@ -57,15 +62,15 @@ var MediaHelper = (function () {
     },
     setMaxPhase: function (phaseNoButton) {
       return setMaxPhase(phaseNoButton);
-    }
+    },
   };
-}());
+})();
 
-var PMGHelper = (function () {       // Pseudo-PMGHelper is intentional !!
-  "use strict";
+var PMGHelper = (function () {
+  // Pseudo-PMGHelper is intentional !!
+  'use strict';
   var currentPhaseDesc,
     instanceCache = {}; // descId => instance
-
 
   function getInstance(descriptor) {
     var did = descriptor.getId();
@@ -75,7 +80,6 @@ var PMGHelper = (function () {       // Pseudo-PMGHelper is intentional !!
     return instanceCache[did];
   }
 
-
   /**
    * Send a message to the current player.
    * @param {String} subject the subject of the message.
@@ -84,37 +88,46 @@ var PMGHelper = (function () {       // Pseudo-PMGHelper is intentional !!
    * @param {Array}  att attachment list
    */
   function sendMessage(subject, content, from, att) {
-    _sendMessage("inbox", subject, content, from, att);
+    _sendMessage('inbox', subject, content, from, att);
   }
 
   function sendNews(subject, content, from, att) {
-    _sendMessage("news", subject, content, from, att);
+    _sendMessage('news', subject, content, from, att);
   }
 
   function _sendMessage(inboxName, subject, content, from, att) {
-
     var date;
 
-    if (typeof subject === "string") {
-      date = "Phase " + getCurrentPhaseNumber();
+    if (typeof subject === 'string') {
+      date = 'Phase ' + getCurrentPhaseNumber();
     } else {
-      date = { "@class": "TranslatableContent", "translations": { "def": "Phase " + getCurrentPhaseNumber() } };
+      date = {
+        '@class': 'TranslatableContent',
+        translations: { def: 'Phase ' + getCurrentPhaseNumber() },
+      };
     }
 
-    getInstance(Variable.find(gameModel, inboxName)).sendMessage(from, subject, content, date, "", att || []);
+    getInstance(Variable.find(gameModel, inboxName)).sendMessage(
+      from,
+      subject,
+      content,
+      date,
+      '',
+      att || []
+    );
   }
 
   function sendHistory(message) {
     if (message) {
       touchMessageDate(message);
-      getInstance(Variable.find(gameModel, "history")).sendMessage(message);
+      getInstance(Variable.find(gameModel, 'history')).sendMessage(message);
     }
   }
 
   function touchMessageDate(message) {
     I18n.foreach(function (refName, code) {
       message.getDate().updateTranslation(refName, getCurrentPhaseFullName(refName));
-    }, "gamemodel");
+    }, 'gamemodel');
   }
 
   /**
@@ -123,7 +136,7 @@ var PMGHelper = (function () {       // Pseudo-PMGHelper is intentional !!
    */
   function getCurrentPhase() {
     if (!currentPhaseDesc) {
-      currentPhaseDesc = Variable.find(gameModel, "phaseMSG");
+      currentPhaseDesc = Variable.find(gameModel, 'phaseMSG');
     }
     return currentPhaseDesc;
   }
@@ -137,7 +150,7 @@ var PMGHelper = (function () {       // Pseudo-PMGHelper is intentional !!
   }
 
   function getCurrentPhaseFullName(refName) {
-    return "Phase " + getCurrentPhaseNumber();
+    return 'Phase ' + getCurrentPhaseNumber();
   }
 
   return {
@@ -150,6 +163,5 @@ var PMGHelper = (function () {       // Pseudo-PMGHelper is intentional !!
     sendHistory: function (message) {
       return sendHistory(message);
     },
-
   };
-}());
+})();
