@@ -101,6 +101,9 @@ if [ $? -ne 0 ]; then
     exit 1;
 fi
 
+echo "Prettier formatting"
+yarn format
+
 rm -R $TMP_DIR;
 echo "Done"
 echo
