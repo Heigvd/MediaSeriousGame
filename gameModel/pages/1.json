@@ -449,12 +449,7 @@
                     "language" : "TypeScript"
                   }
                 },
-                "style" : { },
-                "unreadCount" : {
-                  "@class" : "Script",
-                  "content" : "Variable.find(gameModel,'history')",
-                  "language" : "TypeScript"
-                }
+                "style" : { }
               },
               "type" : "Button"
             } ],

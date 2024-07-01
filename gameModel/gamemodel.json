@@ -4,7 +4,7 @@
   "comments" : null,
   "createdById" : null,
   "createdByName" : null,
-  "createdTime" : 1718798102030,
+  "createdTime" : 1719832793190,
   "description" : null,
   "items" : [ {
     "@class" : "ListDescriptor",
@@ -877,8 +877,8 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:12057676Tq335X::FR",
-              "status" : null,
-              "translation" : "<p>M. Pasquier, conseiller PME de votre banque, spécialiste du domaine des TIC, vous contacte.</p>\n<p>&nbsp;</p>\n<p>\"M. Dubuis, m'a fait part de votre intérêt à créer une entreprise dans le domaine de la communication multimédia. Je serai présent pour la discussion relative au financement de la création de votre société.</p>\n<p>&nbsp;</p>\n<p>En préparation de cet entretien, pouvez-vous m'indiquer les principales prestations technologiques que votre entreprise désire proposer à terme à ses clients ?\"</p>\n<p>______</p>\n<p><em>Plusieurs réponses possibles</em></p>\n<p><em>Il est conseillé de choisir entre 0 et 3 prestations</em></p>"
+              "status" : "",
+              "translation" : "<p>M. Pasquier, conseiller PME de votre banque, spécialiste du domaine des TIC, vous contacte.</p><p>\"M. Dubuis, m'a fait part de votre intérêt à créer une entreprise dans le domaine de la communication multimédia. Je serai présent pour la discussion relative au financement de la création de votre société.</p><p>En préparation de cet entretien, pouvez-vous m'indiquer les principales prestations technologiques que votre entreprise désire proposer à terme à ses clients ?\"</p><p>______</p><p><em>Plusieurs réponses possibles</em></p><p><em>Il est conseillé de choisir entre 0 et 3 prestations</em></p>"
             }
           }
         },
@@ -905,8 +905,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12057749MGvEDD::FR",
-                "status" : null,
-                "translation" : "<p>Vous pensez offrir la palette des prestations classiques dans le domaine de la User eXperience, que ce soit dans l'ergonomie de l'interface utilisateur d'applications développées, l'ergonomie de sites web.</p>\n<p>&nbsp;</p>\n<p>Vous proposerez par exemple d'utiliser des technologies type eyetracking pour la mise en place des stratégies de campagnes publicitaires.</p>\n<p>&nbsp;</p>\n<p><em>Budget temps : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous pensez offrir la palette des prestations classiques dans le domaine de la User eXperience, que ce soit dans l'ergonomie de l'interface utilisateur d'applications développées, l'ergonomie de sites web.</p><p>Vous proposerez par exemple d'utiliser des technologies type eyetracking pour la mise en place des stratégies de campagnes publicitaires.</p><p>&nbsp;<br></p><p><em>Budget temps : 1</em></p>"
               }
             }
           },
@@ -1707,8 +1707,8 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:12057744xlGIsd::FR",
-              "status" : null,
-              "translation" : "<p>M. Pasquier, conseiller PME de votre banque, spécialiste du domaine des TIC, vous contacte.</p>\n<p>&nbsp;</p>\n<p>\"M. Dubuis, m'a fait part de votre intérêt à créer une entreprise dans le domaine de la communication multimédia. Je serai présent pour la discussion relative au financement de la création de votre société.</p>\n<p>&nbsp;</p>\n<p>En préparation de cet entretien, pouvez-vous m'indiquer les principales prestations \"Communication &amp; marketing\" que votre entreprise désire proposer à terme à ses clients ?\"</p>\n<p>______</p>\n<p><em>Plusieurs réponses possibles</em></p>\n<p><em>Il est conseillé de choisir entre 0 et 3 prestations</em></p>"
+              "status" : "",
+              "translation" : "<p>M. Pasquier, conseiller PME de votre banque, spécialiste du domaine des TIC, vous contacte.</p><p>\"M. Dubuis, m'a fait part de votre intérêt à créer une entreprise dans le domaine de la communication multimédia. Je serai présent pour la discussion relative au financement de la création de votre société.</p><p>En préparation de cet entretien, pouvez-vous m'indiquer les principales prestations \"Communication &amp; marketing\" que votre entreprise désire proposer à terme à ses clients ?\"</p><p>______</p><p><em>Plusieurs réponses possibles</em></p><p><em>Il est conseillé de choisir entre 0 et 3 prestations</em></p>"
             }
           }
         },
@@ -2437,8 +2437,8 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:12057821m8QXky::FR",
-              "status" : null,
-              "translation" : "<p>M. Pasquier, conseiller PME de votre banque, spécialiste du domaine des TIC, vous contacte.</p>\n<p>&nbsp;</p>\n<p>\"M. Dubuis, m'a fait part de votre intérêt à créer une entreprise dans le domaine de la communication multimédia. Je serai présent pour la discussion relative au financement de la création de votre société.</p>\n<p>&nbsp;</p>\n<p>En préparation de cet entretien, pouvez-vous m'indiquer les principales prestations \"Management et conseils\" que votre entreprise désire proposer à terme à ses clients ?\"</p>\n<p>______</p>\n<p><em>Plusieurs réponses possibles</em></p>\n<p><em>Il est conseillé de choisir entre 0 et 3 prestations</em></p>"
+              "status" : "",
+              "translation" : "<p>M. Pasquier, conseiller PME de votre banque, spécialiste du domaine des TIC, vous contacte.</p><p>\"M. Dubuis, m'a fait part de votre intérêt à créer une entreprise dans le domaine de la communication multimédia. Je serai présent pour la discussion relative au financement de la création de votre société.</p><p>En préparation de cet entretien, pouvez-vous m'indiquer les principales prestations \"Management et conseils\" que votre entreprise désire proposer à terme à ses clients ?\"</p><p>______</p><p><em>Plusieurs réponses possibles</em></p><p><em>Il est conseillé de choisir entre 0 et 3 prestations</em></p>"
             }
           }
         },
@@ -2967,8 +2967,8 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:12057871YORVkJ::FR",
-              "status" : null,
-              "translation" : "<p>M. Pasquier, conseiller PME de votre banque, vous demande comment vous pensez organiser votre offre à destination de vos futurs clients.</p>\n<p>&nbsp;</p>\n<p>\"Sur le marché, une multitude d'entreprises proposent des solutions logicielles en ligne sur un modèle de location, d'autres vendent les licences. Certaines se concentrent sur des offres de services personnalisés pour le client.</p>\n<p>&nbsp;</p>\n<p>Comment pensez-vous structurer votre offre de prestations ?\"</p>"
+              "status" : "",
+              "translation" : "<p>M. Pasquier, conseiller PME de votre banque, vous demande comment vous pensez organiser votre offre à destination de vos futurs clients.</p><p>\"Sur le marché, une multitude d'entreprises proposent des solutions logicielles en ligne sur un modèle de location, d'autres vendent les licences. Certaines se concentrent sur des offres de services personnalisés pour le client.</p><p>Comment pensez-vous structurer votre offre de prestations ?\"</p>"
             }
           }
         },
@@ -3195,8 +3195,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:120578942HrmeS::FR",
-                "status" : null,
-                "translation" : "<p>Vous pensez vous orienter sur des prestations de service personnalisées pour vos clients tout en vous appuyant sur des produits génériques existants ou développés par vos soins.</p>\n<p>&nbsp;</p>\n<p>Si chaque client est différent, il y a des similarités qui permettent de proposer un même produit à plusieurs clients.</p>\n<p>&nbsp;</p>\n<p><em>Budget temps: 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous pensez vous orienter sur des prestations de service personnalisées pour vos clients tout en vous appuyant sur des produits génériques existants ou développés par vos soins.</p><p>Si chaque client est différent, il y a des similarités qui permettent de proposer un même produit à plusieurs clients.</p><p>&nbsp;<br></p><p><em>Budget temps: 1</em></p>"
               }
             }
           },
@@ -4829,8 +4829,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058045DdJPEk::FR",
-                "status" : null,
-                "translation" : "<p>Vous lui proposez de créer une société de type \"Entreprise individuelle\".</p>\n<p>&nbsp;</p>\n<p>La création d'une entreprise individuelle est simple, ne coûterait rien d'un point de vue financier et 2 de Budget temps.</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour en parler avec Martha: 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous lui proposez de créer une société de type \"Entreprise individuelle\".</p><p>La création d'une entreprise individuelle est simple, ne coûterait rien d'un point de vue financier et 2 de Budget temps.</p><p>&nbsp;<br></p><p><em>Budget temps pour en parler avec Martha: 1</em></p>"
               }
             }
           },
@@ -4929,8 +4929,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058054fdnAHu::FR",
-                "status" : null,
-                "translation" : "<p>Vous lui proposez de créer une Société en Nom Collectif (SNC).</p>\n<p>&nbsp;</p>\n<p>La création d'une SNC est simple, ne coûterait rien d'un point de vue financier et 3 de Budget temps.</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour en parler avec Martha: 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous lui proposez de créer une Société en Nom Collectif (SNC).</p><p>La création d'une SNC est simple, ne coûterait rien d'un point de vue financier et 3 de Budget temps.</p><p>&nbsp;<br></p><p><em>Budget temps pour en parler avec Martha: 1</em></p>"
               }
             }
           },
@@ -5029,8 +5029,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058063FHmSB4::FR",
-                "status" : null,
-                "translation" : "<p>Vous lui proposez de créer une Société à Responsabilité Limitée (SàRL).</p>\n<p>&nbsp;</p>\n<p>La création d'une SàRL demande le passage devant un notaire, coûterait 2000.- et 4 de Budget temps.</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour en parler avec Martha: 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous lui proposez de créer une Société à Responsabilité Limitée (SàRL).</p><p>La création d'une SàRL demande le passage devant un notaire, coûterait 2000.- et 4 de Budget temps.</p><p>&nbsp;<br></p><p><em>Budget temps pour en parler avec Martha: 1</em></p>"
               }
             }
           },
@@ -5085,8 +5085,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nVariable.find(gameModel, \"creationSarl\").activate(self);",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nVariable.find(gameModel, 'creationSarl').activate(self);",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -5129,8 +5129,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:120580729bhDME::FR",
-                "status" : null,
-                "translation" : "<p>Vous lui proposez de créer une Société Anonyme (SA).</p>\n<p>&nbsp;</p>\n<p>La création d'une SA demande le passage devant un notaire, coûterait 5000.- et 4 de Budget temps.</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour en parler avec Martha: 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous lui proposez de créer une Société Anonyme (SA).</p><p>La création d'une SA demande le passage devant un notaire, coûterait 5000.- et 4 de Budget temps.</p><p>&nbsp;<br></p><p><em>Budget temps pour en parler avec Martha: 1</em></p>"
               }
             }
           },
@@ -5251,8 +5251,8 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:12058081gZwbvK::FR",
-              "status" : null,
-              "translation" : "<p>Start-Consult vous propose plusieurs formes de rencontres afin de vous orienter sur les axes stratégiques et les étapes clés du développement de votre modèle d'affaire.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Que choisissez-vous ?</p>"
+              "status" : "",
+              "translation" : "<p>Start-Consult vous propose plusieurs formes de rencontres afin de vous orienter sur les axes stratégiques et les étapes clés du développement de votre modèle d'affaire.&nbsp;</p><p>Que choisissez-vous ?</p>"
             }
           }
         },
@@ -5379,8 +5379,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:120580956F6sXT::FR",
-                "status" : null,
-                "translation" : "<p>Le consultant vous rencontre pour une séance de travail durant laquelle vous lui exposez votre stratégie et vos idées sur sa mise en oeuvre.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Fort de son expérience, il pourra sans doute vous orienter sur les choix technologiques à faire pour vos prestations.</p>\n<p>&nbsp;</p>\n<p><em>Budget temps: 2</em></p>\n<p><em>Coûts: 600</em></p>"
+                "status" : "",
+                "translation" : "<p>Le consultant vous rencontre pour une séance de travail durant laquelle vous lui exposez votre stratégie et vos idées sur sa mise en oeuvre.&nbsp;</p><p>Fort de son expérience, il pourra sans doute vous orienter sur les choix technologiques à faire pour vos prestations.</p><p>&nbsp;<br></p><p><em>Budget temps: 2</em></p><p><em>Coûts: 600</em></p>"
               }
             }
           },
@@ -5535,8 +5535,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"rencontrerConsultatnMultimedia_2\").activate(self);",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, 'rencontrerConsultatnMultimedia_2').activate(self);",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -5681,8 +5681,8 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "TranslatableContent:15586098:NGMusj::FR",
-              "status" : null,
-              "translation" : "<p>Start-Consult regrette de ne pas pouvoir accepter actuellement un mandat complet, mais vous propose néanmoins une rencontre autour d'un café ou une petite séance de travail.</p>\n<p>&nbsp;</p>\n<p>Que choisissez-vous ?</p>"
+              "status" : "",
+              "translation" : "<p>Start-Consult regrette de ne pas pouvoir accepter actuellement un mandat complet, mais vous propose néanmoins une rencontre autour d'un café ou une petite séance de travail.</p><p>Que choisissez-vous ?</p>"
             }
           }
         },
@@ -5809,8 +5809,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "TranslatableContent:15586160:jxr8hn::FR",
-                "status" : null,
-                "translation" : "<p>Le consultant vous rencontre pour une séance de travail durant laquelle vous lui exposez votre stratégie et vos idées sur sa mise en oeuvre.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Fort de son expérience, il pourra sans doute vous orienter sur les choix technologiques à faire pour vos prestations.</p>\n<p>&nbsp;</p>\n<p><em>Budget temps: 2</em></p>\n<p><em>Coûts: 600</em></p>"
+                "status" : "",
+                "translation" : "<p>Le consultant vous rencontre pour une séance de travail durant laquelle vous lui exposez votre stratégie et vos idées sur sa mise en oeuvre.&nbsp;</p><p>Fort de son expérience, il pourra sans doute vous orienter sur les choix technologiques à faire pour vos prestations.</p><p>&nbsp;<br></p><p><em>Budget temps: 2</em></p><p><em>Coûts: 600</em></p>"
               }
             }
           },
@@ -6011,8 +6011,8 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:12058122K7NeGZ::FR",
-              "status" : null,
-              "translation" : "<p>Dans le dossier à l'attention du banquier, il vous est demandé de définir les éléments Mission, Vision, Valeurs.</p>\n<p>&nbsp;</p>\n<p>Start-Consult vous propose de vous aider pour vous aider à déterminer ces éléments.</p>\n<p>&nbsp;</p>\n<p>Quelle variante choisissez-vous ?</p>\n<p>&nbsp;</p>"
+              "status" : "",
+              "translation" : "<p>Dans le dossier à l'attention du banquier, il vous est demandé de définir les éléments Mission, Vision, Valeurs.</p><p>Start-Consult vous propose de vous aider pour vous aider à déterminer ces éléments.</p><p>Quelle variante choisissez-vous ?</p><p>&nbsp;<br></p>"
             }
           }
         },
@@ -6385,8 +6385,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058159aPOC6m::FR",
-                "status" : null,
-                "translation" : "<p>Vous décidez de créer votre Société à Responsabilité Limitée (SàRL).</p>\n<p>&nbsp;</p>\n<p>Ceci implique de passer devant le notaire, ainsi qu'un capital social de 20'000.- au minimum.&nbsp;</p>\n<p>&nbsp;</p>\n<p><em>Budget temps: 4</em></p>\n<p><em>Coûts de création de la société: 2000.-</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous décidez de créer votre Société à Responsabilité Limitée (SàRL).</p><p>Ceci implique de passer devant le notaire, ainsi qu'un capital social de 20'000.- au minimum.&nbsp;</p><p>&nbsp;<br></p><p><em>Budget temps: 4</em></p><p><em>Coûts de création de la société: 2000.-</em></p>"
               }
             }
           },
@@ -6586,8 +6586,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058177DZx56R::FR",
-                "status" : null,
-                "translation" : "<p>Vous avertissez Chouchou, votre ami(e), que vous restez travailler le soir car vous devez avancer dans votre projet de création d'entreprise.</p>\n<p>&nbsp;</p>\n<p>Ceci vous permettra de gagner quelques cartes temps.</p>\n<p>&nbsp;</p>\n<p>_______</p>\n<p><em>Cette action peut être effectuée plusieurs fois</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous avertissez Chouchou, votre ami(e), que vous restez travailler le soir car vous devez avancer dans votre projet de création d'entreprise.</p><p>Ceci vous permettra de gagner quelques cartes temps.</p><p>&nbsp;<br></p><p>_______</p><p><em>Cette action peut être effectuée plusieurs fois</em></p>"
               }
             }
           },
@@ -6806,8 +6806,8 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:12058194waHtJE::FR",
-              "status" : null,
-              "translation" : "<p>Votre tante Martha vous appelle pour prendre des nouvelles de votre projet et comprend que vos dépenses vous ont mis dans une situation embarrassante puisque vous n'avez plus assez de fonds pour créer votre SàRL.</p>\n<p>&nbsp;</p>\n<p>Elle vous propose un prêt additionnel de 5'000.-</p>"
+              "status" : "",
+              "translation" : "<p>Votre tante Martha vous appelle pour prendre des nouvelles de votre projet et comprend que vos dépenses vous ont mis dans une situation embarrassante puisque vous n'avez plus assez de fonds pour créer votre SàRL.</p><p>Elle vous propose un prêt additionnel de 5'000.-</p>"
             }
           }
         },
@@ -7372,8 +7372,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058234yQ9VwF::FR",
-                "status" : null,
-                "translation" : "<p>Vous choisissez des locaux de standing élevé:</p>\n<ul>\n<li>bien situés (proches du centre ville, mais facilement accessibles)</li>\n<li>100 m2 répartis en 3 salles</li>\n<li>4 places de parc réservées</li>\n</ul>\n<p>Loyer: 3'300 mensuel en début de mois (charges et places de parc compris).</p>\n<p>&nbsp;</p>\n<p>Vous devez signer un bail de 5 ans et déposer une garantie de 3 mois de loyer.</p>\n<p>&nbsp;</p>\n<p><em>Budget temps : 3</em></p>\n<p><em>Coût :</em></p>\n<p><em>- 3'300 pour le premier loyer</em></p>\n<p><em>- 9'900 de garantie à verser sur un compte bloqué</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous choisissez des locaux de standing élevé:</p><ul><li>bien situés (proches du centre ville, mais facilement accessibles)</li><li>100 m2 répartis en 3 salles</li><li>4 places de parc réservées</li></ul><p>Loyer: 3'300 mensuel en début de mois (charges et places de parc compris).</p><p>Vous devez signer un bail de 5 ans et déposer une garantie de 3 mois de loyer.</p><p>&nbsp;<br></p><p><em>Budget temps : 3</em></p><p><em>Coût :</em></p><p><em>- 3'300 pour le premier loyer</em></p><p><em>- 9'900 de garantie à verser sur un compte bloqué</em></p>"
               }
             }
           },
@@ -7428,8 +7428,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "PMGHelper.sendMessage( {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Gérance ImmoNet\",\"status\":\"\"}}},  {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Votre bail\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la location de vos bureaux et places de parc.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la réception de la caution et du premier loyer.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous envoyons dans les meilleurs délais la version papier du bail et les BVR pour paiement des loyers mensuels.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Gérance ImmoNet</p>\",\"status\":\"\"}}},  []);\nVariable.find(gameModel, \"caisse\").add(self, -13200);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 3300);\nVariable.find(gameModel, \"prestatairesTelecoms\").activate(self);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
-              "language" : "JavaScript"
+              "content" : "PMGHelper.sendMessage( {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Gérance ImmoNet\",\"status\":\"\"}}},  {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Votre bail\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la location de vos bureaux et places de parc.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la réception de la caution et du premier loyer.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous envoyons dans les meilleurs délais la version papier du bail et les BVR pour paiement des loyers mensuels.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Gérance ImmoNet</p>\",\"status\":\"\"}}},  []);\nVariable.find(gameModel, \"caisse\").add(self, -13200);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 3300);\nVariable.find(gameModel, 'prestatairesTelecoms').activate(self);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -7472,8 +7472,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058243VkxNki::FR",
-                "status" : null,
-                "translation" : "<p>Vous choisissez des locaux standards:</p>\n<ul>\n<li>assez bien situés (en périphérie, facilement accessibles)</li>\n<li>80 m2 répartis en 2 salles</li>\n<li>2 places de parc (possibilité de parcage payant à proximité)</li>\n</ul>\n<p>Loyer : 2'500 mensuel en début de mois (charges et places de parc compris).</p>\n<p>&nbsp;</p>\n<p>Vous devez signer un bail de 3 ans et déposer une garantie de 3 mois de loyer.</p>\n<p>&nbsp;</p>\n<p><em>Budget temps: 3</em></p>\n<p><em>Coût :</em></p>\n<p><em>- 2'500 pour le premier loyer</em></p>\n<p><em>- 7'500 de garantie à verser sur un compte bloqué</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous choisissez des locaux standards:</p><ul><li>assez bien situés (en périphérie, facilement accessibles)</li><li>80 m2 répartis en 2 salles</li><li>2 places de parc (possibilité de parcage payant à proximité)</li></ul><p>Loyer : 2'500 mensuel en début de mois (charges et places de parc compris).</p><p>Vous devez signer un bail de 3 ans et déposer une garantie de 3 mois de loyer.</p><p>&nbsp;<br></p><p><em>Budget temps: 3</em></p><p><em>Coût :</em></p><p><em>- 2'500 pour le premier loyer</em></p><p><em>- 7'500 de garantie à verser sur un compte bloqué</em></p>"
               }
             }
           },
@@ -7528,8 +7528,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "PMGHelper.sendMessage( {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Gérance ImmoNet\",\"status\":\"\"}}},  {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Votre bail\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la location de vos bureaux et places de parc.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la réception de la caution et du premier loyer.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous envoyons dans les meilleurs délais la version papier du bail et les BVR pour paiement des loyers suivants.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Gérance ImmoNet</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Gérance ImmoNet</p>\",\"status\":\"\"}}},  []);\nVariable.find(gameModel, \"caisse\").add(self, -10000);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 2500);\nVariable.find(gameModel, \"prestatairesTelecoms\").activate(self);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
-              "language" : "JavaScript"
+              "content" : "PMGHelper.sendMessage( {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Gérance ImmoNet\",\"status\":\"\"}}},  {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Votre bail\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la location de vos bureaux et places de parc.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la réception de la caution et du premier loyer.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous envoyons dans les meilleurs délais la version papier du bail et les BVR pour paiement des loyers suivants.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Gérance ImmoNet</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Gérance ImmoNet</p>\",\"status\":\"\"}}},  []);\nVariable.find(gameModel, \"caisse\").add(self, -10000);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 2500);\nVariable.find(gameModel, 'prestatairesTelecoms').activate(self);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -7572,8 +7572,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058252hqMVgZ::FR",
-                "status" : null,
-                "translation" : "<p>Vous choisissez une option de coworking (espace de travail partagé par plusieurs entreprises). L'espace comprend des postes de travail personnels et des infrastructures communes (salles de conférence, wifi, cafétéria).</p>\n<p>Il n'y a pas de garantie sur les disponibilités des salles de conférence.</p>\n<p>&nbsp;</p>\n<p>Loyer :&nbsp;1200.- mensuel, en début de mois.</p>\n<p>&nbsp;</p>\n<p><em>Budget temps : 2</em></p>\n<p><em>Coûts : 1200.- pour le premier loyer</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous choisissez une option de coworking (espace de travail partagé par plusieurs entreprises). L'espace comprend des postes de travail personnels et des infrastructures communes (salles de conférence, wifi, cafétéria).</p><p>Il n'y a pas de garantie sur les disponibilités des salles de conférence.</p><p>Loyer :&nbsp;1200.- mensuel, en début de mois.</p><p>&nbsp;<br></p><p><em>Budget temps : 2</em></p><p><em>Coûts : 1200.- pour le premier loyer</em></p>"
               }
             }
           },
@@ -7672,8 +7672,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:120582613tgZkB::FR",
-                "status" : null,
-                "translation" : "<p>Vous choisissez de ne pas posséder de locaux physiques, mais d'avoir l'ensemble des collaborateurs travaillant à domicile ou chez les clients. La coordination se fera par des réunions type \"skype\" ou dans des salles louées lorsque nécessaire.</p>\n<p>&nbsp;</p>\n<p>Il faudra prévoir 500.- mensuel pour frais de déplacement et location salle de réunion.</p>\n<p>&nbsp;</p>\n<p><em>Budget temps: 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous choisissez de ne pas posséder de locaux physiques, mais d'avoir l'ensemble des collaborateurs travaillant à domicile ou chez les clients. La coordination se fera par des réunions type \"skype\" ou dans des salles louées lorsque nécessaire.</p><p>Il faudra prévoir 500.- mensuel pour frais de déplacement et location salle de réunion.</p><p>&nbsp;<br></p><p><em>Budget temps: 1</em></p>"
               }
             }
           },
@@ -9172,8 +9172,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058398GtQwnU::FR",
-                "status" : null,
-                "translation" : "<p>Une publicité sur le web propose des packs de contrats pour entreprise. Le site a l'air sérieux.</p>\n<p>&nbsp;</p>\n<p>Un pack semble correspondre parfaitement à vos besoins et la société indique qu'elle est à disposition par Skype pour répondre aux questions juridiques.</p>\n<p>&nbsp;</p>\n<p><em>Budget temps: 1</em></p>\n<p><em>Coûts: 1'500.-</em></p>"
+                "status" : "",
+                "translation" : "<p>Une publicité sur le web propose des packs de contrats pour entreprise. Le site a l'air sérieux.</p><p>Un pack semble correspondre parfaitement à vos besoins et la société indique qu'elle est à disposition par Skype pour répondre aux questions juridiques.</p><p>&nbsp;<br></p><p><em>Budget temps: 1</em></p><p><em>Coûts: 1'500.-</em></p>"
               }
             }
           },
@@ -9572,8 +9572,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058435hBc1hC::FR",
-                "status" : null,
-                "translation" : "<p>Achat d'un pack complet (cartes visite, papier à lettre, enveloppes, fourres, stickers pour voitures, bloc notes et cartes de compliments).</p>\n<p>&nbsp;</p>\n<p>Design par une agence.</p>\n<p>&nbsp;</p>\n<p>Impression par un imprimeur local.</p>\n<p>&nbsp;</p>\n<p><em>Coûts: 10'000</em></p>\n<p><em>2 cartes temps</em></p>\n<p>&nbsp;</p>"
+                "status" : "",
+                "translation" : "<p>Achat d'un pack complet (cartes visite, papier à lettre, enveloppes, fourres, stickers pour voitures, bloc notes et cartes de compliments).</p><p>Design par une agence.</p><p>Impression par un imprimeur local.</p><p>&nbsp;<br></p><p><em>Coûts: 10'000</em></p><p><em>2 cartes temps</em></p><p>&nbsp;<br></p>"
               }
             }
           },
@@ -9672,8 +9672,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058444Uxl4sL::FR",
-                "status" : null,
-                "translation" : "<p>Achat d'un pack complet (cartes visite, papier à lettre, enveloppes, fourres, stickers pour voitures, bloc notes et cartes de compliments).</p>\n<p>&nbsp;</p>\n<p>Design mis au concours sur un site de crowd design (99designs.com), impression par un imprimeur digital 2.0, à distance (moo.com).</p>\n<p>&nbsp;</p>\n<p><em>Coûts: 3'000</em></p>\n<p><em>1 carte temps</em></p>\n<p>&nbsp;</p>"
+                "status" : "",
+                "translation" : "<p>Achat d'un pack complet (cartes visite, papier à lettre, enveloppes, fourres, stickers pour voitures, bloc notes et cartes de compliments).</p><p>Design mis au concours sur un site de crowd design (99designs.com), impression par un imprimeur digital 2.0, à distance (moo.com).</p><p>&nbsp;<br></p><p><em>Coûts: 3'000</em></p><p><em>1 carte temps</em></p><p>&nbsp;<br></p>"
               }
             }
           },
@@ -9772,8 +9772,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:120786117VfMf6::FR",
-                "status" : null,
-                "translation" : "<p>Vous effectuez en interne le design du matériel (cartes visite, papier à lettre, enveloppes, fourres, stickers pour voitures, bloc notes et cartes de compliments).</p>\n<p>&nbsp;</p>\n<p>Vous faites ensuite réaliser l'impression par un imprimeur local.</p>\n<p>&nbsp;</p>\n<p><em>Coûts: 2'500</em></p>\n<p><em>4 cartes temps</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous effectuez en interne le design du matériel (cartes visite, papier à lettre, enveloppes, fourres, stickers pour voitures, bloc notes et cartes de compliments).</p><p>Vous faites ensuite réaliser l'impression par un imprimeur local.</p><p>&nbsp;<br></p><p><em>Coûts: 2'500</em></p><p><em>4 cartes temps</em></p>"
               }
             }
           },
@@ -9856,8 +9856,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058453lCF6Tx::FR",
-                "status" : null,
-                "translation" : "<p>Vous décidez de développer uniquement une identité digitale, sans aucun support physique. Vous réalisez le tout en interne.</p>\n<p>&nbsp;</p>\n<p><em>Coûts:&nbsp;2 cartes temps</em></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+                "status" : "",
+                "translation" : "<p>Vous décidez de développer uniquement une identité digitale, sans aucun support physique. Vous réalisez le tout en interne.</p><p>&nbsp;</p><p><em>Coûts:&nbsp;2 cartes temps</em></p><p>&nbsp;</p><p>&nbsp;</p>"
               }
             }
           },
@@ -9978,8 +9978,8 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:120846855oG3KX::FR",
-              "status" : null,
-              "translation" : "<p>Dans votre entreprise, vous avez deux rôles.</p>\n<p>&nbsp;</p>\n<p>Par votre apport en capital social, vous êtes un Associé de la SàRL (propriétaire de la société).</p>\n<p>&nbsp;</p>\n<p>Lorsque vous allez travailler, vous allez être un <em>Employé</em> de la SàRL.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Quelle salaire décidez-vous de vous verser mensuellement ?</p>\n<p>&nbsp;</p>\n<p>A ce salaire, il faudra ajouter environ 20% de charges (AVS, AI, LPP, etc.). Le salaire sera versé 13 fois par an.</p>"
+              "status" : "",
+              "translation" : "<p>Dans votre entreprise, vous avez deux rôles.</p><p>Par votre apport en capital social, vous êtes un Associé de la SàRL (propriétaire de la société).</p><p>Lorsque vous allez travailler, vous allez être un <em>Employé</em> de la SàRL.&nbsp;</p><p>Quelle salaire décidez-vous de vous verser mensuellement ?</p><p>A ce salaire, il faudra ajouter environ 20% de charges (AVS, AI, LPP, etc.). Le salaire sera versé 13 fois par an.</p>"
             }
           }
         },
@@ -10532,8 +10532,8 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:12058462Co0gX6::FR",
-              "status" : null,
-              "translation" : "<p>Dans le domaine technique, vous avez utilisé plusieurs canaux pour récolter des candidatures (jobup, linkedin, réseau personnel).</p>\n<p>&nbsp;</p>\n<p>Vous avez la possibilité d'engager une ou plusieurs personnes parmi les candidats ci-dessous.</p>\n<ul>\n<li>Tous les salaires indiqués sont sur un base de 100%.</li>\n<li>Les salaires seront versés à la fin du premier mois de travail.</li>\n</ul>\n<p><em>_______</em></p>\n<p><em>Plusieurs réponses possibles</em></p>\n<p><strong><em>Attention: en cliquant \"Valider\", vous engagez la personne aux conditions décrites.</em></strong></p>"
+              "status" : "",
+              "translation" : "<p>Dans le domaine technique, vous avez utilisé plusieurs canaux pour récolter des candidatures (jobup, linkedin, réseau personnel).</p><p>Vous avez la possibilité d'engager une ou plusieurs personnes parmi les candidats ci-dessous.</p><ul><li>Tous les salaires indiqués sont sur un base de 100%.</li><li>Les salaires seront versés à la fin du premier mois de travail.</li></ul><p><em>_______</em></p><p><em>Plusieurs réponses possibles</em></p><p><strong><em>Attention: en cliquant \"Valider\", vous engagez la personne aux conditions décrites.</em></strong></p>"
             }
           }
         },
@@ -10560,8 +10560,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058467XzNf2R::FR",
-                "status" : null,
-                "translation" : "<p>Jeune développeur fraichement diplômé de l'EPFZ en informatique, Yann a développé sa start-up, mais a dû l'arrêter après deux ans fautes d'avoir trouvé les investisseurs adéquats. Depuis il travaille en freelance.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%:&nbsp;6'300.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Jeune développeur fraichement diplômé de l'EPFZ en informatique, Yann a développé sa start-up, mais a dû l'arrêter après deux ans fautes d'avoir trouvé les investisseurs adéquats. Depuis il travaille en freelance.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%:&nbsp;6'300.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -10660,8 +10660,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058476F1Snus::FR",
-                "status" : null,
-                "translation" : "<p>Jeune développeur fraichement diplômé de l'EPFL en informatique, Pierre a effectué quelques stages pendant ses études. Il travaille depuis 6 mois en tant qu'assistant du cours Java à l'EPFL.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%:&nbsp;5'800.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Jeune développeur fraichement diplômé de l'EPFL en informatique, Pierre a effectué quelques stages pendant ses études. Il travaille depuis 6 mois en tant qu'assistant du cours Java à l'EPFL.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%:&nbsp;5'800.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -10760,8 +10760,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058485sJf5tH::FR",
-                "status" : null,
-                "translation" : "<p>Marina est un spécialiste BD avec cinq ans d'expérience au sein d'une SSII genevoise. Elle fait ses études à l'université de Lyon. Elle vous a été recommandée par un ami.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 80%</p>\n<p>Coûts totaux à 100%: 6'400.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Marina est un spécialiste BD avec cinq ans d'expérience au sein d'une SSII genevoise. Elle fait ses études à l'université de Lyon. Elle vous a été recommandée par un ami.</p><p>Taux activité: 80%</p><p>Coûts totaux à 100%: 6'400.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -10860,8 +10860,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058494ThSIjT::FR",
-                "status" : null,
-                "translation" : "<p>Après une formation de médiamaticienne, Sophie qui est passionnée d'informatique s'est mise à développer des applications mobiles depuis 4 ans. Elle a suivi plusieurs Moocs dans le domaine et montre un impressionnant portfolio d'applications. Elle souhaite conserver un 30% pour son activité de bénévole dans une ONG.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 70%</p>\n<p>Coûts totaux à 100%: 4'800.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Après une formation de médiamaticienne, Sophie qui est passionnée d'informatique s'est mise à développer des applications mobiles depuis 4 ans. Elle a suivi plusieurs Moocs dans le domaine et montre un impressionnant portfolio d'applications. Elle souhaite conserver un 30% pour son activité de bénévole dans une ONG.</p><p>Taux activité: 70%</p><p>Coûts totaux à 100%: 4'800.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -10960,8 +10960,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058503DUNpxk::FR",
-                "status" : null,
-                "translation" : "<p>Diplômé de la HEIG-VD en informatique, Steve a effectué son travail de diplôme dans le domaine de la sécurité informatique (télécom). Il a ensuite travaillé pour Swisscom à Berne. Il a un très bon niveau d'allemand. Il est arrivé 2ème dans un prestigieux concours de hacking.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%:&nbsp;6'900.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Diplômé de la HEIG-VD en informatique, Steve a effectué son travail de diplôme dans le domaine de la sécurité informatique (télécom). Il a ensuite travaillé pour Swisscom à Berne. Il a un très bon niveau d'allemand. Il est arrivé 2ème dans un prestigieux concours de hacking.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%:&nbsp;6'900.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -11060,8 +11060,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058512OHInR5::FR",
-                "status" : null,
-                "translation" : "<p>Après une formation à l'ECAL, il a suivi des cours du soir en développement front-end. Son portfolio comprend autant de designs créatifs (parfois déroutants) que de réalisations web intéressantes. Depuis 6 ans dans le domaine, il travaille actuellement dans une agence web à Montreux.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%: 7'200.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Après une formation à l'ECAL, il a suivi des cours du soir en développement front-end. Son portfolio comprend autant de designs créatifs (parfois déroutants) que de réalisations web intéressantes. Depuis 6 ans dans le domaine, il travaille actuellement dans une agence web à Montreux.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 7'200.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -11160,8 +11160,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058521CGIBy8::FR",
-                "status" : null,
-                "translation" : "<p>Après des études d'informatique à Prague, Piotr est venu en Suisse pour y réaliser son doctorat. Il est ensuite reparti en République Tchèque où il travaille pour Microsoft sur les solutions Azure. Il souhaite revenir en Suisse avec sa famille.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%: 7'100.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Après des études d'informatique à Prague, Piotr est venu en Suisse pour y réaliser son doctorat. Il est ensuite reparti en République Tchèque où il travaille pour Microsoft sur les solutions Azure. Il souhaite revenir en Suisse avec sa famille.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 7'100.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -11406,8 +11406,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058544mwy8qd::FR",
-                "status" : null,
-                "translation" : "<p>Sybille est originaire d'Annecy en Haute-Savoie. Elle travaille dans une agence de publicité depuis 4 ans. Elle suit les campagnes et prépare les rapports décrivant leurs résultats. L'agence vient malheureusement de perdre son principal client et doit se réorganiser. Elle cherche donc un nouveau poste dans le domaine de la publicité.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%:&nbsp;5'400.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Sybille est originaire d'Annecy en Haute-Savoie. Elle travaille dans une agence de publicité depuis 4 ans. Elle suit les campagnes et prépare les rapports décrivant leurs résultats. L'agence vient malheureusement de perdre son principal client et doit se réorganiser. Elle cherche donc un nouveau poste dans le domaine de la publicité.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%:&nbsp;5'400.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -11506,8 +11506,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058553OZWyku::FR",
-                "status" : null,
-                "translation" : "<p>Anna est diplômée de la HEG de Fribourg. Elle a rejoint un groupe média où elle s'est d'abord occupé de la vente d'espaces publicitaires. Par la suite, elle a été engagée dans un agence media internationale où elle gère de grandes campagnes pour des marques prestigieuses. Les voyages réguliers qu'elle doit faire lui pèsent depuis qu'elle a eu sa petite fille.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 60%</p>\n<p>Coûts totaux à 100%: 6'100.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Anna est diplômée de la HEG de Fribourg. Elle a rejoint un groupe média où elle s'est d'abord occupé de la vente d'espaces publicitaires. Par la suite, elle a été engagée dans un agence media internationale où elle gère de grandes campagnes pour des marques prestigieuses. Les voyages réguliers qu'elle doit faire lui pèsent depuis qu'elle a eu sa petite fille.</p><p>Taux activité: 60%</p><p>Coûts totaux à 100%: 6'100.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -11606,8 +11606,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058562CZbBBx::FR",
-                "status" : null,
-                "translation" : "<p>Samia est arrivée en romandie il y a cinq ans pour travailler chez La Redoute Suisse. Elle est en charge du CRM et des newsletters clients. Son CV affiche plusieurs certificats qui montrent qu'elle connait bien les outils du domaine.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 80%</p>\n<p>Coûts totaux à 100%: 6'200.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Samia est arrivée en romandie il y a cinq ans pour travailler chez La Redoute Suisse. Elle est en charge du CRM et des newsletters clients. Son CV affiche plusieurs certificats qui montrent qu'elle connait bien les outils du domaine.</p><p>Taux activité: 80%</p><p>Coûts totaux à 100%: 6'200.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -11706,8 +11706,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058571QkjR16::FR",
-                "status" : null,
-                "translation" : "<p>Après un CFC d'employé de commerce obtenu il y a une dizaine d'années, Tristan a rejoint une agence des communication qui a développé un département spécialisé dans le multimédia. Dans ce cadre, il a suivi une formation au SAWI qui lui a permis de décrocher le brevet fédéral de spécialiste en marketing. Son CV liste une série de belles références dans le domaine.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%: 7'400.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Après un CFC d'employé de commerce obtenu il y a une dizaine d'années, Tristan a rejoint une agence des communication qui a développé un département spécialisé dans le multimédia. Dans ce cadre, il a suivi une formation au SAWI qui lui a permis de décrocher le brevet fédéral de spécialiste en marketing. Son CV liste une série de belles références dans le domaine.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 7'400.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -11806,8 +11806,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:1205858031HqoP::FR",
-                "status" : null,
-                "translation" : "<p>Après un CFC à l'Eracom, Sandy a travaillé pour une agence de publicité pendant 3 ans. Elle n'a pas beaucoup d'expérience dans le web, mais souhaite développer ses compétences dans le domaine. Son portfolio montre une belle créativité.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%:&nbsp;5'300.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Après un CFC à l'Eracom, Sandy a travaillé pour une agence de publicité pendant 3 ans. Elle n'a pas beaucoup d'expérience dans le web, mais souhaite développer ses compétences dans le domaine. Son portfolio montre une belle créativité.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%:&nbsp;5'300.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -11906,8 +11906,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058589v1bzml::FR",
-                "status" : null,
-                "translation" : "<p>Tobias est diplômé de la Hochschule Luzern - Design &amp; Kunst. Après ses études il a rejoint un grand studio de design à Fribourg, puis est devenu directeur artistique d'une petite agence web à Berne. Il y supervise trois designers.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%: 8'200.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Tobias est diplômé de la Hochschule Luzern - Design &amp; Kunst. Après ses études il a rejoint un grand studio de design à Fribourg, puis est devenu directeur artistique d'une petite agence web à Berne. Il y supervise trois designers.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 8'200.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -12006,8 +12006,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058598jtdXvs::FR",
-                "status" : null,
-                "translation" : "<p>David a d'abord effectué un apprentissage en électronique, mais sa passion pour le web l'a poussé à poursuivre sa formation HES en emploi. En parallèle il travaille dans un agence web à Nyon. Il a développé ses compétences en SEO à travers un collègue et quelques cours à l'Ifage. Il a également réussi une certification Google Adwords.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%: 6'400.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>David a d'abord effectué un apprentissage en électronique, mais sa passion pour le web l'a poussé à poursuivre sa formation HES en emploi. En parallèle il travaille dans un agence web à Nyon. Il a développé ses compétences en SEO à travers un collègue et quelques cours à l'Ifage. Il a également réussi une certification Google Adwords.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 6'400.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -12106,8 +12106,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058607BVj9rQ::FR",
-                "status" : null,
-                "translation" : "<p>Léa est graphiste autodidacte de 29 ans. Née dans une famille créative, Léa se passionne très tôt pour le dessin. Elle a reçu un prix pour l'affiche qu'elle a créée pour un grand festival de musique. Son blog sur la typographie est très suivi.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%: 6'600.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Léa est graphiste autodidacte de 29 ans. Née dans une famille créative, Léa se passionne très tôt pour le dessin. Elle a reçu un prix pour l'affiche qu'elle a créée pour un grand festival de musique. Son blog sur la typographie est très suivi.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 6'600.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -12206,8 +12206,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058616Ga8wUC::FR",
-                "status" : null,
-                "translation" : "<p>Yvonne est originaire de Paris. Elle est titulaire d'un master en ergonomie de l'Université de Paris VIII. Par le suite elle a travaillé dans une grande agence française dans le domaine de l'UX sur des sites e-commerce et des applications mobiles.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%: 7'300.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Yvonne est originaire de Paris. Elle est titulaire d'un master en ergonomie de l'Université de Paris VIII. Par le suite elle a travaillé dans une grande agence française dans le domaine de l'UX sur des sites e-commerce et des applications mobiles.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 7'300.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -12306,8 +12306,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058625R8AcGf::FR",
-                "status" : null,
-                "translation" : "<p>Mathias a d'abord été enseignant d'histoire et de français au gymnase de Bienne. Il s'est ensuite reconverti dans le journalisme et a notamment collaboré au lancement du site web d'un grand journal romand. Il est sportif et dispose d'un bon réseau de contacts.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%: 7'100.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Mathias a d'abord été enseignant d'histoire et de français au gymnase de Bienne. Il s'est ensuite reconverti dans le journalisme et a notamment collaboré au lancement du site web d'un grand journal romand. Il est sportif et dispose d'un bon réseau de contacts.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 7'100.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -12406,8 +12406,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058634i1wd2Y::FR",
-                "status" : null,
-                "translation" : "<p>Antoine est au bénéfice d'un CFC de photographe du CEPV, obtenu il y a 3 ans. Il a développé une activité de photographe indépendant après avoir assisté un professionnel pendant une année. Il s'est marié il y a quelques mois et cherche un emploi stable. Il dispose de compétences en vidéo (prise de vue et montage) et son site montre des vidéos réalisées à l'aide d'un drone.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%:&nbsp;5'900.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Antoine est au bénéfice d'un CFC de photographe du CEPV, obtenu il y a 3 ans. Il a développé une activité de photographe indépendant après avoir assisté un professionnel pendant une année. Il s'est marié il y a quelques mois et cherche un emploi stable. Il dispose de compétences en vidéo (prise de vue et montage) et son site montre des vidéos réalisées à l'aide d'un drone.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%:&nbsp;5'900.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -12652,8 +12652,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058657ZAH6pD::FR",
-                "status" : null,
-                "translation" : "<p>Johanna est diplômée de la&nbsp;Hochschule für Wirtschafts de l'Université de St Gall. Elle a travaillé à Zurich pendant 6 ans dans une des plus importantes agences digitales de Suisse. Elle y gère plusieurs clients et coordonne leurs projets (web, app. mobile, campagnes). Elle souhaite venir en romandie car son compagnon a trouvé un beau poste à Lausanne.</p>\n<p>&nbsp;</p>\n<p>Elle serait disponible à 100%. Les coûts totaux (salaire + charges) s'élèveront à 9'200.- par mois (13 fois par année).</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Johanna est diplômée de la&nbsp;Hochschule für Wirtschafts de l'Université de St Gall. Elle a travaillé à Zurich pendant 6 ans dans une des plus importantes agences digitales de Suisse. Elle y gère plusieurs clients et coordonne leurs projets (web, app. mobile, campagnes). Elle souhaite venir en romandie car son compagnon a trouvé un beau poste à Lausanne.</p><p>Elle serait disponible à 100%. Les coûts totaux (salaire + charges) s'élèveront à 9'200.- par mois (13 fois par année).</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -12752,8 +12752,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:120586666uwBVO::FR",
-                "status" : null,
-                "translation" : "<p>Thomas</p>\n<p>&nbsp;</p>\n<p>Après ses études à HEG Genève, Thomas a travaillé 3 ans dans une agence web de la région lémanique. Pendant cette expérience, il a principalement supervisé des projets intranet développé sur Microsoft Sharepoint. Il souhaite travailler plus sur des projets de site web public et d'applications mobiles.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%: 7'200.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Thomas</p><p>Après ses études à HEG Genève, Thomas a travaillé 3 ans dans une agence web de la région lémanique. Pendant cette expérience, il a principalement supervisé des projets intranet développé sur Microsoft Sharepoint. Il souhaite travailler plus sur des projets de site web public et d'applications mobiles.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 7'200.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -12852,8 +12852,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058675icHwxq::FR",
-                "status" : null,
-                "translation" : "<p>Andrea est autodidacte. Elle a démarré sa carrière en tant que développeuse Java dans une petite banque. Ensuite, elle a évolué vers la business analyse, notamment parce qu'elle appréciait le contact avec les utilisateurs. Elle s'est formée en suivant des cours du soir et des formations en ligne. Elle a passé la certification PMI-PBA.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 80%</p>\n<p>Coûts totaux à 100%: 8'000.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Andrea est autodidacte. Elle a démarré sa carrière en tant que développeuse Java dans une petite banque. Ensuite, elle a évolué vers la business analyse, notamment parce qu'elle appréciait le contact avec les utilisateurs. Elle s'est formée en suivant des cours du soir et des formations en ligne. Elle a passé la certification PMI-PBA.</p><p>Taux activité: 80%</p><p>Coûts totaux à 100%: 8'000.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -12952,8 +12952,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058684mNoIDt::FR",
-                "status" : null,
-                "translation" : "<p>Après des études à HEC Lausanne, Tim est parti travaillé pour une multinationale aux Etats-Unis. Il est rentré en Suisse il y a 5 ans et travaille depuis à Berne dans un service de la Confédération. Il est membre de l'ASO (Association Suisse d'Organisation et de Management). Dans le cadre de ses fonctions, il a développé une expertise importante de la méthode HERMES. Il est aussi certifié PMI-PMP, PMI-ACP et Six Sigma Black Belt.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 100%</p>\n<p>Coûts totaux à 100%: 12'000.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Après des études à HEC Lausanne, Tim est parti travaillé pour une multinationale aux Etats-Unis. Il est rentré en Suisse il y a 5 ans et travaille depuis à Berne dans un service de la Confédération. Il est membre de l'ASO (Association Suisse d'Organisation et de Management). Dans le cadre de ses fonctions, il a développé une expertise importante de la méthode HERMES. Il est aussi certifié PMI-PMP, PMI-ACP et Six Sigma Black Belt.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 12'000.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -13052,8 +13052,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058693TXIdrD::FR",
-                "status" : null,
-                "translation" : "<p>Après son master en systèmes d'information à l'Université de Neuchatel, Claudia a commencé sa carrière chez McKinsey d'abord à Zurich, puis à Berlin. Elle a ensuite rejoint Deloitte Digital à Londres où elle travaille depuis 3 ans. Elle est rentrée en Suisse avec son mari qui a trouvé un poste important dans la recherche académique (EPFL). Claudia cherche actuellement un nouveau poste en Suisse. Elle est très motivée est prête à discuter ses prétentions salariales si elle voit des possibilités de devenir associée de l'entreprise.</p>\n<p>&nbsp;</p>\n<p>Taux activité: 60%</p>\n<p>Coûts totaux à 100%:&nbsp;14'500.- par mois (13 fois par année)</p>\n<p>&nbsp;</p>\n<p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Après son master en systèmes d'information à l'Université de Neuchatel, Claudia a commencé sa carrière chez McKinsey d'abord à Zurich, puis à Berlin. Elle a ensuite rejoint Deloitte Digital à Londres où elle travaille depuis 3 ans. Elle est rentrée en Suisse avec son mari qui a trouvé un poste important dans la recherche académique (EPFL). Claudia cherche actuellement un nouveau poste en Suisse. Elle est très motivée est prête à discuter ses prétentions salariales si elle voit des possibilités de devenir associée de l'entreprise.</p><p>Taux activité: 60%</p><p>Coûts totaux à 100%:&nbsp;14'500.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -13298,8 +13298,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:120587169t9Vxi::FR",
-                "status" : null,
-                "translation" : "<p>Vous avertissez Chouchou, votre ami(e), que vous restez travailler le soir car vous devez avancer dans votre projet de création d'entreprise.</p>\n<p>&nbsp;</p>\n<p>Ceci vous permettra de gagner quelques cartes temps.</p>\n<p>________</p>\n<p><em>Cette action peut être effectuée plusieurs fois</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous avertissez Chouchou, votre ami(e), que vous restez travailler le soir car vous devez avancer dans votre projet de création d'entreprise.</p><p>Ceci vous permettra de gagner quelques cartes temps.</p><p>________</p><p><em>Cette action peut être effectuée plusieurs fois</em></p>"
               }
             }
           },
@@ -18182,7 +18182,7 @@
       "items" : [ {
         "@class" : "TriggerDescriptor",
         "broadcastScope" : "TeamScope",
-        "comments" : null,
+        "comments" : " ",
         "defaultInstance" : {
           "@class" : "FSMInstance",
           "currentStateId" : 1,
@@ -18217,7 +18217,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Financement de ton entreprise\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut,</p>\\n<p>&nbsp;</p>\\n<p>J'ai repensé à notre discussion et à ton idée de créer ta société dans le domaine du multimédia. Elle me semble prometteuse!&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>Et j'ai envie de te soutenir un peu...</p>\\n<p>&nbsp;</p>\\n<p>Tu m'as dit que tu avais seulement 5'000.- de fonds personnels, j'y ai réfléchi et je pourrais te proposer un prêt à long terme, sans intérêts.</p>\\n<p>&nbsp;</p>\\n<p>Et tu sais aussi que j'ai une petite expérience dans la création d'entreprise, alors j'espère que je pourrai te donner quelques conseils.</p>\\n<p>&nbsp;</p>\\n<p>Confirme-moi juste que tu acceptes ce prêt!</p>\\n<p>&nbsp;</p>\\n<p>Ta tante Martha</p>\\n<p>&nbsp;</p>\\n<p><em>____________</em></p>\\n<p><em>Vous pouvez accepter le prêt de Martha depuis l'onglet \\\"Actions\\\"</em></p>\\n<p>&nbsp;</p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, 'mailDubuis_suiteAVotreDemande_').enable(self);",
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Financement de ton entreprise\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut,</p>\\n<p></p>\\n<p>J'ai repensé à notre discussion et à ton idée de créer ta société dans le domaine du multimédia. Elle me semble prometteuse!</p>\\n<p></p>\\n<p>Et j'ai envie de te soutenir un peu...</p>\\n<p></p>\\n<p>Tu m'as dit que tu avais seulement 5'000.- de fonds personnels, j'y ai réfléchi et je pourrais te proposer un prêt à long terme, sans intérêts.</p>\\n<p></p>\\n<p>Et tu sais aussi que j'ai une petite expérience dans la création d'entreprise, alors j'espère que je pourrai te donner quelques conseils.</p>\\n<p></p>\\n<p>Confirme-moi juste que tu acceptes ce prêt!</p>\\n<p></p>\\n<p>Ta tante Martha</p>\\n<p></p>\\n<p><em>____________</em></p>\\n<p><em>Vous pouvez accepter le prêt de Martha depuis l'onglet \\\"Actions\\\"</em></p>\\n<p></p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, 'mailDubuis_suiteAVotreDemande_').enable(self);",
           "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059170LlqowG",
@@ -18267,8 +18267,8 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Banque - R. Dubuis\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Suite à votre demande\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Suite à votre demande sur les possibilités de financement de votre future société, je vous confirme notre prochain entretien.&nbsp;Afin d'évaluer les possibilités de financement, nous vous demandons de nous faire parvenir un dossier de présentation de votre société, puis nous vous inviterons pour&nbsp;une présentation de votre projet.</p>\\n<p>&nbsp;</p>\\n<p>Je vais aussi vous mettre en contact avec M. Pasquier, conseiller PME de notre banque et spécialiste du domaine des TIC.</p>\\n<p>&nbsp;</p>\\n<p>Avec mes salutations distinguées</p>\\n<p>R. Dubuis</p>\\n<p>Directeur régional</p>\",\"status\":\"\"}}}, []);\n",
-          "language" : "JavaScript"
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Banque - R. Dubuis\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Suite à votre demande\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p></p>\\n<p>Suite à votre demande sur les possibilités de financement de votre future société, je vous confirme notre prochain entretien. Afin d'évaluer les possibilités de financement, nous vous demandons de nous faire parvenir un dossier de présentation de votre société, puis nous vous inviterons pour une présentation de votre projet.</p>\\n<p></p>\\n<p>Je vais aussi vous mettre en contact avec M. Pasquier, conseiller PME de notre banque et spécialiste du domaine des TIC.</p>\\n<p></p>\\n<p>Avec mes salutations distinguées</p>\\n<p>R. Dubuis</p>\\n<p>Directeur régional</p>\",\"status\":\"\"}}}, []);",
+          "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059178MKDD67",
         "scopeType" : "TeamScope",
@@ -18292,14 +18292,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153999:ONPZcc",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153998:2ZDQmC",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153999:ONPZcc",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18322,8 +18322,8 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Banque - O. Pasquier\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Préparation de votre présentation\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Faisant suite au message que vous avez reçu de M. Dubuis, je tenais à vous donner quelques précisions quant à la présentation que vous aller préparer pour votre demande de financement.</p>\\n<p>&nbsp;</p>\\n<p>Vous veillerez à y intégrer des éléments généraux relatif à votre entreprise :</p>\\n<ul>\\n<li>La vision générale de votre projet d'entreprise.</li>\\n<li>La description du modèle d'affaires envisagé (Business Model Canvas).</li>\\n<li>La liste des prestations envisagées.&nbsp;</li>\\n<li>Les clients visés et les éléments d'analyse de marché.</li>\\n<li>Si possible, analyse de la concurrence.</li>\\n<li>La description des éléments juridiques.</li>\\n</ul>\\n<p>&nbsp;</p>\\n<p>Nous attendons également une partie spécifique aux aspects financiers:</p>\\n<ul>\\n<li>Montant de l'emprunt souhaité</li>\\n<li>Plan de financement</li>\\n<li>Toutes autres réflexions associées</li>\\n</ul>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations,</p>\\n<p>O. Pasquier</p>\",\"status\":\"\"}}}, []);",
-          "language" : "JavaScript"
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Banque - O. Pasquier\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Préparation de votre présentation\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p></p>\\n<p>Faisant suite au message que vous avez reçu de M. Dubuis, je tenais à vous donner quelques précisions quant à la présentation que vous aller préparer pour votre demande de financement.</p>\\n<p></p>\\n<p>Vous veillerez à y intégrer des éléments généraux relatif à votre entreprise :</p>\\n<ul>\\n<li>La vision générale de votre projet d'entreprise.</li>\\n<li>La description du modèle d'affaires envisagé (Business Model Canvas).</li>\\n<li>La liste des prestations envisagées.</li>\\n<li>Les clients visés et des éléments d'analyse de marché.</li>\\n<li>Si possible, analyse de la concurrence.</li>\\n<li>La description des éléments juridiques.</li>\\n</ul>\\n<p></p>\\n<p>Nous attendons également une partie spécifique aux aspects financiers:</p>\\n<ul>\\n<li>Montant de l'emprunt souhaité</li>\\n<li>Plan de financement</li>\\n<li>Toutes autres réflexions associées</li>\\n</ul>\\n<p></p>\\n<p>Meilleures salutations,</p>\\n<p>O. Pasquier</p>\",\"status\":\"\"}}}, []);",
+          "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059219QDokUa",
         "scopeType" : "TeamScope",
@@ -18337,7 +18337,7 @@
       }, {
         "@class" : "TriggerDescriptor",
         "broadcastScope" : "TeamScope",
-        "comments" : null,
+        "comments" : " ",
         "defaultInstance" : {
           "@class" : "FSMInstance",
           "currentStateId" : 1,
@@ -18377,8 +18377,8 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Banque - Dubuis\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Taille de votre entreprise\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Cher Monsieur, Chère Madame,</p>\\n<p>&nbsp;</p>\\n<p>Suite à notre premier entretien, M. Pasquier m'a tenu informé de l'avancée réjouissante de votre projet.</p>\\n<p>&nbsp;</p>\\n<p>J'ai croisé votre tante Martha au club de golf du lac, qui m'a laissé entendre qu'elle était prête à vous soutenir et à se porter caution pour un éventuel prêt bancaire. C'est une excellente nouvelle.</p>\\n<p>&nbsp;</p>\\n<p>Pour votre dossier, j'attire votre attention sur les points suivants :</p>\\n<ul>\\n<li>Au vu de vos fonds propres et de cette caution, le Département Risque limite le montant de notre prêt <em>au maximum</em> à deux fois votre capital social.</li>\\n<li>Notre expérience dans le financement d'entreprises similaires montre que l'engagement d'une équipe de 2 à 4 collaborateurs donnerait un niveau de risque acceptable.</li>\\n</ul>\\n<p>&nbsp;</p>\\n<p>Avec mes salutations distinguées</p>\\n<p>R. Dubuis</p>\\n<p>Directeur régional</p>\\n<p>&nbsp;</p>\",\"status\":\"\"}}}, []);",
-          "language" : "JavaScript"
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Banque - Dubuis\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Taille de votre entreprise\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Cher Monsieur, Chère Madame,</p>\\n<p></p>\\n<p>Suite à notre premier entretien, M. Pasquier m'a tenu informé de l'avancée réjouissante de votre projet.</p>\\n<p></p>\\n<p>J'ai croisé votre tante Martha au club de golf du lac, qui m'a laissé entendre qu'elle était prête à vous soutenir et à se porter caution pour un éventuel prêt bancaire. C'est une excellente nouvelle.</p>\\n<p></p>\\n<p>Pour votre dossier, j'attire votre attention sur les points suivants :</p>\\n<ul>\\n<li>Au vu de vos fonds propres et de cette caution, le Département Risque limite le montant de notre prêt <em>au maximum</em> à deux fois votre capital social.</li>\\n<li>Notre expérience dans le financement d'entreprises similaires montre que l'engagement d'une équipe de 2 à 4 collaborateurs donnerait un niveau de risque acceptable.</li>\\n</ul>\\n<p></p>\\n<p>Avec mes salutations distinguées</p>\\n<p>R. Dubuis</p>\\n<p>Directeur régional</p>\\n<p></p>\",\"status\":\"\"}}}, []);",
+          "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059227pXX9cN",
         "scopeType" : "TeamScope",
@@ -18392,7 +18392,7 @@
       }, {
         "@class" : "TriggerDescriptor",
         "broadcastScope" : "TeamScope",
-        "comments" : null,
+        "comments" : " ",
         "defaultInstance" : {
           "@class" : "FSMInstance",
           "currentStateId" : 1,
@@ -18432,8 +18432,8 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Banque - O. Pasquier\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Informations Business Model Canvas\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Pour la présentation de votre dossier de financement, nous apprécions l'utilisation du Business Model Canvas. Cet outil donne une vision synthétique et complète du projet d'entreprise.</p>\\n<p>&nbsp;</p>\\n<p>Si jamais, jetez un oeil au lien :</p>\\n<p><a href=\\\"https://www.youtube.com/watch?v=QoAOzMTLP5s\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">https://www.youtube.com/watch?v=QoAOzMTLP5s</a></p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>O. Pasquier</p>\",\"status\":\"\"}}}, []);",
-          "language" : "JavaScript"
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Banque - O. Pasquier\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Informations Business Model Canvas\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p></p>\\n<p>Pour la présentation de votre dossier de financement, nous apprécions l'utilisation du Business Model Canvas. Cet outil donne une vision synthétique et complète du projet d'entreprise.</p>\\n<p></p>\\n<p>Si jamais, jetez un oeil au lien :</p>\\n<p><a href=\\\"https://www.youtube.com/watch?v=QoAOzMTLP5s\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">https://www.youtube.com/watch?v=QoAOzMTLP5s</a></p>\\n<p></p>\\n<p>Meilleures salutations</p>\\n<p>O. Pasquier</p>\",\"status\":\"\"}}}, []);",
+          "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059194jv9NEe",
         "scopeType" : "TeamScope",
@@ -18447,7 +18447,7 @@
       }, {
         "@class" : "TriggerDescriptor",
         "broadcastScope" : "TeamScope",
-        "comments" : null,
+        "comments" : "  ",
         "defaultInstance" : {
           "@class" : "FSMInstance",
           "currentStateId" : 1,
@@ -18487,8 +18487,8 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Etat du marché - statistiques\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Comment avance cette création d'entreprise ? Pour définir à qui tu souhaites offrir tes prestations, tu peux consulter quelques statistiques.</p>\\n<p>&nbsp;</p>\\n<p>Si jamais, voici le lien sur les Statistiques officielles de la Suisse,&nbsp;à disposition sur le site officiel de la Confédération:</p>\\n<p><a href=\\\"https://www.bfs.admin.ch/bfs/fr/home.html\\\" target=\\\"_blank\\\" rel=\\\"noopener\\\">https://www.bfs.admin.ch/bfs/fr/home.html</a></p>\\n<p>(complet, mais dense)</p>\\n<p>&nbsp;</p>\\n<p>Bonne analyse !</p>\\n<p>Martha</p>\\n<p>&nbsp;</p>\",\"status\":\"\"}}}, []);",
-          "language" : "JavaScript"
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Etat du marché - statistiques\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p></p>\\n<p>Comment avance cette création d'entreprise ? Pour définir à qui tu souhaites offrir tes prestations, tu peux consulter quelques statistiques.</p>\\n<p></p>\\n<p>Si jamais, voici le lien sur les Statistiques officielles de la Suisse, à disposition sur le site officiel de la Confédération:</p>\\n<p><a href=\\\"https://www.bfs.admin.ch/bfs/fr/home.html\\\" target=\\\"_blank\\\" rel=\\\"noopener\\\">https://www.bfs.admin.ch/bfs/fr/home.html</a></p>\\n<p>(complet, mais dense)</p>\\n<p></p>\\n<p>Bonne analyse !</p>\\n<p>Martha</p>\\n<p></p>\",\"status\":\"\"}}}, []);",
+          "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059186bxidTB",
         "scopeType" : "TeamScope",
@@ -18502,7 +18502,7 @@
       }, {
         "@class" : "TriggerDescriptor",
         "broadcastScope" : "TeamScope",
-        "comments" : null,
+        "comments" : " ",
         "defaultInstance" : {
           "@class" : "FSMInstance",
           "currentStateId" : 1,
@@ -18542,8 +18542,8 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Montant de l'emprunt\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut,</p>\\n<p>&nbsp;</p>\\n<p>Je vois que ton projet avance et que la présentation au banquier pour négocier ton emprunt approche.</p>\\n<p>&nbsp;</p>\\n<p>Si je peux te donner un conseil: demande un emprunt suffisant. Il y a tellement d'entreprises qui font faillite pour des problèmes de liquidités. A priori, cherche à obtenir l'emprunt maximal par rapport à ton capital social. Tu pourras toujours le rembourser par la suite si tu vois que tu as assez de liquidités.</p>\\n<p>&nbsp;</p>\\n<p>A bientôt</p>\\n<p>Martha</p>\\n<p>&nbsp;</p>\",\"status\":\"\"}}}, []);",
-          "language" : "JavaScript"
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Montant de l'emprunt\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut,</p>\\n<p>Je vois que ton projet avance et que la présentation au banquier pour négocier ton emprunt approche.</p>\\n<p>Si je peux te donner un conseil: demande un emprunt suffisant. Il y a tellement d'entreprises qui font faillite pour des problèmes de liquidités. A priori, cherche à obtenir l'emprunt maximal par rapport à ton capital social. Tu pourras toujours le rembourser par la suite si tu vois que tu as assez de liquidités.</p>\\n<p>A bientôt</p>\\n<p>Martha</p>\",\"status\":\"\"}}}, []);",
+          "language" : "javascript"
         },
         "refId" : "variabledescriptor:12084592gAqtR5",
         "scopeType" : "TeamScope",
@@ -18557,7 +18557,7 @@
       }, {
         "@class" : "TriggerDescriptor",
         "broadcastScope" : "TeamScope",
-        "comments" : null,
+        "comments" : "  ",
         "defaultInstance" : {
           "@class" : "FSMInstance",
           "currentStateId" : 1,
@@ -18567,6 +18567,11 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153990:9memxx",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153989:Y1W3Aa",
           "scope" : "SELF",
           "variableName" : "timeCards"
@@ -18575,11 +18580,6 @@
           "refId" : "TransitionDependency:153991:kI9lYD",
           "scope" : "CHILDREN",
           "variableName" : "heuresSupplementaires"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153990:9memxx",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18602,7 +18602,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Besoin d'aide ?\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut,</p>\\n<p>&nbsp;</p>\\n<p>Je vois que tu passes passablement de temps sur ton projet et que tu dois parfois travailler le soir.</p>\\n<p>&nbsp;</p>\\n<p>Si tu veux, je peux te proposer un peu d'aide pour quelques activités.</p>\\n<p>&nbsp;</p>\\n<p>Martha</p>\\n<p>&nbsp;</p>\\n<p><em>_____</em></p>\\n<p><em>Une nouvelle question vous permet d'acceptez cette aide, ce qui augmenterait votre budget temps de 2.</em></p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, 'besoinD_aide_').activate(self);",
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Besoin d'aide ?\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut,</p>\\n<p>Je vois que tu passes passablement de temps sur ton projet et que tu dois parfois travailler le soir.</p>\\n<p>Si tu veux, je peux te proposer un peu d'aide pour quelques activités.</p>\\n<p>Martha</p>\\n<p><em>_____</em></p>\\n<p><em>Une nouvelle question vous permet d'acceptez cette aide, ce qui augmenterait votre budget temps de 2.</em></p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, 'besoinD_aide_').activate(self);",
           "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059202Qb9eGy",
@@ -18746,24 +18746,24 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153832:08RAqy",
-          "scope" : "SELF",
-          "variableName" : "societeCreee"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:154106:F2DQoq",
           "scope" : "CHILDREN",
           "variableName" : "pretDeMartha_2"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153868:vngxuB",
-          "scope" : "SELF",
-          "variableName" : "a_Accepter_2"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153831:k6lPaO",
           "scope" : "SELF",
           "variableName" : "caisse"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153832:08RAqy",
+          "scope" : "SELF",
+          "variableName" : "societeCreee"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153868:vngxuB",
+          "scope" : "SELF",
+          "variableName" : "a_Accepter_2"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18786,15 +18786,15 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"pretDeMartha_3\").activate(self);",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'pretDeMartha_3').activate(self);",
+          "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059235TNwowU",
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"caisse\").getValue(self) < 20000 && Variable.find(gameModel, \"a_Accepter_2\").hasBeenSelected(self) && Variable.find(gameModel, \"pretDeMartha_2\").isReplied(self) && Variable.find(gameModel, \"societeCreee\").getValue(self)==false;",
-          "language" : "JavaScript"
+          "content" : "Variable.find(gameModel, 'caisse').getValue(self) < 20000&&\nVariable.find(gameModel, 'a_Accepter_2').hasBeenSelected(self)&&\nVariable.find(gameModel, 'pretDeMartha_2').isReplied(self)&&\nVariable.find(gameModel, \"societeCreee\").getValue(self)==false;",
+          "language" : "javascript"
         },
         "version" : null,
         "visibility" : "PRIVATE"
@@ -19120,8 +19120,8 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Banque - Dubuis\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Financement de votre entreprise\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Chère Madame, Cher Monsieur,</p>\\n<p>&nbsp;</p>\\n<p>Faisant suite à la présentation de votre projet d’entreprise, notre comité s’est réuni et confirme son accord pour un financement sous forme de prêt bancaire, assorti de la caution déjà évoquée.</p>\\n<p>&nbsp;</p>\\n<p>M. Pasquier suivra votre dossier.</p>\\n<p>&nbsp;</p>\\n<p>Vous voudrez bien préparer un bilan initial et une estimation des dépenses mensuelles prévisionnelles (Burn Rate) et lui remettre ces deux documents.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>R. Dubuis</p>\\n<p>Directeur régional</p>\\n<p><em>______</em></p>\\n<p><em>Ces deux documents sont à remettre à votre formateur pour finaliser la phase de mise en oeuvre.</em></p>\",\"status\":\"\"}}}, []);",
-          "language" : "JavaScript"
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Banque - Dubuis\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Financement de votre entreprise\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Chère Madame, Cher Monsieur,</p>\\n<p>Faisant suite à la présentation de votre projet d’entreprise, notre comité s’est réuni et confirme son accord pour un financement sous forme de prêt bancaire, assorti de la caution déjà évoquée.</p>\\n<p>M. Pasquier suivra votre dossier.</p>\\n<p>Vous voudrez bien préparer un bilan initial et une estimation des dépenses mensuelles prévisionnelles (Burn Rate) et lui remettre ces deux documents.</p>\\n<p>Meilleures salutations</p>\\n<p>R. Dubuis</p>\\n<p>Directeur régional</p>\\n<p><em>______</em></p>\\n<p><em>Ces deux documents sont à remettre à votre formateur pour finaliser la phase de mise en oeuvre.</em></p>\",\"status\":\"\"}}}, []);",
+          "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059255oHkLGW",
         "scopeType" : "TeamScope",
@@ -19450,8 +19450,8 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Appel d'offres campagne communication\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Notre association organise le <strong>mUXic&nbsp;Festival,</strong> dont nous fêterons cette année la dixième édition.</p>\\n<p>&nbsp;</p>\\n<p>Nous lançons actuellement un appel d'offre pour la réalisation de la communication média du Festival.</p>\\n<p>&nbsp;</p>\\n<p>Nous avons entendu parler de votre agence et nous vous avons présélectionnés pour participer à l'appel d'offre.</p>\\n<p>&nbsp;</p>\\n<p>Vous trouverez tous les éléments utiles dans le dossier ci-joint.</p>\\n<p>&nbsp;</p>\\n<p>Nous espérons que votre agence sera intéressée à relever les défis de communication média de ce dixième anniversaire.</p>\\n<p>&nbsp;</p>\\n<p>Musicalement vôtre,</p>\\n<p>&nbsp;</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Cahier des charges _simulation_ 1.1.pdf\",\"status\":\"\"}}}}]);\n",
-          "language" : "JavaScript"
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Appel d'offres campagne communication\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>Notre association organise le <strong>mUXic Festival,</strong> dont nous fêterons cette année la dixième édition.</p>\\n<p>Nous lançons actuellement un appel d'offre pour la réalisation de la communication média du Festival.</p>\\n<p>Nous avons entendu parler de votre agence et nous vous avons présélectionnés pour participer à l'appel d'offre.</p>\\n<p>Vous trouverez tous les éléments utiles dans le dossier ci-joint.\\n<p>Nous espérons que votre agence sera intéressée à relever les défis de communication média de ce dixième anniversaire.\\n<p>Musicalement vôtre,</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Cahier des charges _simulation_ 1.1.pdf\",\"status\":\"\"}}}}]);",
+          "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059299qTpwaK",
         "scopeType" : "TeamScope",
@@ -19465,7 +19465,7 @@
       }, {
         "@class" : "TriggerDescriptor",
         "broadcastScope" : "TeamScope",
-        "comments" : "",
+        "comments" : " ",
         "defaultInstance" : {
           "@class" : "FSMInstance",
           "currentStateId" : 1,
@@ -19475,14 +19475,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153980:sezXh0",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153981:qtmo08",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153980:sezXh0",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -19505,8 +19505,8 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Sources photos libres de droits\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Pour ton projet d'affiche, voici quelques sites qui pourraient t'être utiles. Ils contiennent des photos de qualité en licence CC0 (enfin vérifie quand même, car certains mélangent parfois des images libres avec des images qui ne le sont pas):</p>\\n<p>- <a href=\\\"http://www.pexels.com\\\" target=\\\"_blank\\\" rel=\\\"noopener\\\">www.pexels.com</a></p>\\n<p>- <a href=\\\"http://www.unsplash.com\\\" target=\\\"_blank\\\" rel=\\\"noopener\\\">www.unsplash.com</a></p>\\n<p>- <a href=\\\"http://www.pixabay.com\\\" target=\\\"_blank\\\" rel=\\\"noopener\\\">www.pixabay.com</a>&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>Bonne chance !</p>\\n<p>Martha</p>\\n<p>&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>&nbsp;</p>\",\"status\":\"\"}}}, []);",
-          "language" : "JavaScript"
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Sources photos libres de droits\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>Pour ton projet d'affiche, voici quelques sites qui pourraient t'être utiles. Ils contiennent des photos de qualité en licence CC0 (enfin vérifie quand même, car certains mélangent parfois des images libres avec des images qui ne le sont pas):</p>\\n<p>- <a href=\\\"http://www.pexels.com\\\" target=\\\"_blank\\\" rel=\\\"noopener\\\">www.pexels.com</a></p>\\n<p>- <a href=\\\"http://www.unsplash.com\\\" target=\\\"_blank\\\" rel=\\\"noopener\\\">www.unsplash.com</a></p>\\n<p>- <a href=\\\"http://www.pixabay.com\\\" target=\\\"_blank\\\" rel=\\\"noopener\\\">www.pixabay.com</a>&nbsp;</p>\\n<p>Bonne chance !</p>\\n<p>Martha</p>\",\"status\":\"\"}}}, []);",
+          "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059307UDCLmW",
         "scopeType" : "TeamScope",
@@ -19933,7 +19933,7 @@
       }, {
         "@class" : "TriggerDescriptor",
         "broadcastScope" : "TeamScope",
-        "comments" : null,
+        "comments" : " ",
         "defaultInstance" : {
           "@class" : "FSMInstance",
           "currentStateId" : 1,
@@ -19973,8 +19973,8 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Quelques conseils\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut !</p>\\n<p>&nbsp;</p>\\n<p>J'ai appris que tu travaillais sur ta première offre. En plus pour un festival, c'est génial !</p>\\n<p>&nbsp;</p>\\n<p>Tu n'es probablement pas la seule agence en liste,&nbsp; Trois conseils pour réussir à te démarquer:</p>\\n<p>- Ne pas hésiter à remettre en question les requêtes de client, faire des contre-propositions</p>\\n<p>- Essaye de donner envie au client, par quelques idées originales ou propositions concrètes,&nbsp;</p>\\n<p>- Ne pas confondre clarté et rigidité. Si tes propositions de campagne doivent être claires, reste prêt à les discuter avec le client.</p>\\n<p>&nbsp;</p>\\n<p>Bonne chance&nbsp;</p>\\n<p>Martha</p>\",\"status\":\"\"}}}, []);",
-          "language" : "JavaScript"
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Quelques conseils\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut !</p>\\n<p>J'ai appris que tu travaillais sur ta première offre. En plus pour un festival, c'est génial !</p>\\n<p>Tu n'es probablement pas la seule agence en liste,&nbsp; Trois conseils pour réussir à te démarquer:</p>\\n<p>- Ne pas hésiter à remettre en question les requêtes de client, faire des contre-propositions</p>\\n<p>- Essaye de donner envie au client, par quelques idées originales ou propositions concrètes,</p>\\n<p>- Ne pas confondre clarté et rigidité. Si tes propositions de campagne doivent être claires, reste prêt à les discuter avec le client.</p>\\n<p>Bonne chance</p>\\n<p>Martha</p>\",\"status\":\"\"}}}, []);",
+          "language" : "javascript"
         },
         "refId" : "TriggerDescriptor:26340946:hmIr6s",
         "scopeType" : "TeamScope",
@@ -20019,7 +20019,7 @@
       "items" : [ {
         "@class" : "TriggerDescriptor",
         "broadcastScope" : "TeamScope",
-        "comments" : "",
+        "comments" : " ",
         "defaultInstance" : {
           "@class" : "FSMInstance",
           "currentStateId" : 1,
@@ -20054,8 +20054,8 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Présélection\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous vous remercions pour votre proposition.&nbsp;Notre comité de direction a revu l'ensemble des dossiers reçus et nous avons le plaisir de vous informer que votre agence a été retenue pour la phase de sélection finale (avec d'autres agences qui nous ont aussi fait de très bonnes propositions).</p>\\n<p>&nbsp;</p>\\n<p>Afin de prendre notre décision finale d'attribution du mandat, nous vous demandons de bien vouloir nous démontrer vos compétences à travers la réalisation des éléments suivants:</p>\\n<ul>\\n<li>Exemple d'affiche format A3 pour la promotion du Festival</li>\\n<li>Esquisse de la structure de la page d'accueil du futur site web\\n<ul>\\n<li>version écran ordinateur et téléphone mobile</li>\\n<li>maquettes de l'interface (pas besoin d'être interactifs)</li>\\n</ul>\\n</li>\\n<li>Une proposition libre pour le logo de la 10ème édition (statique, animé, jingle, etc)</li>\\n</ul>\\n<p>&nbsp;</p>\\n<p>En option et si vous avez le temps, vous pouvez aussi intégrer les éléments suivants:&nbsp;</p>\\n<ul>\\n<li>Site web. Maquettes ou wireframes interactifs</li>\\n<li>Moodboard: Exemples de vidéos existantes montrant le style que vous nous proposez</li>\\n</ul>\\n<p>&nbsp;</p>\\n<p>En complément à ces livrables, merci de renseigner les points suivants:</p>\\n<ul>\\n<li>Présentation de la capacité économique de votre entreprise (survie de l'entreprise à moyen terme)</li>\\n<li>Présentation des compétences techniques de l'entreprise (capacité technique à réaliser le mandat)</li>\\n<li>Précision des conditions de paiement.</li>\\n</ul>\\n<p>&nbsp;</p>\\n<p>Nous vous remettons en annexe quelques informations vous permettant de réaliser ces propositions (dates, programmation, logos des sponsors).</p>\\n<p>&nbsp;</p>\\n<p>Nous avons conscience du travail demandé pour la réalisation de ces livrables. Aussi le comité a prévu un défraiement de CHF 5'000.- pour les sociétés qui participeront à la short list.</p>\\n<p>&nbsp;</p>\\n<p>Nous nous réjouissons de recevoir vos projets !</p>\\n<p>&nbsp;</p>\\n<p>Musicalement vôtre,</p>\\n<p>&nbsp;</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsorts/AssureTout.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsorts/Logo LaProx.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Themes pour affiche.docx\",\"status\":\"\"}}}}]);",
-          "language" : "JavaScript"
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Présélection\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>Nous vous remercions pour votre proposition.&nbsp;Notre comité de direction a revu l'ensemble des dossiers reçus et nous avons le plaisir de vous informer que votre agence a été retenue pour la phase de sélection finale (avec d'autres agences qui nous ont aussi fait de très bonnes propositions).</p>\\n<p>Afin de prendre notre décision finale d'attribution du mandat, nous vous demandons de bien vouloir nous démontrer vos compétences à travers la réalisation des éléments suivants:</p>\\n<ul>\\n<li>Exemple d'affiche format A3 pour la promotion du Festival</li>\\n<li>Esquisse de la structure de la page d'accueil du futur site web\\n<ul>\\n<li>version écran ordinateur et téléphone mobile</li>\\n<li>maquettes de l'interface (pas besoin d'être interactifs)</li>\\n</ul>\\n</li>\\n<li>Une proposition libre pour le logo de la 10ème édition (statique, animé, jingle, etc)</li>\\n</ul>\\n<p>En option et si vous avez le temps, vous pouvez aussi intégrer les éléments suivants:&nbsp;</p>\\n<ul>\\n<li>Site web. Maquettes ou wireframes interactifs</li>\\n<li>Moodboard: Exemples de vidéos existantes montrant le style que vous nous proposez</li>\\n</ul>\\n<p>En complément à ces livrables, merci de renseigner les points suivants:</p>\\n<ul>\\n<li>Présentation de la capacité économique de votre entreprise (survie de l'entreprise à moyen terme)</li>\\n<li>Présentation des compétences techniques de l'entreprise (capacité technique à réaliser le mandat)</li>\\n<li>Précision des conditions de paiement.</li>\\n</ul>\\n<p>Nous vous remettons en annexe quelques informations vous permettant de réaliser ces propositions (dates, programmation, logos des sponsors).</p>\\n<p>Nous avons conscience du travail demandé pour la réalisation de ces livrables. Aussi le comité a prévu un défraiement de CHF 5'000.- pour les sociétés qui participeront à la short list.</p>\\n<p>Nous nous réjouissons de recevoir vos projets !</p>\\n<p>Musicalement vôtre,</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsorts/AssureTout.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsorts/Logo LaProx.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Themes_pour_affiche.pdf\",\"status\":\"\"}}}}]);",
+          "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059347cY0btX",
         "scopeType" : "TeamScope",
@@ -20109,8 +20109,8 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Choix techniques\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Suite à une discussion interne avec les membres du comité, des questions ont été soulevées relativement aux choix technologiques pour le site web de notre événement.</p>\\n<p>&nbsp;</p>\\n<p>Deux options ont été évoquées:&nbsp;</p>\\n<p>1. Choix d'un CMS sous forme de logiciel, avec un hébergement en Suisse.</p>\\n<p>2. Utilisation d'une solutions SaaS, comme il en existe outre Atlantique.</p>\\n<p>&nbsp;</p>\\n<p>Le comité n'a pas bien compris la différence entre les deux approches et les implications qu'elles pourraient avoir.</p>\\n<p>&nbsp;</p>\\n<p>Pouvez-vous nous renseigner à ce sujet ?</p>\\n<p>&nbsp;</p>\\n<p>Musicalement vôtre,</p>\\n<p>&nbsp;</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\\n<p><em>________</em></p>\\n<p><em>Veuillez donc intégrer dans votre présentation à mUXic une explication argumentée et illustrée avec des exemples concrets de ces deux options.</em></p>\\n<p>&nbsp;</p>\",\"status\":\"\"}}}, []);\n",
-          "language" : "JavaScript"
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Choix techniques\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>Suite à une discussion interne avec les membres du comité, des questions ont été soulevées relativement aux choix technologiques pour le site web de notre événement.</p>\\n<p>Deux options ont été évoquées:&nbsp;</p>\\n<p>1. Choix d'un CMS sous forme de logiciel, avec un hébergement en Suisse.</p>\\n<p>2. Utilisation d'une solutions SaaS, comme il en existe outre Atlantique.</p>\\n<p>Le comité n'a pas bien compris la différence entre les deux approches et les implications qu'elles pourraient avoir.</p>\\n<p>Pouvez-vous nous renseigner à ce sujet ?</p>\\n<p>Musicalement vôtre,</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\\n<p><em>________</em></p>\\n<p><em>Veuillez donc intégrer dans votre présentation à mUXic une explication argumentée et illustrée avec des exemples concrets de ces deux options.</em></p>\",\"status\":\"\"}}}, []);",
+          "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059355kVkZ8F",
         "scopeType" : "TeamScope",
@@ -20124,7 +20124,7 @@
       }, {
         "@class" : "TriggerDescriptor",
         "broadcastScope" : "TeamScope",
-        "comments" : "",
+        "comments" : " ",
         "defaultInstance" : {
           "@class" : "FSMInstance",
           "currentStateId" : 1,
@@ -20164,8 +20164,8 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Source polices de caractères libres de droits\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonsoir,</p>\\n<p>&nbsp;</p>\\n<p>Pour le choix des polices de caractères pour ton affiche, si ça peut t'être utile, voici un lien pour des fonts libres de droits. Le rendu sera plus professionnel que les polices de base que tu as sur word.</p>\\n<p>- <a href=\\\"https://fonts.google.com\\\" target=\\\"_blank\\\" rel=\\\"noopener\\\">https://fonts.google.com</a>&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>Bon travail,</p>\\n<p>&nbsp;</p>\\n<p>Martha</p>\\n<p>&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>&nbsp;</p>\",\"status\":\"\"}}}, []);",
-          "language" : "JavaScript"
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Source polices de caractères libres de droits\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonsoir,</p>\\n<p>Pour le choix des polices de caractères pour ton affiche, si ça peut t'être utile, voici un lien pour des fonts libres de droits. Le rendu sera plus professionnel que les polices de base que tu as sur word.</p>\\n<p>- <a href=\\\"https://fonts.google.com\\\" target=\\\"_blank\\\" rel=\\\"noopener\\\">https://fonts.google.com</a>&nbsp;</p>\\n<p>Bon travail,</p>\\n<p>&nbsp;</p>\\n<p>Martha</p>\",\"status\":\"\"}}}, []);",
+          "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059363qvvdGF",
         "scopeType" : "TeamScope",
@@ -20537,14 +20537,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923122:ekYXUe",
-                "scope" : "SELF",
-                "variableName" : "phaseMSG"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923123:jt3LvF",
                 "scope" : "SELF",
                 "variableName" : "timeCards"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923122:ekYXUe",
+                "scope" : "SELF",
+                "variableName" : "phaseMSG"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
