@@ -4,7 +4,7 @@
   "comments" : null,
   "createdById" : null,
   "createdByName" : null,
-  "createdTime" : 1719832793190,
+  "createdTime" : 1719999680349,
   "description" : null,
   "items" : [ {
     "@class" : "ListDescriptor",
@@ -2069,8 +2069,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12057789YETPJo::FR",
-                  "status" : null,
-                  "translation" : "<p>Feedback de M. Pasquier :&nbsp;</p>\n<p>&nbsp;</p>\n<p>\"La vidéo est un domaine prometteur et les entreprises ne disposent que rarement des compétences et du matériel pour réaliser des vidéos de qualité. Je vois beaucoup d'applications différentes comme les interviews de dirigeants, les démonstration de produits, les visites d'entreprises, les spots publicitaires, les retransmissions d'événements, sans parler des vidéos humoristiques qui peuvent se propager de façon virale sur les réseaux sociaux. Vous pourriez intéger les drones! Et la photo... aussi besoin de matériel et compétences.\"</p>"
+                  "status" : "",
+                  "translation" : "<p>Feedback de M. Pasquier :&nbsp;\"La vidéo est un domaine prometteur et les entreprises ne disposent que rarement des compétences et du matériel pour réaliser des vidéos de qualité. Je vois beaucoup d'applications différentes comme les interviews de dirigeants, les démonstration de produits, les visites d'entreprises, les spots publicitaires, les retransmissions d'événements, sans parler des vidéos humoristiques qui peuvent se propager de façon virale sur les réseaux sociaux. Vous pourriez intéger les drones! Et la photo... aussi besoin de matériel et compétences.\"</p>"
                 }
               }
             },
@@ -3329,8 +3329,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:120579079HqGee::FR",
-                  "status" : null,
-                  "translation" : "<p>M. Pasquier vous remercie pour votre retour.</p>\n<p>&nbsp;</p>\n<p>Il pense que tester le marché est une bonne approche.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Cependant, il vous conseille de réfléchir à la structure de votre offre de prestations - sans quoi vous risquez de recruter les mauvaises compétences.</p>"
+                  "status" : "",
+                  "translation" : "<p>M. Pasquier vous remercie pour votre retour.</p><p>Il pense que tester le marché est une bonne approche.&nbsp;</p><p><br></p><p>Cependant, il vous conseille de réfléchir à la structure de votre offre de prestations - sans quoi vous risquez de recruter les mauvaises compétences.</p>"
                 }
               }
             },
@@ -3825,8 +3825,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12057953o5BZHH::FR",
-                  "status" : null,
-                  "translation" : "<p>Vous avez rencontré deux directeurs, un responsable marketing et deux responsables communication.</p>\n<p>Les discussions ont montré que toutes les PME voient un intérêt à la communication auprès de leurs clients. Le niveau d'intérêt varie en fonction du type de produits ou service.</p>\n<p>4 des 5 PME ont dit préférer se concentrer sur leur \"core business\" plutôt que sur des activités de communication. Ceci d'autant plus pour la communication nécessitant l'emploi de multiples médias (presse écrite, mailing postal, email, web, radio, tv).</p>\n<p>Les représentants des PME ont dit avoir un intérêt à développer des partenariats de proximité pour leur stratégie de communication.</p>\n<p>&nbsp;</p>\n<p>L'enquête par mail confirme ceci. 15 des 25 PME contactées ont répondu. Les résultats sont:</p>\n<ul>\n<li>67% disent que la communication externe est très importante.</li>\n<li>73% disent avoir des difficultés à gérer la cohérence de la communication sur l'ensemble des médias</li>\n<li>87% se disent prêtes à faire appel à une agence de communication externe.</li>\n</ul>"
+                  "status" : "",
+                  "translation" : "<p>Vous avez rencontré deux directeurs, un responsable marketing et deux responsables communication.</p><p>Les discussions ont montré que toutes les PME voient un intérêt à la communication auprès de leurs clients. Le niveau d'intérêt varie en fonction du type de produits ou service.</p><p>4 des 5 PME ont dit préférer se concentrer sur leur \"core business\" plutôt que sur des activités de communication. Ceci d'autant plus pour la communication nécessitant l'emploi de multiples médias (presse écrite, mailing postal, email, web, radio, tv).</p><p>Les représentants des PME ont dit avoir un intérêt à développer des partenariats de proximité pour leur stratégie de communication.</p><p>&nbsp;</p><p>L'enquête par mail confirme ceci. 15 des 25 PME contactées ont répondu. Les résultats sont:</p><ul><li>67% disent que la communication externe est très importante.</li><li>73% disent avoir des difficultés à gérer la cohérence de la communication sur l'ensemble des médias</li><li>87% se disent prêtes à faire appel à une agence de communication externe.</li></ul>"
                 }
               }
             },
@@ -3925,8 +3925,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12057962mJkbu4::FR",
-                  "status" : null,
-                  "translation" : "<p>Le mail avec le lien sur le questionnaire a été envoyé.</p>\n<p>&nbsp;</p>\n<p>15 des 25 PME contactées ont répondu. Les résultats sont:</p>\n<ul>\n<li>67% disent que la communication externe est très importante.</li>\n<li>73% disent avoir des difficultés à gérer la cohérence de la communication sur l'ensemble des médias</li>\n<li>87% se disent prête à faire appel à une agence de communication externe.</li>\n</ul>"
+                  "status" : "",
+                  "translation" : "<p>Le mail avec le lien sur le questionnaire a été envoyé.</p><p>15 des 25 PME contactées ont répondu. Les résultats sont:</p><ul><li>67% disent que la communication externe est très importante.</li><li>73% disent avoir des difficultés à gérer la cohérence de la communication sur l'ensemble des médias</li><li>87% se disent prête à faire appel à une agence de communication externe.</li></ul>"
                 }
               }
             },
@@ -4271,8 +4271,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12057994DeX0iI::FR",
-                  "status" : null,
-                  "translation" : "<p>Le mail avec le lien sur le questionnaire a été envoyé.</p>\n<p>&nbsp;</p>\n<p>Seules 2 multinationales ont répondu à l'enquête.</p>\n<ul>\n<li>Les deux disent que la communication externe est très importante.</li>\n<li>Une dit avoir des difficultés à gérer la cohérence de la communication sur l'ensemble des médias</li>\n<li>Une dit qu'elle pourrait éventuellement faire appel à une agence de communication externe locale.</li>\n</ul>"
+                  "status" : "",
+                  "translation" : "<p>Le mail avec le lien sur le questionnaire a été envoyé.</p><p>Seules 2 multinationales ont répondu à l'enquête.</p><ul><li>Les deux disent que la communication externe est très importante.</li><li>Une dit avoir des difficultés à gérer la cohérence de la communication sur l'ensemble des médias</li><li>Une dit qu'elle pourrait éventuellement faire appel à une agence de communication externe locale.</li></ul>"
                 }
               }
             },
@@ -4863,8 +4863,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12058049tmuUf4::FR",
-                  "status" : null,
-                  "translation" : "<p>Lorsque vous parlez de votre choix avec Martha, celle-ci vous dit :</p>\n<p>&nbsp;</p>\n<p>\"Evidemment, c'est une possibilité. Mais ça veut dire qu'en cas de problème tu pourrais tout perdre, y compris tes biens personnels. Et je ne veux pas te mettre cette pression et me sentir responsable en cas de difficultés.</p>\n<p>&nbsp;</p>\n<p>Non, je te demande de proposer un type de société qui protège tes avoirs privés.\"</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><em>____________</em></p>\n<p><em>Vous devez proposer un autre type de société.</em></p>"
+                  "status" : "",
+                  "translation" : "<p>Lorsque vous parlez de votre choix avec Martha, celle-ci vous dit :</p><p>\"Evidemment, c'est une possibilité. Mais ça veut dire qu'en cas de problème tu pourrais tout perdre, y compris tes biens personnels. Et je ne veux pas te mettre cette pression et me sentir responsable en cas de difficultés.</p><p>Non, je te demande de proposer un type de société qui protège tes avoirs privés.\"</p><p>&nbsp;<br></p><p><em>____________</em></p><p><em>Vous devez proposer un autre type de société.</em></p>"
                 }
               }
             },
@@ -4963,8 +4963,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12058058K7p198::FR",
-                  "status" : null,
-                  "translation" : "<p>Lorsque vous annoncez votre choix à Martha, elle ne semble pas très enthousiaste. Elle vous dit \"Oui, évidemment. Il faudra que tu trouves au moins un associé. Mais ça veut aussi dire qu'en cas de problème, vous serez&nbsp; responsables, de manière illimitée, avec vos fortunes personnelles.\"</p>\n<p>&nbsp;</p>\n<p>Non, je te demande de choisir un type de société qui protège tes avoirs privés.&nbsp;</p>\n<p>&nbsp;</p>\n<p><em>_____________</em></p>\n<p><em>Vous devez proposer un autre type de société</em></p>"
+                  "status" : "",
+                  "translation" : "<p>Lorsque vous annoncez votre choix à Martha, elle ne semble pas très enthousiaste. Elle vous dit \"Oui, évidemment. Il faudra que tu trouves au moins un associé. Mais ça veut aussi dire qu'en cas de problème, vous serez&nbsp; responsables, de manière illimitée, avec vos fortunes personnelles.\"</p><p>Non, je te demande de choisir un type de société qui protège tes avoirs privés.&nbsp;</p><p>&nbsp;<br></p><p><em>_____________</em></p><p><em>Vous devez proposer un autre type de société</em></p>"
                 }
               }
             },
@@ -5063,8 +5063,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12058067ZG7SyL::FR",
-                  "status" : null,
-                  "translation" : "<p>Martha trouve que c'est un bon choix.</p>\n<p>&nbsp;</p>\n<p>Elle ajoute \"Ainsi, tu protèges ta fortune personnelle par rapport à une raison individuelle ou une SNC.</p>\n<p>De toute façon, tu n'as pas le capital nécessaire pour une SA (100'000.-)\"</p>\n<p>&nbsp;</p>\n<p><em>______</em></p>\n<p><em>Un nouveau choix vous permet de valider la création de la SàRL.</em></p>"
+                  "status" : "",
+                  "translation" : "<p>Martha trouve que c'est un bon choix.</p><p>Elle ajoute \"Ainsi, tu protèges ta fortune personnelle par rapport à une raison individuelle ou une SNC.</p><p>De toute façon, tu n'as pas le capital nécessaire pour une SA (100'000.-)\"</p><p>&nbsp;<br></p><p><em>______</em></p><p><em>Un nouveau choix vous permet de valider la création de la SàRL.</em></p>"
                 }
               }
             },
@@ -5413,8 +5413,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12058099OAm2v3::FR",
-                  "status" : null,
-                  "translation" : "<p>Lors de la rencontre, le consultant a apprécié votre démarche.</p>\n<p>&nbsp;</p>\n<p>Il pense qu'il est très important de vous positionner comme l'interlocuteur clé auprès de votre client et vous conseille de ne pas vous spécialiser dans un domaine précis pour l'instant.</p>\n<p>&nbsp;</p>\n<p>Il vous conseille de rester un généraliste et de vous entourer de compétences métiers et techniques en interne ou externe en fonction des mandats.</p>\n<p>&nbsp;</p>\n<p>En résumé, les recommendations sont les suivantes:</p>\n<ul>\n<li>Positionnez-vous chez le client de façon à devenir son interlocuteur principal pour les questions de médias et communication. Votre client doit comprendre que vous êtes capable d'offrir une large palette de prestations.<br><br></li>\n<li>Il pense que les enjeux aujourd'hui sont plus dans le développement du concept à forte valeur ajoutée que dans la réalisation technique pure. Avez-vous des compétences dans ce domaine ou des possibilités de les acquérir ?<br><br></li>\n<li>Votre client en connaît pas forcément toutes les possibilités. N'hésitez pas à proposer des compléments à ce qu'il vous demande. Cela peut parfois faire la différence.<br><br></li>\n<li>Essayez de maîtriser les données de vos clients de façon à pouvoir les exploiter sur plusieurs supports de façon aisée.<br><br></li>\n<li>Faites très attention à vos liquidités.</li>\n</ul>"
+                  "status" : "",
+                  "translation" : "<p>Lors de la rencontre, le consultant a apprécié votre démarche.</p><p>Il pense qu'il est très important de vous positionner comme l'interlocuteur clé auprès de votre client et vous conseille de ne pas vous spécialiser dans un domaine précis pour l'instant.</p><p>Il vous conseille de rester un généraliste et de vous entourer de compétences métiers et techniques en interne ou externe en fonction des mandats.</p><p>En résumé, les recommendations sont les suivantes:</p><ul><li>Positionnez-vous chez le client de façon à devenir son interlocuteur principal pour les questions de médias et communication. Votre client doit comprendre que vous êtes capable d'offrir une large palette de prestations.<br><br></li><li>Il pense que les enjeux aujourd'hui sont plus dans le développement du concept à forte valeur ajoutée que dans la réalisation technique pure. Avez-vous des compétences dans ce domaine ou des possibilités de les acquérir ?<br><br></li><li>Votre client en connaît pas forcément toutes les possibilités. N'hésitez pas à proposer des compléments à ce qu'il vous demande. Cela peut parfois faire la différence.<br><br></li><li>Essayez de maîtriser les données de vos clients de façon à pouvoir les exploiter sur plusieurs supports de façon aisée.<br><br></li><li>Faites très attention à vos liquidités.</li></ul>"
                 }
               }
             },
@@ -5513,8 +5513,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12058108G1zuNP::FR",
-                  "status" : null,
-                  "translation" : "<p>Start-Consult vous répond être actuellement pris par plusieurs autres gros mandats. Ils pourraient être disponibles mais seulement dans quelques mois.</p>\n<p>&nbsp;</p>\n<p>Par contre, ils peuvent volontiers vous consacrer un café ou une séance de travail si nécessaire.</p>\n<p>&nbsp;</p>\n<p><em>_____</em></p>\n<p><em>Ceci ne vous a rien coûté, une nouvelle offre de Start-Consult est disponible.</em></p>\n<p>&nbsp;</p>"
+                  "status" : "",
+                  "translation" : "<p>Start-Consult vous répond être actuellement pris par plusieurs autres gros mandats. Ils pourraient être disponibles mais seulement dans quelques mois.</p><p>Par contre, ils peuvent volontiers vous consacrer un café ou une séance de travail si nécessaire.</p><p>&nbsp;<br></p><p><em>_____</em></p><p><em>Ceci ne vous a rien coûté, une nouvelle offre de Start-Consult est disponible.</em></p><p>&nbsp;<br></p>"
                 }
               }
             },
@@ -5791,7 +5791,7 @@
         }, {
           "@class" : "SingleResultChoiceDescriptor",
           "broadcastScope" : "TeamScope",
-          "comments" : "",
+          "comments" : " ",
           "cost" : 0,
           "defaultInstance" : {
             "@class" : "ChoiceInstance",
@@ -5843,8 +5843,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "TranslatableContent:15586163:fuQdYI::FR",
-                  "status" : null,
-                  "translation" : "<p>Lors de la rencontre, le consultant a apprécié votre démarche.</p>\n<p>&nbsp;</p>\n<p>Il pense qu'il est très important de vous positionner comme l'interlocuteur clé auprès de votre client et vous conseille de ne pas vous spécialiser dans un domaine précis pour l'instant.</p>\n<p>&nbsp;</p>\n<p>Il vous conseille de rester un généraliste et de vous entourer de compétences métiers et techniques en interne ou externe en fonction des mandats.</p>\n<p>&nbsp;</p>\n<p>En résumé, les recommendations sont les suivantes:</p>\n<ul>\n<li>Positionnez-vous chez le client de façon à devenir son interlocuteur principal pour les questions de médias et communication. Votre client doit comprendre que vous êtes capable d'offrir une large palette de prestations.<br><br></li>\n<li>Il pense que les enjeux aujourd'hui sont plus dans le développement du concept à forte valeur ajoutée que dans la réalisation technique pure. Avez-vous des compétences dans ce domaine ou des possibilités de les acquérir ?<br><br></li>\n<li>Votre client en connaît pas forcément toutes les possibilités. N'hésitez pas à proposer des compléments à ce qu'il vous demande. Cela peut parfois faire la différence.<br><br></li>\n<li>Essayez de maîtriser les données de vos clients de façon à pouvoir les exploiter sur plusieurs supports de façon aisée.<br><br></li>\n<li>Faites très attention à vos liquidités.</li>\n</ul>"
+                  "status" : "",
+                  "translation" : "<p>Lors de la rencontre, le consultant a apprécié votre démarche.</p><p>Il pense qu'il est très important de vous positionner comme l'interlocuteur clé auprès de votre client et vous conseille de ne pas vous spécialiser dans un domaine précis pour l'instant.</p><p>Il vous conseille de rester un généraliste et de vous entourer de compétences métiers et techniques en interne ou externe en fonction des mandats.</p><p>En résumé, les recommendations sont les suivantes:</p><ul><li>Positionnez-vous chez le client de façon à devenir son interlocuteur principal pour les questions de médias et communication. Votre client doit comprendre que vous êtes capable d'offrir une large palette de prestations.<br><br></li><li>Il pense que les enjeux aujourd'hui sont plus dans le développement du concept à forte valeur ajoutée que dans la réalisation technique pure. Avez-vous des compétences dans ce domaine ou des possibilités de les acquérir ?<br><br></li><li>Votre client en connaît pas forcément toutes les possibilités. N'hésitez pas à proposer des compléments à ce qu'il vous demande. Cela peut parfois faire la différence.<br><br></li><li>Essayez de maîtriser les données de vos clients de façon à pouvoir les exploiter sur plusieurs supports de façon aisée.<br><br></li><li>Faites très attention à vos liquidités.</li></ul>"
                 }
               }
             },
@@ -6419,8 +6419,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12058163lI1l39::FR",
-                  "status" : null,
-                  "translation" : "<p>Le notaire vous signale que l'apport en capital propre n'est pas suffisant. Afin de pouvoir créer votre SàRL, il faut que vous trouviez au minimum 20'000.- de capital propre. L'emprunt auprès du banquier n'est pas du capital propre. Il faut que ce montant viennent des associés.</p>\n<p>&nbsp;</p>\n<p><em>_____</em></p>\n<p><em>Vous ne consommez que 2 de budget temps, mais il faut que vous trouviez les 20'000.- de fonds propres.</em></p>"
+                  "status" : "",
+                  "translation" : "<p>Le notaire vous signale que l'apport en capital propre n'est pas suffisant. Afin de pouvoir créer votre SàRL, il faut que vous trouviez au minimum 20'000.- de capital propre. L'emprunt auprès du banquier n'est pas du capital propre. Il faut que ce montant viennent des associés.</p><p><em>_____</em></p><p><em>Vous ne consommez que 2 de budget temps, mais il faut que vous trouviez les 20'000.- de fonds propres.</em></p>"
                 }
               }
             },
@@ -7428,7 +7428,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "PMGHelper.sendMessage( {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Gérance ImmoNet\",\"status\":\"\"}}},  {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Votre bail\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la location de vos bureaux et places de parc.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la réception de la caution et du premier loyer.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous envoyons dans les meilleurs délais la version papier du bail et les BVR pour paiement des loyers mensuels.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Gérance ImmoNet</p>\",\"status\":\"\"}}},  []);\nVariable.find(gameModel, \"caisse\").add(self, -13200);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 3300);\nVariable.find(gameModel, 'prestatairesTelecoms').activate(self);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
+              "content" : "PMGHelper.sendMessage();\nVariable.find(gameModel, \"caisse\").add(self, -13200);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 3300);\nVariable.find(gameModel, 'prestatairesTelecoms').activate(self);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
               "language" : "javascript"
             },
             "label" : {
@@ -7528,7 +7528,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "PMGHelper.sendMessage( {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Gérance ImmoNet\",\"status\":\"\"}}},  {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Votre bail\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la location de vos bureaux et places de parc.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la réception de la caution et du premier loyer.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous envoyons dans les meilleurs délais la version papier du bail et les BVR pour paiement des loyers suivants.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Gérance ImmoNet</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Gérance ImmoNet</p>\",\"status\":\"\"}}},  []);\nVariable.find(gameModel, \"caisse\").add(self, -10000);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 2500);\nVariable.find(gameModel, 'prestatairesTelecoms').activate(self);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
+              "content" : "PMGHelper.sendMessage();\nVariable.find(gameModel, \"caisse\").add(self, -10000);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 2500);\nVariable.find(gameModel, 'prestatairesTelecoms').activate(self);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
               "language" : "javascript"
             },
             "label" : {
@@ -7628,8 +7628,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Espace CoWorking\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Bienvenue\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous vous souhaitons la bienvenue dans notre espace de CoWorking !</p>\\n<p>&nbsp;</p>\\n<p>Nous nous réjouissons de vous rencontrer et le mois prochain aura lieu la prochaine session de présentation des nouveaux membres locataires.</p>\\n<p>&nbsp;</p>\\n<p>Ce sera pour vous une bonne occasion de présenter votre société et offre de services et de réseauter.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Joanna</p>\\n<p>Espace CoWorking</p>\\n<p>&nbsp;</p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, \"caisse\").add(self, -1200);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 1200);\nVariable.find(gameModel, \"timeCards\").add(self, -2);",
-              "language" : "JavaScript"
+              "content" : "PMGHelper.sendMessage();\nVariable.find(gameModel, \"caisse\").add(self, -1200);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 1200);\nVariable.find(gameModel, \"timeCards\").add(self, -2);",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -9006,8 +9006,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12058384FnXcco::FR",
-                  "status" : null,
-                  "translation" : "<p>Vous avez trouvé un ensemble de contrats types. Certains datent un peu, certains ont des clauses spécifiques à un pays, d'autres ont des clauses contradictoires.</p>\n<p>&nbsp;</p>\n<p>Vous devez faire plusieurs copier-coller et tout ceci vous prend plus de temps que prévu (1 carte temps supplémentaire).</p>\n<p>&nbsp;</p>\n<p><em>Budget temps total: 4</em></p>"
+                  "status" : "",
+                  "translation" : "<p>Vous avez trouvé un ensemble de contrats types. Certains datent un peu, certains ont des clauses spécifiques à un pays, d'autres ont des clauses contradictoires.</p><p>Vous devez faire plusieurs copier-coller et tout ceci vous prend plus de temps que prévu (1 carte temps supplémentaire).</p><p>&nbsp;<br></p><p><em>Budget temps total: 4</em></p>"
                 }
               }
             },
@@ -13332,8 +13332,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:1205872085fswM::FR",
-                  "status" : null,
-                  "translation" : "<p>Chouchou est averti(e) et vous gagnez 3 cartes temps.</p>"
+                  "status" : "",
+                  "translation" : "<p>Chouchou est averti(e) et vous gagnez 3 cartes temps. <br></p>"
                 }
               }
             },
@@ -13354,8 +13354,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, 3);\nPMGHelper.sendMessage( {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Chouchou\",\"status\":\"\"}}},  {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Bonne chance\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut</p>\\n<p>&nbsp;</p>\\n<p>On ne te voit plus beaucoup à la maison, j'espère que ça ne va pas trop durer.</p>\\n<p>&nbsp;</p>\\n<p>Mais je comprends ton enthousiasme pour la mise en oeuvre de ton entreprise.</p>\\n<p>&nbsp;</p>\\n<p>Bon travail !</p>\",\"status\":\"\"}}},  []);\nVariable.find(gameModel, \"result_5\").setCurrentResult(self, \"2ème fois\");",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, 3);\nPMGHelper.sendMessage();\nVariable.find(gameModel, \"result_5\").setCurrentResult(self, \"2ème fois\");",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -13434,8 +13434,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12058728Cp1Wk0::FR",
-                  "status" : null,
-                  "translation" : "<p>Cette fois c'est trop !! C'est ton entreprise ou moi !</p>\n<p>&nbsp;</p>\n<p><em>Vous décidez de ne pas exagérer et n'obtenez pas de nouveau budget temps.</em></p>"
+                  "status" : "",
+                  "translation" : "<p>Cette fois c'est trop !! C'est ton entreprise ou moi !</p><p>&nbsp;</p><p><em>Vous décidez de ne pas exagérer et n'obtenez pas de nouveau budget temps.</em></p>"
                 }
               }
             },
@@ -13654,8 +13654,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12058750pHTMPL::FR",
-                  "status" : null,
-                  "translation" : "<p>mUXic vous a proposé une rencontre de 30'.&nbsp;Il en est ressorti les points suivants.</p>\n<p>&nbsp;</p>\n<p>Affiche et flyer:</p>\n<ul>\n<li>L'affiche doit être au format A2 et le flyer au format A5</li>\n<li>Prévoir 20'000 flyers et 1'000 affiches</li>\n<li>Prévoir un espace pour les sponsors</li>\n</ul>\n<p>Campagne réseaux sociaux:</p>\n<ul>\n<li>Prévoir quelques post en allemand et anglais</li>\n<li>Vos conseils seront bienvenus car ils ne possèdent que peu d'expérience dans le domaine</li>\n</ul>\n<p>Lors de la discussion ouverte, vous apprenez que pour les spots TV, radio, ils souhaitent ne pas dépasser 20''</p>"
+                  "status" : "",
+                  "translation" : "<p>mUXic vous a proposé une rencontre de 30'.&nbsp;Il en est ressorti les points suivants.</p><p>Affiche et flyer:</p><ul><li>L'affiche doit être au format A2 et le flyer au format A5</li><li>Prévoir 20'000 flyers et 1'000 affiches</li><li>Prévoir un espace pour les sponsors</li></ul><p>Campagne réseaux sociaux:</p><ul><li>Prévoir quelques post en allemand et anglais</li><li>Vos conseils seront bienvenus car ils ne possèdent que peu d'expérience dans le domaine</li></ul><p>Lors de la discussion ouverte, vous apprenez que pour les spots TV, radio, ils souhaitent ne pas dépasser 20''</p>"
                 }
               }
             },
@@ -14468,8 +14468,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Hébergement du site web\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Suite à votre demande , nous vous informons que notre site est actuellement hébergé de manière mutualisée chez Infomaniak à Genève.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>mUXic</p>\",\"status\":\"\"}}}, []);",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage();",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -14714,8 +14714,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Maintenance et formation relativement au site web\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Suite à votre demande voici quelques précisions.</p>\\n<p>&nbsp;</p>\\n<p>Pour la maintenance, la partie cruciale représente une période allant 3 mois avant le festival jusqu’à la fin du festival. Durant celle-ci, les organisateurs souhaitent bénéficier d’un support de votre part au maximum dans les 4 heures. Pour le reste de l’année, une solution plus légère doit être imaginée, surtout si elle permet de limiter les coûts.</p>\\n<p>&nbsp;</p>\\n<p>Pour la gestion administrative du site, des mises à jour simple, des encaissements et de la billetterie, une équipe de 3 personnes devra être formée par vos soins.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>mUXic</p>\",\"status\":\"\"}}}, []);",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage();",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -15174,8 +15174,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Achat espaces médias\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Suite à votre demande voici quelques précisions quant à nos besoins en matière d'achat média.</p>\\n<p>&nbsp;</p>\\n<p>L'année dernière, l'impression des flyers et affiches (environ 13'000 flyers et 1000 affiches) nous est revenu à 1'900.-.</p>\\n<p>&nbsp;</p>\\n<p>Pour la radio, nous avons la chance de pouvoir compter sur nos partenaires locaux, lesquels nous offrent gratuitement la diffusion de 3 spots journaliers durant deux semaines. Le supplément serait facturé.</p>\\n<p>&nbsp;</p>\\n<p>L'achat d'espace pour les spots TV devrait être intégré dans votre offre. Prévoir 10 spots (environ 15'' à 30'') par jour, pendant les deux semaines précédent le festival.</p>\\n<p>&nbsp;</p>\\n<p>Pour les réseaux sociaux, selon notre expérience, il serait bon de prévoir au minimum 500.- par mois pour pousser nos publications. Il faudrait d'intégrer ceci dans votre offre.</p>\\n<p>&nbsp;</p>\\n<p>Si votre campagne ne rentre pas dans ce cadre, merci de nous faire une proposition de budget.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>mUXic</p>\",\"status\":\"\"}}}, []);",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage();",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -15634,8 +15634,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Imprimerie Corniz\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Impression 5'000 flyers et 200 affiches\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Suite à votre demande, voici ci-joint un premier devis.&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>Nous restons à votre disposition pour tout renseignements complémentaires.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Imprimerie Corniz</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Devis imprimeurs/Offre 5000 flyers.pdf\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Devis imprimeurs/Offre 200 affiches.pdf\",\"status\":\"\"}}}}]);",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage();",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -15734,8 +15734,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Imprimerie Corniz\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Impression 20'000 flyers et 1000 affiches\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Suite à votre demande, voici ci-joint un premier devis.&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>Nous restons à votre disposition pour tout renseignements complémentaires.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Imprimerie Corniz</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Devis imprimeurs/Offre 1000 affiches.pdf\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Devis imprimeurs/Offre 20000 flyers.pdf\",\"status\":\"\"}}}}]);",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage();",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -16443,8 +16443,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Ressources images et photos\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous disposons effectivement d'archives photos sur un disque dur. Mais nous ne savons pas vraiment comment elles sont classées, ni quels sont leurs droits pour la réutilisation de ces images (droit à l'image des personnes et artistes figurant sur les photos, droit d'auteur des photographes).&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>Nous n'avons donc que quelques images à vous proposer (ci-jointes). La qualité vaut ce qu'elle vaut... Pour le reste, je pense qu'il faut plutôt essayer de trouver des photos libres de droit.&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>Mais je profite de l'occasion de demander conseil: nous souhaitons mieux gérer cette question pour l'édition de cette année. Pouvez-vous inclure un paragraphe sur ce thème dans votre proposition ?</p>\\n<p>&nbsp;</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Images festival/Festival 1.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Images festival/Scene 1.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Images festival/Scene 2.png\",\"status\":\"\"}}}}]);",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage();",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -16521,8 +16521,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12059029yQNNZQ::FR",
-                  "status" : null,
-                  "translation" : "<p>Votre recherche donne de très bons résultats. Des fans ont notamment partagé beaucoup de photos HD de concerts sur de sites tels que Flickr.</p>\n<p>&nbsp;</p>\n<p>Quand vous montrez ces premières images à un collègue, il soulève la question des droits d'utilisation.</p>"
+                  "status" : "",
+                  "translation" : "<p>Votre recherche donne de très bons résultats. Des fans ont notamment partagé beaucoup de photos HD de concerts sur de sites tels que Flickr.</p><p>Quand vous montrez ces premières images à un collègue, il soulève la question des droits d'utilisation.</p>"
                 }
               }
             },
@@ -16777,8 +16777,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Fichiers sources\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous sommes désolés, malheureusement le festival ne dispose pas des fichiers sources qui sont restés propriété du dernier partenaire. Nous avons toutefois la propriété du design que vous pouvez donc utiliser.</p>\\n<p>&nbsp;</p>\\n<p>D'autre part, il serait intéressant d'intégrer dans le logo de l'édition actuelle un clin d'oeil relatif au 10ème anniversaire.</p>\\n<p>&nbsp;</p>\\n<p>Salutations musicales,</p>\\n<p>&nbsp;</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\",\"status\":\"\"}}}, []);",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage();",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -17223,8 +17223,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12059098jBdgaO::FR",
-                  "status" : null,
-                  "translation" : "<p>Suite à une conversation téléphonique et une rencontre, EventVidéo vous propose:</p>\n<ul>\n<li>Prise de vue pendant le festival (1 caméraman pendant toute la durée du festival)</li>\n<li>Montage d'une vidéo de 3'</li>\n<li>Montage d'une vidéo longue de 10'</li>\n<li>Sous-titrage en allemand et anglais</li>\n</ul>\n<p>Montant total TTC: 11'000.-</p>\n<p>&nbsp;</p>\n<p>Option: Un drone et son pilote pour la soirée principale, pour un montant supplémentaire de 4'000.-</p>\n<p>&nbsp;</p>\n<p>Frais de déplacement et repas en sus.</p>\n<p>&nbsp;</p>\n<p>Accréditation type presse, autorisations d'accès et gestion des droits éventuels sur les séquences audio-vidéo prises en charge par le Festival.</p>"
+                  "status" : "",
+                  "translation" : "<p>Suite à une conversation téléphonique et une rencontre, EventVidéo vous propose:</p><ul><li>Prise de vue pendant le festival (1 caméraman pendant toute la durée du festival)</li><li>Montage d'une vidéo de 3'</li><li>Montage d'une vidéo longue de 10'</li><li>Sous-titrage en allemand et anglais</li></ul><p>Montant total TTC: 11'000.-</p><p>Option: Un drone et son pilote pour la soirée principale, pour un montant supplémentaire de 4'000.-</p><p>Frais de déplacement et repas en sus.</p><p>Accréditation type presse, autorisations d'accès et gestion des droits éventuels sur les séquences audio-vidéo prises en charge par le Festival.</p>"
                 }
               }
             },
@@ -17483,8 +17483,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Marcus\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Suite à notre rencontre\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Suite à notre discussion lors l'apéritif Chambre de Commerce, je vous confirme ma décision de vous confier le projet de refonte de mon site e-commerce, dans l'enveloppe évoquée, soit 40'000.-</p>\\n<p>&nbsp;</p>\\n<p>Le projet pourrait démarrer d'ici un mois.</p>\\n<p>&nbsp;</p>\\n<p>Cordialement</p>\\n<p>Marcus</p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
-              "language" : "JavaScript"
+              "content" : "PMGHelper.sendMessage();\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -18347,14 +18347,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153984:irofVl",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153983:WMcBcS",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153984:irofVl",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18567,9 +18567,9 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153990:9memxx",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
+          "refId" : "TransitionDependency:153991:kI9lYD",
+          "scope" : "CHILDREN",
+          "variableName" : "heuresSupplementaires"
         }, {
           "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153989:Y1W3Aa",
@@ -18577,9 +18577,9 @@
           "variableName" : "timeCards"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153991:kI9lYD",
-          "scope" : "CHILDREN",
-          "variableName" : "heuresSupplementaires"
+          "refId" : "TransitionDependency:153990:9memxx",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18660,14 +18660,14 @@
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
-              "label" : null,
+              "label" : "assocReplied",
               "nextStateId" : 2,
               "preStateImpact" : null,
               "refId" : "transition:12059217gIsQ9e",
               "triggerCondition" : {
                 "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"enquetesBesoinsAssociations\").isReplied(self);",
-                "language" : "JavaScript"
+                "content" : "Variable.find(gameModel, 'enquetesBesoinsAssociations').isReplied(self);",
+                "language" : "javascript"
               },
               "version" : null
             }, {
@@ -18680,14 +18680,14 @@
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
-              "label" : null,
+              "label" : "pmeReplied",
               "nextStateId" : 2,
               "preStateImpact" : null,
               "refId" : "transition:12059216b3mUTv",
               "triggerCondition" : {
                 "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"enqueteBesoinPMERegionSurBesoinsMultimedias\").isReplied(self);",
-                "language" : "JavaScript"
+                "content" : "Variable.find(gameModel, 'enqueteBesoinPMERegionSurBesoinsMultimedias').isReplied(self);",
+                "language" : "javascript"
               },
               "version" : null
             }, {
@@ -18700,20 +18700,20 @@
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
-              "label" : null,
+              "label" : "corpoReplied",
               "nextStateId" : 2,
               "preStateImpact" : null,
               "refId" : "transition:12059218vGhzji",
               "triggerCondition" : {
                 "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"enqueteBesoinsMultinationales\").isReplied(self);",
-                "language" : "JavaScript"
+                "content" : "Variable.find(gameModel, 'enqueteBesoinsMultinationales').isReplied(self);",
+                "language" : "javascript"
               },
               "version" : null
             } ],
             "version" : null,
-            "x" : 30,
-            "y" : 30
+            "x" : 177,
+            "y" : 176
           },
           "2" : {
             "@class" : "State",
@@ -18721,14 +18721,14 @@
             "label" : "Envoi mail, active choix",
             "onEnterEvent" : {
               "@class" : "Script",
-              "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Start-Consult\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Soutien à la création d'entreprise\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous sommes une petite société locale de conseil à la création d'entreprise. Nous travaillons en collaboration avec l'association régionale de développement économique.</p>\\n<p>&nbsp;</p>\\n<p>Nous avons appris votre volonté de créer une entreprise dans le domaine des médias.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous informons que nous proposons gratuitement quelques services de conseil aux jeunes entrepreneurs. Si vous le souhaitez, nous avons aussi une offre plus élaborée (et payante).</p>\\n<p>&nbsp;</p>\\n<p>En nous réjouissant de vous rencontrer, nous vous présentons nos meilleures salutations.</p>\\n<p>&nbsp;</p>\\n<p>Start-Consult</p>\\n<p>&nbsp;</p>\\n<p><strong>___________</strong></p>\\n<p><em>Deux propositions de Start-Consult sont apparues dans vos Actions.</em></p>\\n<p>&nbsp;</p>\\n<p>&nbsp;</p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, \"rencontrerConsultatnMultimedia\").activate(self);\nVariable.find(gameModel, \"vision_Missions_Valeurs\").activate(self);",
-              "language" : "JavaScript"
+              "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Start-Consult\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Soutien à la création d'entreprise\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>Nous sommes une petite société locale de conseil à la création d'entreprise. Nous travaillons en collaboration avec l'association régionale de développement économique.</p>\\n<p>Nous avons appris votre volonté de créer une entreprise dans le domaine des médias.</p>\\n<p>Nous vous informons que nous proposons gratuitement quelques services de conseil aux jeunes entrepreneurs. Si vous le souhaitez, nous avons aussi une offre plus élaborée (et payante).</p>\\n<p>En nous réjouissant de vous rencontrer, nous vous présentons nos meilleures salutations.</p>\\n<p>Start-Consult</p>\\n<p><strong>___________</strong></p>\\n<p><em>Deux propositions de Start-Consult sont apparues dans vos Actions.</em></p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, 'rencontrerConsultatnMultimedia').activate(self);\nVariable.find(gameModel, 'vision_Missions_Valeurs').activate(self);",
+              "language" : "javascript"
             },
             "refId" : "fsm_state:12059214hyCOEL",
             "transitions" : [ ],
             "version" : null,
-            "x" : 34,
-            "y" : 208
+            "x" : 147,
+            "y" : 707
           }
         },
         "version" : null,
@@ -18746,6 +18746,16 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153868:vngxuB",
+          "scope" : "SELF",
+          "variableName" : "a_Accepter_2"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153832:08RAqy",
+          "scope" : "SELF",
+          "variableName" : "societeCreee"
+        }, {
+          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:154106:F2DQoq",
           "scope" : "CHILDREN",
           "variableName" : "pretDeMartha_2"
@@ -18754,16 +18764,6 @@
           "refId" : "TransitionDependency:153831:k6lPaO",
           "scope" : "SELF",
           "variableName" : "caisse"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153832:08RAqy",
-          "scope" : "SELF",
-          "variableName" : "societeCreee"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153868:vngxuB",
-          "scope" : "SELF",
-          "variableName" : "a_Accepter_2"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -19475,14 +19475,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153981:qtmo08",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153980:sezXh0",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153981:qtmo08",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -19557,14 +19557,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923118:NpPN6Y",
-                "scope" : "SELF",
-                "variableName" : "timeCards"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923117:QbYVeA",
                 "scope" : "SELF",
                 "variableName" : "phaseMSG"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923118:NpPN6Y",
+                "scope" : "SELF",
+                "variableName" : "timeCards"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -20079,14 +20079,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153978:EWhUdk",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153977:K2CQ9I",
           "scope" : "SELF",
           "variableName" : "a_AccepterLaParticipation"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153978:EWhUdk",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -20216,14 +20216,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923114:5cZlVm",
-                "scope" : "SELF",
-                "variableName" : "phaseMSG"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923115:DGOSjd",
                 "scope" : "SELF",
                 "variableName" : "timeCards"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923114:5cZlVm",
+                "scope" : "SELF",
+                "variableName" : "phaseMSG"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -20657,14 +20657,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923184:PoRz3W",
-                "scope" : "SELF",
-                "variableName" : "depensesMensuelles"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923185:tIlbAE",
                 "scope" : "SELF",
                 "variableName" : "caisse"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923184:PoRz3W",
+                "scope" : "SELF",
+                "variableName" : "depensesMensuelles"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
