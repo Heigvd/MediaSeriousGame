@@ -4,6 +4,11 @@
       "props" : {
         "autoOpenFirst" : true,
         "className" : "absoluteFix",
+        "edit" : {
+          "@class" : "Script",
+          "content" : "  false",
+          "language" : "TypeScript"
+        },
         "layoutClassName" : "",
         "layoutStyle" : {
           "height" : "100%",

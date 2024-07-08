@@ -4,7 +4,7 @@
   "comments" : null,
   "createdById" : null,
   "createdByName" : null,
-  "createdTime" : 1719999680349,
+  "createdTime" : 1720425698843,
   "description" : null,
   "items" : [ {
     "@class" : "ListDescriptor",
@@ -303,7 +303,7 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:12057614BT01lD::FR",
-              "status" : null,
+              "status" : "",
               "translation" : "<p>Vous décidez d'investir 5'000.- de vos fonds propres afin de pouvoir commencer à effectuer quelques opérations avant d'aller voir le banquier.</p>"
             }
           }
@@ -4109,7 +4109,7 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:12057976F8kBUG::FR",
-              "status" : null,
+              "status" : "",
               "translation" : "<p>Vous effectuez une enquête auprès des multinationales du canton afin de mieux cerner leurs besoins en matière de produits multimédias.</p>"
             }
           }
@@ -6012,7 +6012,7 @@
               "lang" : "FR",
               "refId" : "translatablecontent:12058122K7NeGZ::FR",
               "status" : "",
-              "translation" : "<p>Dans le dossier à l'attention du banquier, il vous est demandé de définir les éléments Mission, Vision, Valeurs.</p><p>Start-Consult vous propose de vous aider pour vous aider à déterminer ces éléments.</p><p>Quelle variante choisissez-vous ?</p><p>&nbsp;<br></p>"
+              "translation" : "<p>Dans le dossier à l'attention du banquier, il vous est demandé de définir les éléments Mission, Vision, Valeurs.</p><p>Start-Consult vous propose de vous aider pour vous aider à déterminer ces éléments.</p><p>Quelle variante choisissez-vous ?</p>"
             }
           }
         },
@@ -18347,14 +18347,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153983:WMcBcS",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153984:irofVl",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153983:WMcBcS",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18572,14 +18572,14 @@
           "variableName" : "heuresSupplementaires"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153989:Y1W3Aa",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153990:9memxx",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153989:Y1W3Aa",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18746,14 +18746,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153868:vngxuB",
-          "scope" : "SELF",
-          "variableName" : "a_Accepter_2"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153832:08RAqy",
           "scope" : "SELF",
           "variableName" : "societeCreee"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153868:vngxuB",
+          "scope" : "SELF",
+          "variableName" : "a_Accepter_2"
         }, {
           "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:154106:F2DQoq",
@@ -20134,14 +20134,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:154006:hVtzl7",
-          "scope" : "CHILDREN",
-          "variableName" : "demandeOffreSous_traitant_5"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:154005:MoShjt",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:154006:hVtzl7",
+          "scope" : "CHILDREN",
+          "variableName" : "demandeOffreSous_traitant_5"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -20216,14 +20216,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923115:DGOSjd",
-                "scope" : "SELF",
-                "variableName" : "timeCards"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923114:5cZlVm",
                 "scope" : "SELF",
                 "variableName" : "phaseMSG"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923115:DGOSjd",
+                "scope" : "SELF",
+                "variableName" : "timeCards"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
