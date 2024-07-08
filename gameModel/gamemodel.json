@@ -4,7 +4,7 @@
   "comments" : null,
   "createdById" : null,
   "createdByName" : null,
-  "createdTime" : 1720425698843,
+  "createdTime" : 1720452946682,
   "description" : null,
   "items" : [ {
     "@class" : "ListDescriptor",
@@ -7428,7 +7428,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "PMGHelper.sendMessage();\nVariable.find(gameModel, \"caisse\").add(self, -13200);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 3300);\nVariable.find(gameModel, 'prestatairesTelecoms').activate(self);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
+              "content" : "PMGHelper.sendMessage( {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Gérance ImmoNet\",\"status\":\"\"}}},  {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Votre bail\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la location de vos bureaux et places de parc.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la réception de la caution et du premier loyer.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous envoyons dans les meilleurs délais la version papier du bail et les BVR pour paiement des loyers mensuels.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Gérance ImmoNet</p>\",\"status\":\"\"}}},  []);\nVariable.find(gameModel, \"caisse\").add(self, -13200);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 3300);\nVariable.find(gameModel, 'prestatairesTelecoms').activate(self);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
               "language" : "javascript"
             },
             "label" : {
@@ -7528,7 +7528,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "PMGHelper.sendMessage();\nVariable.find(gameModel, \"caisse\").add(self, -10000);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 2500);\nVariable.find(gameModel, 'prestatairesTelecoms').activate(self);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
+              "content" : "PMGHelper.sendMessage( {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Gérance ImmoNet\",\"status\":\"\"}}},  {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Votre bail\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la location de vos bureaux et places de parc.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous confirmons la réception de la caution et du premier loyer.</p>\\n<p>&nbsp;</p>\\n<p>Nous vous envoyons dans les meilleurs délais la version papier du bail et les BVR pour paiement des loyers suivants.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Gérance ImmoNet</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Gérance ImmoNet</p>\",\"status\":\"\"}}},  []);\nVariable.find(gameModel, \"caisse\").add(self, -10000);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 2500);\nVariable.find(gameModel, 'prestatairesTelecoms').activate(self);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
               "language" : "javascript"
             },
             "label" : {
@@ -7628,7 +7628,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "PMGHelper.sendMessage();\nVariable.find(gameModel, \"caisse\").add(self, -1200);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 1200);\nVariable.find(gameModel, \"timeCards\").add(self, -2);",
+              "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Espace CoWorking\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Bienvenue\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous vous souhaitons la bienvenue dans notre espace de CoWorking !</p>\\n<p>&nbsp;</p>\\n<p>Nous nous réjouissons de vous rencontrer et le mois prochain aura lieu la prochaine session de présentation des nouveaux membres locataires.</p>\\n<p>&nbsp;</p>\\n<p>Ce sera pour vous une bonne occasion de présenter votre société et offre de services et de réseauter.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Joanna</p>\\n<p>Espace CoWorking</p>\\n<p>&nbsp;</p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, \"caisse\").add(self, -1200);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 1200);\nVariable.find(gameModel, \"timeCards\").add(self, -2);",
               "language" : "javascript"
             },
             "label" : {
@@ -13354,7 +13354,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, 3);\nPMGHelper.sendMessage();\nVariable.find(gameModel, \"result_5\").setCurrentResult(self, \"2ème fois\");",
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, 3);\nPMGHelper.sendMessage( {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Chouchou\",\"status\":\"\"}}},  {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Bonne chance\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut</p>\\n<p>&nbsp;</p>\\n<p>On ne te voit plus beaucoup à la maison, j'espère que ça ne va pas trop durer.</p>\\n<p>&nbsp;</p>\\n<p>Mais je comprends ton enthousiasme pour la mise en oeuvre de ton entreprise.</p>\\n<p>&nbsp;</p>\\n<p>Bon travail !</p>\",\"status\":\"\"}}},  []);\nVariable.find(gameModel, \"result_5\").setCurrentResult(self, \"2ème fois\");",
               "language" : "javascript"
             },
             "label" : {
@@ -14468,7 +14468,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage();",
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Hébergement du site web\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>Suite à votre demande , nous vous informons que notre site est actuellement hébergé de manière mutualisée chez Infomaniak à Genève.</p>\\n<p>Meilleures salutations</p>\\n<p>mUXic</p>\",\"status\":\"\"}}}, []);",
               "language" : "javascript"
             },
             "label" : {
@@ -14714,7 +14714,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage();",
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Maintenance et formation relativement au site web\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Suite à votre demande voici quelques précisions.</p>\\n<p>&nbsp;</p>\\n<p>Pour la maintenance, la partie cruciale représente une période allant 3 mois avant le festival jusqu’à la fin du festival. Durant celle-ci, les organisateurs souhaitent bénéficier d’un support de votre part au maximum dans les 4 heures. Pour le reste de l’année, une solution plus légère doit être imaginée, surtout si elle permet de limiter les coûts.</p>\\n<p>&nbsp;</p>\\n<p>Pour la gestion administrative du site, des mises à jour simple, des encaissements et de la billetterie, une équipe de 3 personnes devra être formée par vos soins.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>mUXic</p>\",\"status\":\"\"}}}, []);",
               "language" : "javascript"
             },
             "label" : {
@@ -15174,7 +15174,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage();",
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Achat espaces médias\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Suite à votre demande voici quelques précisions quant à nos besoins en matière d'achat média.</p>\\n<p>&nbsp;</p>\\n<p>L'année dernière, l'impression des flyers et affiches (environ 13'000 flyers et 1000 affiches) nous est revenu à 1'900.-.</p>\\n<p>&nbsp;</p>\\n<p>Pour la radio, nous avons la chance de pouvoir compter sur nos partenaires locaux, lesquels nous offrent gratuitement la diffusion de 3 spots journaliers durant deux semaines. Le supplément serait facturé.</p>\\n<p>&nbsp;</p>\\n<p>L'achat d'espace pour les spots TV devrait être intégré dans votre offre. Prévoir 10 spots (environ 15'' à 30'') par jour, pendant les deux semaines précédent le festival.</p>\\n<p>&nbsp;</p>\\n<p>Pour les réseaux sociaux, selon notre expérience, il serait bon de prévoir au minimum 500.- par mois pour pousser nos publications. Il faudrait d'intégrer ceci dans votre offre.</p>\\n<p>&nbsp;</p>\\n<p>Si votre campagne ne rentre pas dans ce cadre, merci de nous faire une proposition de budget.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>mUXic</p>\",\"status\":\"\"}}}, []);",
               "language" : "javascript"
             },
             "label" : {
@@ -15634,7 +15634,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage();",
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Imprimerie Corniz\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Impression 5'000 flyers et 200 affiches\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Suite à votre demande, voici ci-joint un premier devis.&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>Nous restons à votre disposition pour tout renseignements complémentaires.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Imprimerie Corniz</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Devis imprimeurs/Offre 5000 flyers.pdf\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Devis imprimeurs/Offre 200 affiches.pdf\",\"status\":\"\"}}}}]);",
               "language" : "javascript"
             },
             "label" : {
@@ -15734,7 +15734,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage();",
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Imprimerie Corniz\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Impression 20'000 flyers et 1000 affiches\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Suite à votre demande, voici ci-joint un premier devis.&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>Nous restons à votre disposition pour tout renseignements complémentaires.</p>\\n<p>&nbsp;</p>\\n<p>Meilleures salutations</p>\\n<p>Imprimerie Corniz</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Devis imprimeurs/Offre 1000 affiches.pdf\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Devis imprimeurs/Offre 20000 flyers.pdf\",\"status\":\"\"}}}}]);",
               "language" : "javascript"
             },
             "label" : {
@@ -16443,7 +16443,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage();",
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Ressources images et photos\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous disposons effectivement d'archives photos sur un disque dur. Mais nous ne savons pas vraiment comment elles sont classées, ni quels sont leurs droits pour la réutilisation de ces images (droit à l'image des personnes et artistes figurant sur les photos, droit d'auteur des photographes).&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>Nous n'avons donc que quelques images à vous proposer (ci-jointes). La qualité vaut ce qu'elle vaut... Pour le reste, je pense qu'il faut plutôt essayer de trouver des photos libres de droit.&nbsp;</p>\\n<p>&nbsp;</p>\\n<p>Mais je profite de l'occasion de demander conseil: nous souhaitons mieux gérer cette question pour l'édition de cette année. Pouvez-vous inclure un paragraphe sur ce thème dans votre proposition ?</p>\\n<p>&nbsp;</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Images festival/Festival 1.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Images festival/Scene 1.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Images festival/Scene 2.png\",\"status\":\"\"}}}}]);",
               "language" : "javascript"
             },
             "label" : {
@@ -16777,7 +16777,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage();",
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Fichiers sources\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Nous sommes désolés, malheureusement le festival ne dispose pas des fichiers sources qui sont restés propriété du dernier partenaire. Nous avons toutefois la propriété du design que vous pouvez donc utiliser.</p>\\n<p>&nbsp;</p>\\n<p>D'autre part, il serait intéressant d'intégrer dans le logo de l'édition actuelle un clin d'oeil relatif au 10ème anniversaire.</p>\\n<p>&nbsp;</p>\\n<p>Salutations musicales,</p>\\n<p>&nbsp;</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\",\"status\":\"\"}}}, []);",
               "language" : "javascript"
             },
             "label" : {
@@ -17483,7 +17483,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "PMGHelper.sendMessage();\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
+              "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Marcus\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Suite à notre rencontre\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Suite à notre discussion lors l'apéritif Chambre de Commerce, je vous confirme ma décision de vous confier le projet de refonte de mon site e-commerce, dans l'enveloppe évoquée, soit 40'000.-</p>\\n<p>&nbsp;</p>\\n<p>Le projet pourrait démarrer d'ici un mois.</p>\\n<p>&nbsp;</p>\\n<p>Cordialement</p>\\n<p>Marcus</p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
               "language" : "javascript"
             },
             "label" : {
@@ -18217,7 +18217,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Financement de ton entreprise\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut,</p>\\n<p></p>\\n<p>J'ai repensé à notre discussion et à ton idée de créer ta société dans le domaine du multimédia. Elle me semble prometteuse!</p>\\n<p></p>\\n<p>Et j'ai envie de te soutenir un peu...</p>\\n<p></p>\\n<p>Tu m'as dit que tu avais seulement 5'000.- de fonds personnels, j'y ai réfléchi et je pourrais te proposer un prêt à long terme, sans intérêts.</p>\\n<p></p>\\n<p>Et tu sais aussi que j'ai une petite expérience dans la création d'entreprise, alors j'espère que je pourrai te donner quelques conseils.</p>\\n<p></p>\\n<p>Confirme-moi juste que tu acceptes ce prêt!</p>\\n<p></p>\\n<p>Ta tante Martha</p>\\n<p></p>\\n<p><em>____________</em></p>\\n<p><em>Vous pouvez accepter le prêt de Martha depuis l'onglet \\\"Actions\\\"</em></p>\\n<p></p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, 'mailDubuis_suiteAVotreDemande_').enable(self);",
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Financement de ton entreprise\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut,</p>\\n<p>J'ai repensé à notre discussion et à ton idée de créer ta société dans le domaine du multimédia. Elle me semble prometteuse!&nbsp;</p>\\n<p>Et j'ai envie de te soutenir un peu...</p>\\n<p>Tu m'as dit que tu avais seulement 5'000.- de fonds personnels, j'y ai réfléchi et je pourrais te proposer un prêt à long terme, sans intérêts.</p>\\n<p>Et tu sais aussi que j'ai une petite expérience dans la création d'entreprise, alors j'espère que je pourrai te donner quelques conseils.</p>\\n<p>Confirme-moi juste que tu acceptes ce prêt!</p>\\n<p>Ta tante Martha</p>\\n<p><em>____________</em></p>\\n<p><em>Vous pouvez accepter le prêt de Martha depuis l'onglet \\\"Actions\\\"</em></p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, 'mailDubuis_suiteAVotreDemande_').enable(self);",
           "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059170LlqowG",
@@ -18267,7 +18267,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Banque - R. Dubuis\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Suite à votre demande\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p></p>\\n<p>Suite à votre demande sur les possibilités de financement de votre future société, je vous confirme notre prochain entretien. Afin d'évaluer les possibilités de financement, nous vous demandons de nous faire parvenir un dossier de présentation de votre société, puis nous vous inviterons pour une présentation de votre projet.</p>\\n<p></p>\\n<p>Je vais aussi vous mettre en contact avec M. Pasquier, conseiller PME de notre banque et spécialiste du domaine des TIC.</p>\\n<p></p>\\n<p>Avec mes salutations distinguées</p>\\n<p>R. Dubuis</p>\\n<p>Directeur régional</p>\",\"status\":\"\"}}}, []);",
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Banque - R. Dubuis\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Suite à votre demande\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>Suite à votre demande sur les possibilités de financement de votre future société, je vous confirme notre prochain entretien.&nbsp;Afin d'évaluer les possibilités de financement, nous vous demandons de nous faire parvenir un dossier de présentation de votre société, puis nous vous inviterons pour&nbsp;une présentation de votre projet.</p>\\n<p>Je vais aussi vous mettre en contact avec M. Pasquier, conseiller PME de notre banque et spécialiste du domaine des TIC.</p>\\n<p>Avec mes salutations distinguées</p>\\n<p>R. Dubuis</p>\\n<p>Directeur régional</p>\",\"status\":\"\"}}}, []);",
           "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059178MKDD67",
@@ -18292,14 +18292,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153998:2ZDQmC",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153999:ONPZcc",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153998:2ZDQmC",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18512,14 +18512,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153997:hT0Xp5",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153996:kRsf9U",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153997:hT0Xp5",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18567,9 +18567,9 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153991:kI9lYD",
-          "scope" : "CHILDREN",
-          "variableName" : "heuresSupplementaires"
+          "refId" : "TransitionDependency:153989:Y1W3Aa",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         }, {
           "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153990:9memxx",
@@ -18577,9 +18577,9 @@
           "variableName" : "phaseMSG"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153989:Y1W3Aa",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
+          "refId" : "TransitionDependency:153991:kI9lYD",
+          "scope" : "CHILDREN",
+          "variableName" : "heuresSupplementaires"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18746,9 +18746,9 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153832:08RAqy",
+          "refId" : "TransitionDependency:153831:k6lPaO",
           "scope" : "SELF",
-          "variableName" : "societeCreee"
+          "variableName" : "caisse"
         }, {
           "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153868:vngxuB",
@@ -18756,14 +18756,14 @@
           "variableName" : "a_Accepter_2"
         }, {
           "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153832:08RAqy",
+          "scope" : "SELF",
+          "variableName" : "societeCreee"
+        }, {
+          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:154106:F2DQoq",
           "scope" : "CHILDREN",
           "variableName" : "pretDeMartha_2"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153831:k6lPaO",
-          "scope" : "SELF",
-          "variableName" : "caisse"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -19943,14 +19943,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:153987:QBfa9t",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:153988:s9LMvm",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:153987:QBfa9t",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -20216,14 +20216,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923114:5cZlVm",
-                "scope" : "SELF",
-                "variableName" : "phaseMSG"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923115:DGOSjd",
                 "scope" : "SELF",
                 "variableName" : "timeCards"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923114:5cZlVm",
+                "scope" : "SELF",
+                "variableName" : "phaseMSG"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
