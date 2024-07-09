@@ -2,79 +2,41 @@
   "props" : {
     "children" : [ {
       "props" : {
-        "children" : [ {
-          "props" : {
-            "className" : "page-title",
-            "layoutStyle" : { },
-            "name" : "actionsDisponibe",
-            "style" : {
-              "color" : "#685C4F",
-              "fontWeight" : "bold"
-            },
-            "text" : {
-              "@class" : "Script",
-              "content" : "I18n.toString(Variable.find(gameModel,'actionsTitle'))",
-              "language" : "TypeScript"
-            }
-          },
-          "type" : "Text"
-        }, {
-          "props" : {
-            "className" : "pdf-button",
-            "icon" : "file-pdf",
-            "label" : {
-              "@class" : "Script",
-              "content" : "\"\"",
-              "language" : "TypeScript"
-            },
-            "layoutStyle" : { },
-            "name" : "btnPdf",
-            "printVariable" : {
-              "variableName" : "phase1_CreationEntreprise"
-            },
-            "style" : {
-              "color" : "#685C4F"
-            }
-          },
-          "type" : "Button"
-        } ],
-        "className" : "",
-        "layout" : { },
-        "layoutStyle" : { },
-        "style" : {
-          "justify-content" : "space-between"
-        }
-      },
-      "type" : "FlexList"
-    }, {
-      "props" : {
         "autoOpenFirst" : true,
-        "className" : "",
-        "layoutClassName" : "hola",
-        "layoutStyle" : { },
+        "className" : "absoluteFix",
+        "edit" : {
+          "@class" : "Script",
+          "content" : "  false",
+          "language" : "TypeScript"
+        },
+        "layoutClassName" : "",
+        "layoutStyle" : {
+          "height" : "100%",
+          "overflow" : "hidden"
+        },
         "mobileDisplay" : true,
         "questionList" : {
           "@class" : "Script",
           "content" : "const currentPhase = Variable.find(gameModel, 'phaseMSG').getValue(self);\nconst q = Variable.find(gameModel, 'questions');\nq.getItems()[currentPhase - 1] as any;",
           "language" : "TypeScript"
         },
-        "style" : {
-          "overflow" : "auto"
-        }
+        "style" : { }
       },
       "type" : "QuestionList"
     } ],
-    "className" : "brownBoxes",
+    "className" : "",
     "layout" : {
       "flexDirection" : "column"
     },
     "layoutClassName" : "",
     "layoutStyle" : {
-      "height" : "100%",
-      "overflow" : "auto",
+      "padding" : "0",
       "width" : "100%"
     },
-    "style" : { }
+    "style" : {
+      "margin" : "0",
+      "paddingBottom" : "0"
+    }
   },
   "type" : "FlexList"
 }

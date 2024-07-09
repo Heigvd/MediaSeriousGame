@@ -1,0 +1,103 @@
+
+/* Variables */ 
+:root {
+  --primary-green: #3F655F;
+  --primary-green-hover: #CFE2DE;
+  --secondary-green: #94BDB5;
+  --secondary-green-hover: #DFECE9;
+  --primary-white: #ffffff;
+  --primary-black: #000000;
+}
+
+/* ------ */
+/* LAYOUT */
+/* ------ */
+
+.global-layout > * {
+	background-color: #FCFAF7;
+	/*box-shadow: 2px -2px 2px #eee, -2px 2px 2px #eee;*/
+}
+
+.fullSize {
+	width: 100%;
+	height: 100%;
+}
+
+.absoluteFix {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding-top: 10px;
+}
+
+/* ------ */
+/* HEADER */
+/* ------ */
+
+/* Phases */
+
+.phaseDotStyle{
+	border-color: var(--primary-green);
+}
+
+ .phasePathStyle{
+	background-color: var(--primary-green);
+	color:  var(--primary-green);
+}
+
+/* Time budget */
+
+.wegas-numberBox-sqare {
+  width: .8rem;
+  height: .8rem;
+  border-radius: 0%;
+}
+
+.timebudget > div {
+	margin: 0px;
+	padding:0px;
+	gap: .2rem;
+}
+
+
+/* ---- */
+/* BODY */
+/* ---- */
+
+.navigation-button {
+  color: var(--primary-green);
+  background-color: white;
+  padding-bottom: 0;
+  border-radius: 0;
+  border-bottom: 4px solid transparent;
+  width: 8em;
+  justify-content: center;
+}
+
+/* What should we do on hover ?*/
+.navigation-button:hover {
+ background-color: var(--secondary-green-hover);
+}
+
+.navigation-button-active {
+ font-weight: bold;
+ background-color: var(--secondary-green-hover);
+ border-bottom: 4px solid var(--primary-green);
+}
+
+.navigation-button-active:hover {
+  background-color: var(--primary-green-hover);
+}
+
+div:has(.navigation-button) {
+  padding-bottom: 0;
+}
+
+.navigation-button p {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.navigation-button > div {
+  align-items: center;
+}

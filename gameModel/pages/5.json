@@ -2,68 +2,36 @@
   "props" : {
     "children" : [ {
       "props" : {
-        "children" : [ {
-          "props" : {
-            "className" : "page-title",
-            "layoutStyle" : { },
-            "style" : {
-              "color" : "#685C4F"
-            },
-            "text" : {
-              "@class" : "Script",
-              "content" : "I18n.toString(Variable.find(gameModel,'historiqueTitle'))",
-              "language" : "TypeScript"
-            }
-          },
-          "type" : "Text"
-        }, {
-          "props" : {
-            "className" : "pdf-button",
-            "icon" : "file-pdf",
-            "label" : {
-              "@class" : "Script",
-              "content" : "\"\"",
-              "language" : "TypeScript"
-            },
-            "layoutStyle" : { },
-            "style" : { }
-          },
-          "type" : "Button"
-        } ],
-        "layout" : {
-          "flexDirection" : "row"
-        },
-        "layoutStyle" : { },
-        "style" : {
-          "justify-content" : "space-between"
-        }
-      },
-      "type" : "FlexList"
-    }, {
-      "props" : {
-        "flexGrow" : 1,
+        "className" : "absoluteFix",
         "inbox" : {
           "@class" : "Script",
           "content" : "Variable.find(gameModel,'history')",
           "language" : "TypeScript"
         },
-        "layoutStyle" : { },
+        "layoutStyle" : {
+          "height" : "100%",
+          "overflow" : "hidden"
+        },
+        "mobileDisplay" : true,
         "style" : {
           "overflow" : "auto"
         }
       },
       "type" : "Inbox"
     } ],
-    "className" : "brownBoxes",
+    "className" : "",
     "layout" : {
       "flexDirection" : "column"
     },
     "layoutStyle" : {
       "height" : "100%",
       "overflow" : "auto",
+      "padding" : "0",
       "width" : "100%"
     },
-    "style" : { }
+    "style" : {
+      "margin" : "0"
+    }
   },
   "type" : "FlexList"
 }

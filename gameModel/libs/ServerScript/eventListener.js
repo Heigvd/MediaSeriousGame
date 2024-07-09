@@ -7,11 +7,11 @@
  */
 
 if (WegasHelper) {
-    WegasHelper.registerReplyValidateListener(function(message) {
-        PMGHelper.sendHistory(message);
-    });
+  WegasHelper.registerReplyValidateListener(function (message) {
+    PMGHelper.sendHistory(message);
+  });
 
-    WegasHelper.registerWhValidateListener(function(message) {
-        PMGHelper.sendHistory(message);
-    });
+  WegasHelper.registerWhValidateListener(function (message) {
+    PMGHelper.sendHistory(message);
+  });
 }
