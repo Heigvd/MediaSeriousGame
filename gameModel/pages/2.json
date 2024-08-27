@@ -63,7 +63,7 @@
               "language" : "TypeScript"
             },
             "style" : {
-              "max-width" : "250px"
+              "maxWidth" : "250px"
             }
           },
           "type" : "Image"
