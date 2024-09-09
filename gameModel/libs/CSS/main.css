@@ -101,3 +101,7 @@ div:has(.navigation-button) {
 .navigation-button > div {
   align-items: center;
 }
+
+.navigation-button-container > span {
+  left: 6rem;
+}
