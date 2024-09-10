@@ -4,7 +4,7 @@
   "comments" : null,
   "createdById" : null,
   "createdByName" : null,
-  "createdTime" : 1724917259851,
+  "createdTime" : 1725822693492,
   "description" : null,
   "items" : [ {
     "@class" : "ListDescriptor",
@@ -715,7 +715,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"caisse\").add(self, 30000);\nVariable.find(gameModel, \"b_Refuser_3\").desactivate(self);\nVariable.find(gameModel, \"timeCards\").add(self, -1);",
+              "content" : "Variable.find(gameModel, \"caisse\").add(self, 30000);\nVariable.find(gameModel, \"b_Refuser_3\").deactivate(self);\nVariable.find(gameModel, \"timeCards\").add(self, -1);",
               "language" : "JavaScript"
             },
             "label" : {
@@ -3095,8 +3095,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12057885XnJuTF::FR",
-                "status" : null,
-                "translation" : "<p>Vous pensez vous orienter sur des prestations de service personnalisées pour vos clients, répondant ainsi à chaque client de façon spécifique sans être limité par un outil/produit.</p>\n<p><em>Budget temps: 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous pensez vous orienter sur des prestations de service personnalisées pour vos clients, répondant ainsi à chaque client de façon spécifique sans être limité par un outil/produit.</p><p><em>Budget temps: 1</em></p>"
               }
             }
           },
@@ -3196,7 +3196,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:120578942HrmeS::FR",
                 "status" : "",
-                "translation" : "<p>Vous pensez vous orienter sur des prestations de service personnalisées pour vos clients tout en vous appuyant sur des produits génériques existants ou développés par vos soins.</p><p>Si chaque client est différent, il y a des similarités qui permettent de proposer un même produit à plusieurs clients.</p><p>&nbsp;<br></p><p><em>Budget temps: 1</em></p>"
+                "translation" : "<p>Vous pensez vous orienter sur des prestations de service personnalisées pour vos clients tout en vous appuyant sur des produits génériques existants ou développés par vos soins.</p><p>Si chaque client est différent, il y a des similarités qui permettent de proposer un même produit à plusieurs clients.</p><p><em>Budget temps: 1</em></p>"
               }
             }
           },
@@ -4830,7 +4830,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058045DdJPEk::FR",
                 "status" : "",
-                "translation" : "<p>Vous lui proposez de créer une société de type \"Entreprise individuelle\".</p><p>La création d'une entreprise individuelle est simple, ne coûterait rien d'un point de vue financier et 2 de Budget temps.</p><p>&nbsp;<br></p><p><em>Budget temps pour en parler avec Martha: 1</em></p>"
+                "translation" : "<p>Vous lui proposez de créer une société de type \"Entreprise individuelle\".</p><p>La création d'une entreprise individuelle est simple, ne coûterait rien d'un point de vue financier et 2 de Budget temps.</p><p><em>Budget temps pour en parler avec Martha: 1</em></p>"
               }
             }
           },
@@ -4930,7 +4930,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058054fdnAHu::FR",
                 "status" : "",
-                "translation" : "<p>Vous lui proposez de créer une Société en Nom Collectif (SNC).</p><p>La création d'une SNC est simple, ne coûterait rien d'un point de vue financier et 3 de Budget temps.</p><p>&nbsp;<br></p><p><em>Budget temps pour en parler avec Martha: 1</em></p>"
+                "translation" : "<p>Vous lui proposez de créer une Société en Nom Collectif (SNC).</p><p>La création d'une SNC est simple, ne coûterait rien d'un point de vue financier et 3 de Budget temps.</p><p><em>Budget temps pour en parler avec Martha: 1</em></p>"
               }
             }
           },
@@ -5030,7 +5030,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058063FHmSB4::FR",
                 "status" : "",
-                "translation" : "<p>Vous lui proposez de créer une Société à Responsabilité Limitée (SàRL).</p><p>La création d'une SàRL demande le passage devant un notaire, coûterait 2000.- et 4 de Budget temps.</p><p>&nbsp;<br></p><p><em>Budget temps pour en parler avec Martha: 1</em></p>"
+                "translation" : "<p>Vous lui proposez de créer une Société à Responsabilité Limitée (SàRL).</p><p>La création d'une SàRL demande le passage devant un notaire, coûterait 2000.- et 4 de Budget temps.</p><p><em>Budget temps pour en parler avec Martha: 1</em></p>"
               }
             }
           },
@@ -5130,7 +5130,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:120580729bhDME::FR",
                 "status" : "",
-                "translation" : "<p>Vous lui proposez de créer une Société Anonyme (SA).</p><p>La création d'une SA demande le passage devant un notaire, coûterait 5000.- et 4 de Budget temps.</p><p>&nbsp;<br></p><p><em>Budget temps pour en parler avec Martha: 1</em></p>"
+                "translation" : "<p>Vous lui proposez de créer une Société Anonyme (SA).</p><p>La création d'une SA demande le passage devant un notaire, coûterait 5000.- et 4 de Budget temps.</p><p><em>Budget temps pour en parler avec Martha: 1&nbsp;</em></p>"
               }
             }
           },
@@ -5380,7 +5380,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:120580956F6sXT::FR",
                 "status" : "",
-                "translation" : "<p>Le consultant vous rencontre pour une séance de travail durant laquelle vous lui exposez votre stratégie et vos idées sur sa mise en oeuvre.&nbsp;</p><p>Fort de son expérience, il pourra sans doute vous orienter sur les choix technologiques à faire pour vos prestations.</p><p>&nbsp;<br></p><p><em>Budget temps: 2</em></p><p><em>Coûts: 600</em></p>"
+                "translation" : "<p>Le consultant vous rencontre pour une séance de travail durant laquelle vous lui exposez votre stratégie et vos idées sur sa mise en oeuvre.&nbsp;</p><p>Fort de son expérience, il pourra sans doute vous orienter sur les choix technologiques à faire pour vos prestations.</p><p><em>Budget temps: 2</em></p><p><em>Coûts: 600</em></p>"
               }
             }
           },
@@ -5435,8 +5435,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nVariable.find(gameModel, \"caisse\").add(self, -600);",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, 'timeCards').add(self, -2);\nVariable.find(gameModel, \"caisse\").add(self, -600);",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -5579,8 +5579,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058113QDrrlu::FR",
-                "status" : null,
-                "translation" : "<p>Vous préférez ne pas rencontrer Start-Consult.</p>\n<p><em>Budget temps: 0</em></p>\n<p><em>Coûts: 0</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous préférez ne pas rencontrer Start-Consult.</p><p><em>Budget temps: 0</em></p><p><em>Coûts: 0&nbsp;</em></p>"
               }
             }
           },
@@ -5865,8 +5865,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nVariable.find(gameModel, \"caisse\").add(self, -600);",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, 'timeCards').add(self, -2);\nVariable.find(gameModel, \"caisse\").add(self, -600);",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -6642,8 +6642,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, 3);\nPMGHelper.sendMessage( {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Chouchou\",\"status\":\"\"}}},  {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Bonne chance\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut</p>\\\n<p>On ne te voit plus beaucoup à la maison, j'espère que ça ne va pas trop durer.</p>\\\n<p>Mais je comprends ton enthousiame pour la création de ton entreprise.</p>\\\n<p>Bon travail !</p>\",\"status\":\"\"}}},  []);\nVariable.find(gameModel, \"result\").setCurrentResult(self, \"2ème fois\");\nVariable.find(gameModel, \"result_5\").setCurrentResult(self, \"result\");",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, 3);\nPMGHelper.sendMessage();\nVariable.find(gameModel, \"result\").setCurrentResult(self, \"2ème fois\");\nVariable.find(gameModel, \"result_5\").setCurrentResult(self, \"result\");",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -9173,7 +9173,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058398GtQwnU::FR",
                 "status" : "",
-                "translation" : "<p>Une publicité sur le web propose des packs de contrats pour entreprise. Le site a l'air sérieux.</p><p>Un pack semble correspondre parfaitement à vos besoins et la société indique qu'elle est à disposition par Skype pour répondre aux questions juridiques.</p><p>&nbsp;<br></p><p><em>Budget temps: 1</em></p><p><em>Coûts: 1'500.-</em></p>"
+                "translation" : "<p>Une publicité sur le web propose des packs de contrats pour entreprise. Le site a l'air sérieux.</p><p>Un pack semble correspondre parfaitement à vos besoins et la société indique qu'elle est à disposition par Visio pour répondre aux questions juridiques.</p><p>&nbsp;<br></p><p><em>Budget temps: 1</em></p><p><em>Coûts: 1'500.-</em></p>"
               }
             }
           },
@@ -10816,8 +10816,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 6400);",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nVariable.find(gameModel, 'depensesMensuelles').add(self, 5120);",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -12886,8 +12886,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12058679aROSnU::FR",
-                  "status" : null,
-                  "translation" : "<p>Johanna accepte votre offre et rejoint votre entreprise.</p>"
+                  "status" : "",
+                  "translation" : "<p>Andrea accepte votre offre et rejoint votre entreprise.</p>"
                 }
               }
             },
@@ -12908,8 +12908,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 8000);",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nVariable.find(gameModel, 'depensesMensuelles').add(self, 6400);",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -13086,8 +13086,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12058697S5Rlsm::FR",
-                  "status" : null,
-                  "translation" : "<p>Suite à l'entretien, Claudia vous informe qu'elle préfère travailler avec vous sur une base de mandat.&nbsp;</p>\n<p>__________________</p>\n<p><em>Vous pouvez donc inclure Claudia dans vos offres. Elle travaillera sur un tarif de base de 1'600.-/jour.</em></p>"
+                  "status" : "",
+                  "translation" : "<p>Suite à l'entretien, Claudia vous informe qu'elle préfère travailler avec vous sur une base de mandat.&nbsp;</p><p>__________________</p><p><em>Vous pouvez donc inclure Claudia dans vos offres. Elle travaille sur un tarif de base de 1'600.-/jour.</em></p>"
                 }
               }
             },
@@ -13354,7 +13354,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, 3);\nPMGHelper.sendMessage( {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Chouchou\",\"status\":\"\"}}},  {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Bonne chance\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut</p>\\\n<p>On ne te voit plus beaucoup à la maison, j'espère que ça ne va pas trop durer.</p>\\\n<p>Mais je comprends ton enthousiasme pour la mise en oeuvre de ton entreprise.</p>\\\n<p>Bon travail !</p>\",\"status\":\"\"}}},  []);\nVariable.find(gameModel, \"result_5\").setCurrentResult(self, \"2ème fois\");",
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, 3);\nPMGHelper.sendMessage();\nVariable.find(gameModel, \"result_5\").setCurrentResult(self, \"2ème fois\");",
               "language" : "javascript"
             },
             "label" : {
@@ -13966,8 +13966,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058778mkIdYE::FR",
-                "status" : null,
-                "translation" : "<p>Vous contactez le mUXic par mail pour demander un entretien personnel au sujet des objectifs généraux du festival.</p>\n<p><em>Budget temps:&nbsp;</em></p>\n<p><em>Envoi mail: 1</em></p>\n<p><em>Si entretien accordé: 3 supplémentaires</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous contactez le mUXic par mail pour demander un entretien personnel au sujet des objectifs généraux du festival.</p><p><em>Budget temps: 3</em></p><p><em>Envoi mail: 1</em></p><p><em>Si entretien accordé: 3 supplémentaires</em></p>"
               }
             }
           },
@@ -14774,8 +14774,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058852dZHo3N::FR",
-                "status" : null,
-                "translation" : "d) Ne pas demander d'informations supplémentaires"
+                "status" : "",
+                "translation" : "b) Ne pas demander d'informations supplémentaires"
               }
             }
           },
@@ -16221,7 +16221,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"caisse\").add(self, 5000);\nVariable.find(gameModel, \"timeCards\").add(self, -2);\nVariable.find(gameModel, \"b_RefuserLaParticipation\").desactivate(self);",
+              "content" : "Variable.find(gameModel, \"caisse\").add(self, 5000);\nVariable.find(gameModel, \"timeCards\").add(self, -2);\nVariable.find(gameModel, \"b_RefuserLaParticipation\").deactivate(self);",
               "language" : "JavaScript"
             },
             "label" : {
@@ -18292,14 +18292,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270308:U6D7Ej",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270307:3ODdxk",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270308:U6D7Ej",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18347,14 +18347,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270310:nQkxv7",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270309:W9KmvI",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270310:nQkxv7",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18457,14 +18457,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270314:xYgTeS",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270313:5vazuq",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270314:xYgTeS",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18512,14 +18512,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270300:8VldRF",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270301:ENTNNb",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270300:8VldRF",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18751,11 +18751,6 @@
           "variableName" : "caisse"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270187:57wDTW",
-          "scope" : "CHILDREN",
-          "variableName" : "pretDeMartha_2"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270350:OeP7PB",
           "scope" : "SELF",
           "variableName" : "a_Accepter_2"
@@ -18764,6 +18759,11 @@
           "refId" : "TransitionDependency:270151:lWOkLe",
           "scope" : "SELF",
           "variableName" : "societeCreee"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270187:57wDTW",
+          "scope" : "CHILDREN",
+          "variableName" : "pretDeMartha_2"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18939,7 +18939,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"nePasOffrirDePrestations_Technologiques_\").desactivate(self);",
+          "content" : "Variable.find(gameModel, \"nePasOffrirDePrestations_Technologiques_\").deactivate(self);",
           "language" : "JavaScript"
         },
         "refId" : "variabledescriptor:12083708DHEqpy",
@@ -18989,7 +18989,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"nePasOffrirDePrestation_CommunicationEtMarketing__\").desactivate(self);",
+          "content" : "Variable.find(gameModel, \"nePasOffrirDePrestation_CommunicationEtMarketing__\").deactivate(self);",
           "language" : "JavaScript"
         },
         "refId" : "variabledescriptor:12083717NpV3uc",
@@ -19039,7 +19039,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"nePasOffrirDePrestations_ManagementEtConseils_\").desactivate(self);",
+          "content" : "Variable.find(gameModel, \"nePasOffrirDePrestations_ManagementEtConseils_\").deactivate(self);",
           "language" : "JavaScript"
         },
         "refId" : "variabledescriptor:12083739pJJ9kx",
@@ -19269,7 +19269,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"nePasEngager\").desactivate(self);",
+          "content" : "Variable.find(gameModel, \"nePasEngager\").deactivate(self);",
           "language" : "JavaScript"
         },
         "refId" : "variabledescriptor:120592714Oj1oE",
@@ -19319,7 +19319,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"nePasEngager_2\").desactivate(self);",
+          "content" : "Variable.find(gameModel, \"nePasEngager_2\").deactivate(self);",
           "language" : "JavaScript"
         },
         "refId" : "variabledescriptor:12059279eX1L14",
@@ -19369,7 +19369,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "Variable.find(gameModel, \"nePasEngager_3\").desactivate(self);",
+          "content" : "Variable.find(gameModel, \"nePasEngager_3\").deactivate(self);",
           "language" : "JavaScript"
         },
         "refId" : "variabledescriptor:12059287bPGVvb",
@@ -19901,14 +19901,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923119:bNrqY4",
-                "scope" : "SELF",
-                "variableName" : "phaseMSG"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923120:d3QrGp",
                 "scope" : "SELF",
                 "variableName" : "timeCards"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923119:bNrqY4",
+                "scope" : "SELF",
+                "variableName" : "phaseMSG"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -20079,14 +20079,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270297:pDugLT",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270296:vtvLQ0",
           "scope" : "SELF",
           "variableName" : "a_AccepterLaParticipation"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270297:pDugLT",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -20134,14 +20134,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270325:qscLhU",
-          "scope" : "CHILDREN",
-          "variableName" : "demandeOffreSous_traitant_5"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270324:dciH7c",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270325:qscLhU",
+          "scope" : "CHILDREN",
+          "variableName" : "demandeOffreSous_traitant_5"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -20537,14 +20537,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923122:ekYXUe",
-                "scope" : "SELF",
-                "variableName" : "phaseMSG"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923123:jt3LvF",
                 "scope" : "SELF",
                 "variableName" : "timeCards"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923122:ekYXUe",
+                "scope" : "SELF",
+                "variableName" : "phaseMSG"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -20632,14 +20632,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923181:GrWyjE",
-                "scope" : "SELF",
-                "variableName" : "caisse"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923182:SFngBS",
                 "scope" : "SELF",
                 "variableName" : "depensesMensuelles"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923181:GrWyjE",
+                "scope" : "SELF",
+                "variableName" : "caisse"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -21806,7 +21806,7 @@
     "version" : null,
     "visibility" : "PRIVATE"
   } ],
-  "name" : "Media Serious Game v3.1",
+  "name" : "Media Serious Game v3.2",
   "pages" : { },
   "properties" : {
     "@class" : "GameModelProperties",

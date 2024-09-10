@@ -310,6 +310,7 @@
                   "content" : "\"<p>Accueil</p>\"",
                   "language" : "TypeScript"
                 },
+                "layoutClassName" : "navigation-button-container",
                 "layoutStyle" : { },
                 "localScriptEval" : {
                   "script" : {
@@ -347,6 +348,7 @@
                   "content" : "\"<p>Mail</p>\"",
                   "language" : "TypeScript"
                 },
+                "layoutClassName" : "navigation-button-container",
                 "layoutStyle" : { },
                 "localScriptEval" : {
                   "script" : {
@@ -390,6 +392,7 @@
                   "content" : "\"<p>Actions</p>\"",
                   "language" : "TypeScript"
                 },
+                "layoutClassName" : "navigation-button-container",
                 "layoutStyle" : { },
                 "localScriptEval" : {
                   "script" : {
@@ -432,7 +435,7 @@
                   "content" : "\"<p>Historique</p>\"",
                   "language" : "TypeScript"
                 },
-                "layoutClassName" : "",
+                "layoutClassName" : "navigation-button-container",
                 "layoutStyle" : { },
                 "localScriptEval" : {
                   "script" : {
