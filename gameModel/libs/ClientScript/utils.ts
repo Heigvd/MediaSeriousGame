@@ -28,6 +28,21 @@ export function getCurrentPage(): Page {
   return currentPage;
 }
 
+export function getCurrentPhaseInbox() {
+  const currentPhase = Variable.find(gameModel, 'phaseMSG').getValue(self);
+
+  switch (currentPhase) {
+    case 1:
+      return Variable.find(gameModel, 'phase1_CreationEntreprise');
+    case 2:
+      return Variable.find(gameModel, 'phase1_1');
+    case 3:
+      return Variable.find(gameModel, 'phase2_ReponseAL_offre');
+    case 4:
+      return Variable.find(gameModel, 'phase3_PlanificationDuMandat');
+  }
+}
+
 /**
  * Exception handling specific logic to handle WegasOutOfBoundException error display for core variables
  */
@@ -52,7 +67,12 @@ WegasEvents.addEventHandler('exceptionHandler', 'ExceptionEvent', event => {
           popupMessage = I18n.createTranslatableContent('Une erreur est survenue');
           break;
       }
-      Popups.addPopup(`exceptionEventPopup-${exception.variableName}`, popupMessage, 5000);
+      Popups.addPopup(
+        `exceptionEventPopup-${exception.variableName}`,
+        popupMessage,
+        5000,
+        'msg-popup'
+      );
     }
   }
 });
