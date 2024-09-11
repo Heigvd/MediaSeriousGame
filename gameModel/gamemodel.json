@@ -4,7 +4,7 @@
   "comments" : null,
   "createdById" : null,
   "createdByName" : null,
-  "createdTime" : 1726046980301,
+  "createdTime" : 1726067652330,
   "description" : null,
   "items" : [ {
     "@class" : "ListDescriptor",
@@ -4517,8 +4517,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12058017gwKW0Y::FR",
-                  "status" : null,
-                  "translation" : "<p>La recherche et les analyses comparatives effectuées sur le web montrent que les coûts d'hébergement dépendront des choix techniques qui seront effectués, du volume de données à stocker et de la qualité de service choisie.</p>\n<p>Vous ne connaisez pas encore toutes ces informations, mais en première estimation, vous pouvez estimer un ordre de grandeur de 500CHF mensuel de frais d'hébergement.</p>\n<p>Les essais de négociations de ces tarifs n'ont pas abouti. Vous avez reçu comme réponses que soit que les tarifs sont non négociables, soit que la négociation pourrait éventuellement avoir lieu après une année de la vie de votre entreprise.</p>"
+                  "status" : "",
+                  "translation" : "<p>La recherche et les analyses comparatives effectuées sur le web montrent que les coûts d'hébergement dépendront des choix techniques qui seront effectués, du volume de données à stocker et de la qualité de service choisie.</p><p>Vous ne connaisez pas encore toutes ces informations, mais en première estimation, vous pouvez estimer un ordre de grandeur de 500CHF mensuel de frais d'hébergement.</p><p>Les essais de négociations de ces tarifs n'ont pas abouti.&nbsp;Vous avez reçu comme réponses que soit les tarifs sont non négociables, soit la négociation pourrait éventuellement avoir lieu après une année de la vie de votre entreprise.</p>"
                 }
               }
             },
@@ -5743,8 +5743,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "TranslatableContent:15586155:L6GGeU::FR",
-                  "status" : null,
-                  "translation" : "<p>Le consultant vous félicite pour la démarche d'entrepreneuriat que vous êtes en train de réaliser. Il partage avec vous son expérience et vous recommande principalement trois éléments:</p>\n<ul>\n<li>Dans tout projet, essayez de vous positionner de façon à maîtriser les données du client. Si vous pouvez exploiter les données sources, vous pouvez offrir des prestations variées.</li>\n<li>Faites très attention aux liquidités. Chercher à support suffisant de la part du banquier.</li>\n<li>Soyez orienté solution avec votre client.</li>\n</ul>"
+                  "status" : "",
+                  "translation" : "<p>Le consultant vous félicite pour la démarche d'entrepreneuriat que vous êtes en train de réaliser. Il partage avec vous son expérience et vous recommande principalement trois éléments:</p><ul><li>Dans tout projet, essayez de vous positionner de façon à maîtriser les données du client. Si vous pouvez exploiter les données sources, vous pouvez offrir des prestations variées.</li><li>Faites très attention aux liquidités. Chercher un support suffisant de la part du banquier.</li><li>Soyez orienté solution avec votre client.</li></ul>"
                 }
               }
             },
@@ -6039,8 +6039,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058136H43h6t::FR",
-                "status" : null,
-                "translation" : "<p>Vous acceptez la proposition de Start-Consult qui vous offre de vous fournir gratuitement, autour d'un café, quelques informations&nbsp; de base sur des trois éléments.</p>\n<p><em>Budget temps: 1</em></p>\n<p><em>Coûts: 0</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous acceptez la proposition de Start-Consult qui vous offre de vous fournir gratuitement, autour d'un café, quelques informations de base sur les trois éléments.</p><p><em>Budget temps: 1</em></p><p><em>Coûts: 0</em></p>"
               }
             }
           },
@@ -10533,7 +10533,7 @@
               "lang" : "FR",
               "refId" : "translatablecontent:12058462Co0gX6::FR",
               "status" : "",
-              "translation" : "<p>Dans le domaine technique, vous avez utilisé plusieurs canaux pour récolter des candidatures (jobup, linkedin, réseau personnel).</p><p>Vous avez la possibilité d'engager une ou plusieurs personnes parmi les candidats ci-dessous.</p><ul><li>Tous les salaires indiqués sont sur un base de 100%.</li><li>Les salaires seront versés à la fin du premier mois de travail.</li></ul><p><em>_______</em></p><p><em>Plusieurs réponses possibles</em></p><p><strong><em>Attention: en cliquant \"Valider\", vous engagez la personne aux conditions décrites.</em></strong></p>"
+              "translation" : "<p>Dans le domaine technique, vous avez utilisé plusieurs canaux pour récolter des candidatures (jobup, linkedin, réseau personnel).</p><p>Vous avez la possibilité d'engager une ou plusieurs personnes parmi les candidats ci-dessous.</p><ul><li>Tous les salaires indiqués sont sur une base de 100%.</li><li>Les salaires seront versés à la fin du premier mois de travail.</li></ul><p><em>_______</em></p><p><em>Plusieurs réponses possibles</em></p><p><strong><em>Attention: en cliquant \"Valider\", vous engagez la personne aux conditions décrites.</em></strong></p>"
             }
           }
         },
@@ -11378,8 +11378,8 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:12058539vB1aYs::FR",
-              "status" : null,
-              "translation" : "<p>Vous avez la possibilité d'engager une ou plusieurs personnes dans le domaine Communication et Marketing.</p>\n<ul>\n<li>Tous les salaires indiqués sont sur un base de 100%.</li>\n<li>Les salaires seront versés à la fin du premier mois de travail.</li>\n</ul>\n<p><em>_______</em></p>\n<p><em>Plusieurs réponses possibles</em></p>\n<p><strong><em>Attention: en cliquant \"Valider\", vous engagez la personne aux conditions décrites.</em></strong></p>"
+              "status" : "",
+              "translation" : "<p>Vous avez la possibilité d'engager une ou plusieurs personnes dans le domaine Communication et Marketing.</p><ul><li>Tous les salaires indiqués sont sur une base de 100%.</li><li>Les salaires seront versés à la fin du premier mois de travail.</li></ul><p><em>_______</em></p><p><em>Plusieurs réponses possibles</em></p><p><strong><em>Attention: en cliquant \"Valider\", vous engagez la personne aux conditions décrites.</em></strong></p>"
             }
           }
         },
@@ -11507,7 +11507,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058553OZWyku::FR",
                 "status" : "",
-                "translation" : "<p>Anna est diplômée de la HEG de Fribourg. Elle a rejoint un groupe média où elle s'est d'abord occupé de la vente d'espaces publicitaires. Par la suite, elle a été engagée dans un agence media internationale où elle gère de grandes campagnes pour des marques prestigieuses. Les voyages réguliers qu'elle doit faire lui pèsent depuis qu'elle a eu sa petite fille.</p><p>Taux activité: 60%</p><p>Coûts totaux à 100%: 6'100.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "translation" : "<p>Anna est diplômée de la HEG de Fribourg. Elle a rejoint un groupe média où elle s'est d'abord occupé de la vente d'espaces publicitaires. Par la suite, elle a été engagée dans une agence media internationale où elle gère de grandes campagnes pour des marques prestigieuses. Les voyages réguliers qu'elle doit faire lui pèsent depuis qu'elle a eu sa petite fille.</p><p>Taux activité: 60%</p><p>Coûts totaux à 100%: 6'100.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -11707,7 +11707,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058571QkjR16::FR",
                 "status" : "",
-                "translation" : "<p>Après un CFC d'employé de commerce obtenu il y a une dizaine d'années, Tristan a rejoint une agence des communication qui a développé un département spécialisé dans le multimédia. Dans ce cadre, il a suivi une formation au SAWI qui lui a permis de décrocher le brevet fédéral de spécialiste en marketing. Son CV liste une série de belles références dans le domaine.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 7'400.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "translation" : "<p>Après un CFC d'employé de commerce obtenu il y a une dizaine d'années, Tristan a rejoint une agence de communication qui a développé un département spécialisé dans le multimédia. Dans ce cadre, il a suivi une formation au SAWI qui lui a permis de décrocher le brevet fédéral de spécialiste en marketing. Son CV liste une série de belles références dans le domaine.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 7'400.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -12007,7 +12007,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058598jtdXvs::FR",
                 "status" : "",
-                "translation" : "<p>David a d'abord effectué un apprentissage en électronique, mais sa passion pour le web l'a poussé à poursuivre sa formation HES en emploi. En parallèle il travaille dans un agence web à Nyon. Il a développé ses compétences en SEO à travers un collègue et quelques cours à l'Ifage. Il a également réussi une certification Google Adwords.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 6'400.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "translation" : "<p>David a d'abord effectué un apprentissage en électronique, mais sa passion pour le web l'a poussé à poursuivre sa formation HES en emploi. En parallèle il travaille dans une agence web à Nyon. Il a développé ses compétences en SEO à travers un collègue et quelques cours à l'Ifage. Il a également réussi une certification Google Adwords.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 6'400.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -12207,7 +12207,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058616Ga8wUC::FR",
                 "status" : "",
-                "translation" : "<p>Yvonne est originaire de Paris. Elle est titulaire d'un master en ergonomie de l'Université de Paris VIII. Par le suite elle a travaillé dans une grande agence française dans le domaine de l'UX sur des sites e-commerce et des applications mobiles.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 7'300.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "translation" : "<p>Yvonne est originaire de Paris. Elle est titulaire d'un master en ergonomie de l'Université de Paris VIII. Par la suite elle a travaillé dans une grande agence française dans le domaine de l'UX sur des sites e-commerce et des applications mobiles.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 7'300.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -12624,8 +12624,8 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:12058652ht5fgH::FR",
-              "status" : null,
-              "translation" : "<p>Vous avez la possibilité d'engager une ou plusieurs personnes dans le domaine du Management.</p>\n<ul>\n<li>Tous les salaires indiqués sont sur un base de 100%.</li>\n<li>Les salaires seront versés à la fin du premier mois de travail.</li>\n</ul>\n<p><em>_______</em></p>\n<p><em>Plusieurs réponses possibles</em></p>\n<p><strong><em>Attention: en cliquant \"Valider\", vous engagez la personne aux conditions décrites.</em></strong></p>"
+              "status" : "",
+              "translation" : "<p>Vous avez la possibilité d'engager une ou plusieurs personnes dans le domaine du Management.</p><ul><li>Tous les salaires indiqués sont sur une base de 100%.</li><li>Les salaires seront versés à la fin du premier mois de travail.</li></ul><p><em>_______</em></p><p><em>Plusieurs réponses possibles</em></p><p><strong><em>Attention: en cliquant \"Valider\", vous engagez la personne aux conditions décrites.</em></strong></p>"
             }
           }
         },
@@ -12753,7 +12753,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:120586666uwBVO::FR",
                 "status" : "",
-                "translation" : "<p>Thomas</p><p>Après ses études à HEG Genève, Thomas a travaillé 3 ans dans une agence web de la région lémanique. Pendant cette expérience, il a principalement supervisé des projets intranet développé sur Microsoft Sharepoint. Il souhaite travailler plus sur des projets de site web public et d'applications mobiles.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 7'200.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "translation" : "<p><span style=\"color: var(--colors-darktextcolor); font-family: var(--others-textfont2); font-size: 1em;\">Après ses études à HEG Genève, Thomas a travaillé 3 ans dans une agence web de la région lémanique. Pendant cette expérience, il a principalement supervisé des projets intranet développé sur Microsoft Sharepoint. Il souhaite travailler plus sur des projets de site web public et d'applications mobiles.</span><br></p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 7'200.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -12953,7 +12953,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058684mNoIDt::FR",
                 "status" : "",
-                "translation" : "<p>Après des études à HEC Lausanne, Tim est parti travaillé pour une multinationale aux Etats-Unis. Il est rentré en Suisse il y a 5 ans et travaille depuis à Berne dans un service de la Confédération. Il est membre de l'ASO (Association Suisse d'Organisation et de Management). Dans le cadre de ses fonctions, il a développé une expertise importante de la méthode HERMES. Il est aussi certifié PMI-PMP, PMI-ACP et Six Sigma Black Belt.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 12'000.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "translation" : "<p>Après des études à HEC Lausanne, Tim est parti travailler pour une multinationale aux Etats-Unis. Il est rentré en Suisse il y a 5 ans et travaille depuis à Berne dans un service de la Confédération. Il est membre de l'ASO (Association Suisse d'Organisation et de Management). Dans le cadre de ses fonctions, il a développé une expertise importante de la méthode HERMES. Il est aussi certifié PMI-PMP, PMI-ACP et Six Sigma Black Belt.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 12'000.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -18292,14 +18292,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270307:3ODdxk",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270308:U6D7Ej",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270307:3ODdxk",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18402,14 +18402,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270315:2FQj1o",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270316:sSMdCr",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270315:2FQj1o",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18457,14 +18457,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270313:5vazuq",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270314:xYgTeS",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270313:5vazuq",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18567,14 +18567,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270302:oLSsGJ",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270303:tLWvYK",
           "scope" : "CHILDREN",
           "variableName" : "heuresSupplementaires"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270302:oLSsGJ",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         }, {
           "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270306:rqYYpO",
@@ -18751,9 +18751,9 @@
           "variableName" : "caisse"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270187:57wDTW",
-          "scope" : "CHILDREN",
-          "variableName" : "pretDeMartha_2"
+          "refId" : "TransitionDependency:270350:OeP7PB",
+          "scope" : "SELF",
+          "variableName" : "a_Accepter_2"
         }, {
           "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270151:lWOkLe",
@@ -18761,9 +18761,9 @@
           "variableName" : "societeCreee"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270350:OeP7PB",
-          "scope" : "SELF",
-          "variableName" : "a_Accepter_2"
+          "refId" : "TransitionDependency:270187:57wDTW",
+          "scope" : "CHILDREN",
+          "variableName" : "pretDeMartha_2"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -19557,14 +19557,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923118:NpPN6Y",
-                "scope" : "SELF",
-                "variableName" : "timeCards"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923117:QbYVeA",
                 "scope" : "SELF",
                 "variableName" : "phaseMSG"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923118:NpPN6Y",
+                "scope" : "SELF",
+                "variableName" : "timeCards"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -19901,14 +19901,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923120:d3QrGp",
-                "scope" : "SELF",
-                "variableName" : "timeCards"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923119:bNrqY4",
                 "scope" : "SELF",
                 "variableName" : "phaseMSG"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923120:d3QrGp",
+                "scope" : "SELF",
+                "variableName" : "timeCards"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -19943,14 +19943,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270312:m2B7Yq",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270311:fB96IV",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270312:m2B7Yq",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -20079,14 +20079,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270296:vtvLQ0",
-          "scope" : "SELF",
-          "variableName" : "a_AccepterLaParticipation"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270297:pDugLT",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270296:vtvLQ0",
+          "scope" : "SELF",
+          "variableName" : "a_AccepterLaParticipation"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -20216,14 +20216,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923115:DGOSjd",
-                "scope" : "SELF",
-                "variableName" : "timeCards"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923114:5cZlVm",
                 "scope" : "SELF",
                 "variableName" : "phaseMSG"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923115:DGOSjd",
+                "scope" : "SELF",
+                "variableName" : "timeCards"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
