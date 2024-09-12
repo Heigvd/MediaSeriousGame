@@ -49,7 +49,7 @@
             "style" : { },
             "text" : {
               "@class" : "Script",
-              "content" : "\"<p>Ce serious game a été créé pour la filiaire Ingénierie des Médias. </p><p>Contributeurs: Gabor Maksay, Sébastien Pahud, Arnaud Dufour, Dominique Jaccard, Yves Germanier, Eric Chevalley, Jarle Hulaas, Sandrine Divorne</p>\"",
+              "content" : "\"<p>Ce serious game a été créé pour la filiaire Ingénierie des Médias. </p><p>Contributeurs: Gabor Maksay, Sébastien Pahud, Arnaud Dufour, Dominique Jaccard, Yves Germanier, Eric Chevalley, Jarle Hulaas, Sandrine Divorne, Mikkel Vestergaard, Jessica Luyet.<br></p>\"",
               "language" : "TypeScript"
             }
           },
