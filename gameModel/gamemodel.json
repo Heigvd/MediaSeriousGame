@@ -4,7 +4,7 @@
   "comments" : null,
   "createdById" : null,
   "createdByName" : null,
-  "createdTime" : 1726067652330,
+  "createdTime" : 1726175557426,
   "description" : null,
   "items" : [ {
     "@class" : "ListDescriptor",
@@ -715,7 +715,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"caisse\").add(self, 30000);\nVariable.find(gameModel, 'b_Refuser_3').deactivate(self);\nVariable.find(gameModel, \"timeCards\").add(self, -1);",
+              "content" : "Variable.find(gameModel, \"caisse\").add(self, 30000);\nVariable.find(gameModel, \"timeCards\").add(self, -1);",
               "language" : "javascript"
             },
             "label" : {
@@ -10138,8 +10138,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Chouchou\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Salaire\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Et bien, tu vas pas gagner beaucoup plus qu'un apprenti. Espérons que ça ira mieux quand il s'agira d'entretenir une famille ;-)</p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, \"depensesMensuelles\").add(self, 2400);",
-              "language" : "JavaScript"
+              "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Chouchou\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Salaire\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Et bien, tu vas pas gagner beaucoup plus qu'un apprenti. Espérons que ça ira mieux quand il s'agira d'entretenir une famille ;-)</p>\",\"status\":\"\"}}}, []);Variable.find(gameModel, \"depensesMensuelles\").add(self, 2400);",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -10223,7 +10223,7 @@
             "impact" : {
               "@class" : "Script",
               "content" : "Variable.find(gameModel, \"depensesMensuelles\").add(self, 4800);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Chouchou\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Salaire\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Pour le salaire que tu as décidé de te verser, je trouve que c'est assez correct pour un début. ça nous permettra de vivre.</p>\\n<p>Evidemment, on espère qu'on pourra augmenter ce salaire si on décide de prendre un vrai appartement et fonder une famille.</p>\\n<p>A bientôt !</p>\",\"status\":\"\"}}}, []);",
-              "language" : "JavaScript"
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -11281,7 +11281,7 @@
               }
             }
           },
-          "maxReplies" : null,
+          "maxReplies" : 1,
           "name" : "nePasEngager",
           "refId" : "variabledescriptor:12058528NXqla7",
           "results" : [ {
@@ -12527,7 +12527,7 @@
               }
             }
           },
-          "maxReplies" : null,
+          "maxReplies" : 1,
           "name" : "nePasEngager_2",
           "refId" : "variabledescriptor:120586418Qoeos",
           "results" : [ {
@@ -13173,7 +13173,7 @@
               }
             }
           },
-          "maxReplies" : null,
+          "maxReplies" : 1,
           "name" : "nePasEngager_3",
           "refId" : "variabledescriptor:12058700yHS3Al",
           "results" : [ {
@@ -13354,7 +13354,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, 3);\nPMGHelper.sendMessage();\nVariable.find(gameModel, \"result_5\").setCurrentResult(self, \"2ème fois\");",
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, 3);\nPMGHelper.sendMessage( {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Chouchou\",\"status\":\"\"}}},  {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Bonne chance\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Salut</p>\\n<p>&nbsp;</p>\\n<p>On ne te voit plus beaucoup à la maison, j'espère que ça ne va pas trop durer.</p>\\n<p>&nbsp;</p>\\n<p>Mais je comprends ton enthousiasme pour la mise en oeuvre de ton entreprise.</p>\\n<p>&nbsp;</p>\\n<p>Bon travail !</p>\",\"status\":\"\"}}},  []);\nVariable.find(gameModel, \"result_5\").setCurrentResult(self, \"2ème fois\");",
               "language" : "javascript"
             },
             "label" : {
@@ -18292,14 +18292,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270308:U6D7Ej",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270307:3ODdxk",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270308:U6D7Ej",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18347,14 +18347,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270309:W9KmvI",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270310:nQkxv7",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270309:W9KmvI",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18402,14 +18402,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270316:sSMdCr",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270315:2FQj1o",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270316:sSMdCr",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18457,14 +18457,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270314:xYgTeS",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270313:5vazuq",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270314:xYgTeS",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18572,14 +18572,14 @@
           "variableName" : "heuresSupplementaires"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270302:oLSsGJ",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270306:rqYYpO",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270302:oLSsGJ",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18751,14 +18751,14 @@
           "variableName" : "caisse"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270350:OeP7PB",
-          "scope" : "SELF",
-          "variableName" : "a_Accepter_2"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270151:lWOkLe",
           "scope" : "SELF",
           "variableName" : "societeCreee"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270350:OeP7PB",
+          "scope" : "SELF",
+          "variableName" : "a_Accepter_2"
         }, {
           "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270187:57wDTW",
@@ -19475,14 +19475,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270318:PWYMOV",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270317:nU813n",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270318:PWYMOV",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -19557,14 +19557,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923117:QbYVeA",
-                "scope" : "SELF",
-                "variableName" : "phaseMSG"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923118:NpPN6Y",
                 "scope" : "SELF",
                 "variableName" : "timeCards"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923117:QbYVeA",
+                "scope" : "SELF",
+                "variableName" : "phaseMSG"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -19590,6 +19590,50 @@
             "onEnterEvent" : null,
             "refId" : "fsm_state:12059336HbAOKX",
             "transitions" : [ {
+              "@class" : "Transition",
+              "dependencies" : [ {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923254:k3WG1R",
+                "scope" : "SELF",
+                "variableName" : "b_"
+              } ],
+              "dependsOnStrategy" : "AUTO",
+              "index" : 0,
+              "label" : null,
+              "nextStateId" : 5,
+              "preStateImpact" : {
+                "@class" : "Script",
+                "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Equipe\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Locaux de travail\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\\n<p>Juste un mot pour vous dire que l'espace de travail partagé a du bon comme les rencontres à la cafétériat.</p>\\\n<p>Mais il y a aussi du moins bon (bruit et sentiment de ne pas être \\\"chez soi\\\"). On manque aussi parfois d'accès à la salle de conférence qui est souvent réservée.</p>\\\n<p>Salutations</p>\",\"status\":\"\"}}}, []);",
+                "language" : "JavaScript"
+              },
+              "refId" : "transition:120593373n2Hn8",
+              "triggerCondition" : {
+                "@class" : "Script",
+                "content" : "Variable.find(gameModel, \"b_\").hasBeenSelected(self);",
+                "language" : "JavaScript"
+              },
+              "version" : null
+            }, {
+              "@class" : "Transition",
+              "dependencies" : [ {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923249:uDOD24",
+                "scope" : "SELF",
+                "variableName" : "a_BureauxClassiques_2"
+              } ],
+              "dependsOnStrategy" : "AUTO",
+              "index" : 0,
+              "label" : null,
+              "nextStateId" : 3,
+              "preStateImpact" : null,
+              "refId" : "transition:12059340u8m5w3",
+              "triggerCondition" : {
+                "@class" : "Script",
+                "content" : "Variable.find(gameModel, \"a_BureauxClassiques_2\").hasBeenSelected(self);",
+                "language" : "JavaScript"
+              },
+              "version" : null
+            }, {
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
@@ -19630,50 +19674,6 @@
               "triggerCondition" : {
                 "@class" : "Script",
                 "content" : "Variable.find(gameModel, \"a_BureauxClassiques\").hasBeenSelected(self);",
-                "language" : "JavaScript"
-              },
-              "version" : null
-            }, {
-              "@class" : "Transition",
-              "dependencies" : [ {
-                "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923249:uDOD24",
-                "scope" : "SELF",
-                "variableName" : "a_BureauxClassiques_2"
-              } ],
-              "dependsOnStrategy" : "AUTO",
-              "index" : 0,
-              "label" : null,
-              "nextStateId" : 3,
-              "preStateImpact" : null,
-              "refId" : "transition:12059340u8m5w3",
-              "triggerCondition" : {
-                "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"a_BureauxClassiques_2\").hasBeenSelected(self);",
-                "language" : "JavaScript"
-              },
-              "version" : null
-            }, {
-              "@class" : "Transition",
-              "dependencies" : [ {
-                "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923254:k3WG1R",
-                "scope" : "SELF",
-                "variableName" : "b_"
-              } ],
-              "dependsOnStrategy" : "AUTO",
-              "index" : 0,
-              "label" : null,
-              "nextStateId" : 5,
-              "preStateImpact" : {
-                "@class" : "Script",
-                "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Equipe\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Locaux de travail\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\\n<p>Juste un mot pour vous dire que l'espace de travail partagé a du bon comme les rencontres à la cafétériat.</p>\\\n<p>Mais il y a aussi du moins bon (bruit et sentiment de ne pas être \\\"chez soi\\\"). On manque aussi parfois d'accès à la salle de conférence qui est souvent réservée.</p>\\\n<p>Salutations</p>\",\"status\":\"\"}}}, []);",
-                "language" : "JavaScript"
-              },
-              "refId" : "transition:120593373n2Hn8",
-              "triggerCondition" : {
-                "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"b_\").hasBeenSelected(self);",
                 "language" : "JavaScript"
               },
               "version" : null
@@ -19785,26 +19785,6 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923263:laVlCB",
-                "scope" : "SELF",
-                "variableName" : "a_ToutHautDeGamme_12"
-              } ],
-              "dependsOnStrategy" : "AUTO",
-              "index" : 0,
-              "label" : null,
-              "nextStateId" : 4,
-              "preStateImpact" : null,
-              "refId" : "transition:12059325e6dQK9",
-              "triggerCondition" : {
-                "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_12\").hasBeenSelected(self);",
-                "language" : "JavaScript"
-              },
-              "version" : null
-            }, {
-              "@class" : "Transition",
-              "dependencies" : [ {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923261:k0YhvR",
                 "scope" : "SELF",
                 "variableName" : "a_ToutHautDeGamme_11"
@@ -19838,6 +19818,26 @@
               "triggerCondition" : {
                 "@class" : "Script",
                 "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_9\").hasBeenSelected(self);",
+                "language" : "JavaScript"
+              },
+              "version" : null
+            }, {
+              "@class" : "Transition",
+              "dependencies" : [ {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923263:laVlCB",
+                "scope" : "SELF",
+                "variableName" : "a_ToutHautDeGamme_12"
+              } ],
+              "dependsOnStrategy" : "AUTO",
+              "index" : 0,
+              "label" : null,
+              "nextStateId" : 4,
+              "preStateImpact" : null,
+              "refId" : "transition:12059325e6dQK9",
+              "triggerCondition" : {
+                "@class" : "Script",
+                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_12\").hasBeenSelected(self);",
                 "language" : "JavaScript"
               },
               "version" : null
@@ -19901,14 +19901,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923119:bNrqY4",
-                "scope" : "SELF",
-                "variableName" : "phaseMSG"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923120:d3QrGp",
                 "scope" : "SELF",
                 "variableName" : "timeCards"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923119:bNrqY4",
+                "scope" : "SELF",
+                "variableName" : "phaseMSG"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -20252,26 +20252,6 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923275:7FE68d",
-                "scope" : "SELF",
-                "variableName" : "a_ToutHautDeGamme_5"
-              } ],
-              "dependsOnStrategy" : "AUTO",
-              "index" : 0,
-              "label" : null,
-              "nextStateId" : 3,
-              "preStateImpact" : null,
-              "refId" : "transition:12059381SqrnAo",
-              "triggerCondition" : {
-                "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_5\").hasBeenSelected(self);",
-                "language" : "JavaScript"
-              },
-              "version" : null
-            }, {
-              "@class" : "Transition",
-              "dependencies" : [ {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923277:XC0VRJ",
                 "scope" : "SELF",
                 "variableName" : "a_ToutHautDeGamme_7"
@@ -20305,6 +20285,26 @@
               "triggerCondition" : {
                 "@class" : "Script",
                 "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_8\").hasBeenSelected(self);",
+                "language" : "JavaScript"
+              },
+              "version" : null
+            }, {
+              "@class" : "Transition",
+              "dependencies" : [ {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923275:7FE68d",
+                "scope" : "SELF",
+                "variableName" : "a_ToutHautDeGamme_5"
+              } ],
+              "dependsOnStrategy" : "AUTO",
+              "index" : 0,
+              "label" : null,
+              "nextStateId" : 3,
+              "preStateImpact" : null,
+              "refId" : "transition:12059381SqrnAo",
+              "triggerCondition" : {
+                "@class" : "Script",
+                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_5\").hasBeenSelected(self);",
                 "language" : "JavaScript"
               },
               "version" : null
@@ -20401,39 +20401,19 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923272:bq0Ep3",
+                "refId" : "TransitionDependency:26923268:JHN2wl",
                 "scope" : "SELF",
-                "variableName" : "a_ToutHautDeGamme_4"
+                "variableName" : "a_ToutHautDeGamme_2"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
               "label" : null,
-              "nextStateId" : 4,
+              "nextStateId" : 2,
               "preStateImpact" : null,
-              "refId" : "transition:12059395EY4cCW",
+              "refId" : "transition:120593969NN8AC",
               "triggerCondition" : {
                 "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_4\").hasBeenSelected(self);",
-                "language" : "JavaScript"
-              },
-              "version" : null
-            }, {
-              "@class" : "Transition",
-              "dependencies" : [ {
-                "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923270:6SrO6O",
-                "scope" : "SELF",
-                "variableName" : "a_ToutHautDeGamme_3"
-              } ],
-              "dependsOnStrategy" : "AUTO",
-              "index" : 0,
-              "label" : null,
-              "nextStateId" : 3,
-              "preStateImpact" : null,
-              "refId" : "transition:12059397kenDVf",
-              "triggerCondition" : {
-                "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_3\").hasBeenSelected(self);",
+                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_2\").hasBeenSelected(self);",
                 "language" : "JavaScript"
               },
               "version" : null
@@ -20461,19 +20441,39 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923268:JHN2wl",
+                "refId" : "TransitionDependency:26923270:6SrO6O",
                 "scope" : "SELF",
-                "variableName" : "a_ToutHautDeGamme_2"
+                "variableName" : "a_ToutHautDeGamme_3"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
               "label" : null,
-              "nextStateId" : 2,
+              "nextStateId" : 3,
               "preStateImpact" : null,
-              "refId" : "transition:120593969NN8AC",
+              "refId" : "transition:12059397kenDVf",
               "triggerCondition" : {
                 "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_2\").hasBeenSelected(self);",
+                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_3\").hasBeenSelected(self);",
+                "language" : "JavaScript"
+              },
+              "version" : null
+            }, {
+              "@class" : "Transition",
+              "dependencies" : [ {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923272:bq0Ep3",
+                "scope" : "SELF",
+                "variableName" : "a_ToutHautDeGamme_4"
+              } ],
+              "dependsOnStrategy" : "AUTO",
+              "index" : 0,
+              "label" : null,
+              "nextStateId" : 4,
+              "preStateImpact" : null,
+              "refId" : "transition:12059395EY4cCW",
+              "triggerCondition" : {
+                "@class" : "Script",
+                "content" : "Variable.find(gameModel, \"a_ToutHautDeGamme_4\").hasBeenSelected(self);",
                 "language" : "JavaScript"
               },
               "version" : null
@@ -20537,14 +20537,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923123:jt3LvF",
-                "scope" : "SELF",
-                "variableName" : "timeCards"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923122:ekYXUe",
                 "scope" : "SELF",
                 "variableName" : "phaseMSG"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923123:jt3LvF",
+                "scope" : "SELF",
+                "variableName" : "timeCards"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -20632,14 +20632,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923184:PoRz3W",
-                "scope" : "SELF",
-                "variableName" : "depensesMensuelles"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923185:tIlbAE",
                 "scope" : "SELF",
                 "variableName" : "caisse"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923184:PoRz3W",
+                "scope" : "SELF",
+                "variableName" : "depensesMensuelles"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
