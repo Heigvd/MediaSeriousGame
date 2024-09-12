@@ -30,6 +30,15 @@
   padding-top: 10px;
 }
 
+.msg-popup {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 50%;
+  height: 50px;
+}
+
 /* ------ */
 /* HEADER */
 /* ------ */
@@ -58,7 +67,6 @@
 	padding:0px;
 	gap: .2rem;
 }
-
 
 /* ---- */
 /* BODY */

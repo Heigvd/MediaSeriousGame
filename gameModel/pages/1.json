@@ -412,7 +412,7 @@
                 "style" : { },
                 "unreadCount" : {
                   "@class" : "Script",
-                  "content" : "Variable.find(gameModel,'phase1_CreationEntreprise')",
+                  "content" : "import { getCurrentPhaseInbox } from \"./utils\";\ngetCurrentPhaseInbox()",
                   "language" : "TypeScript"
                 }
               },
