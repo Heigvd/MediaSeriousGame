@@ -4,7 +4,7 @@
   "comments" : null,
   "createdById" : null,
   "createdByName" : null,
-  "createdTime" : 1726175557426,
+  "createdTime" : 1726176437793,
   "description" : null,
   "items" : [ {
     "@class" : "ListDescriptor",
@@ -848,7 +848,7 @@
             }
           }
         },
-        "maxReplies" : null,
+        "maxReplies" : 1,
         "minReplies" : null,
         "name" : "pretDeMartha",
         "pictures" : [ ],
@@ -18347,14 +18347,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270310:nQkxv7",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270309:W9KmvI",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270310:nQkxv7",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18402,14 +18402,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270315:2FQj1o",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270316:sSMdCr",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270315:2FQj1o",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18567,14 +18567,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270303:tLWvYK",
-          "scope" : "CHILDREN",
-          "variableName" : "heuresSupplementaires"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270306:rqYYpO",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270303:tLWvYK",
+          "scope" : "CHILDREN",
+          "variableName" : "heuresSupplementaires"
         }, {
           "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270302:oLSsGJ",
@@ -18746,14 +18746,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270150:ghIxAM",
-          "scope" : "SELF",
-          "variableName" : "caisse"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270151:lWOkLe",
           "scope" : "SELF",
           "variableName" : "societeCreee"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270187:57wDTW",
+          "scope" : "CHILDREN",
+          "variableName" : "pretDeMartha_2"
         }, {
           "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270350:OeP7PB",
@@ -18761,9 +18761,9 @@
           "variableName" : "a_Accepter_2"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270187:57wDTW",
-          "scope" : "CHILDREN",
-          "variableName" : "pretDeMartha_2"
+          "refId" : "TransitionDependency:270150:ghIxAM",
+          "scope" : "SELF",
+          "variableName" : "caisse"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -19475,14 +19475,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270317:nU813n",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270318:PWYMOV",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270317:nU813n",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -19901,14 +19901,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923120:d3QrGp",
-                "scope" : "SELF",
-                "variableName" : "timeCards"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923119:bNrqY4",
                 "scope" : "SELF",
                 "variableName" : "phaseMSG"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923120:d3QrGp",
+                "scope" : "SELF",
+                "variableName" : "timeCards"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -20134,14 +20134,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270325:qscLhU",
-          "scope" : "CHILDREN",
-          "variableName" : "demandeOffreSous_traitant_5"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270324:dciH7c",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270325:qscLhU",
+          "scope" : "CHILDREN",
+          "variableName" : "demandeOffreSous_traitant_5"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -20632,14 +20632,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923185:tIlbAE",
-                "scope" : "SELF",
-                "variableName" : "caisse"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923184:PoRz3W",
                 "scope" : "SELF",
                 "variableName" : "depensesMensuelles"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923185:tIlbAE",
+                "scope" : "SELF",
+                "variableName" : "caisse"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
