@@ -4,7 +4,7 @@
   "comments" : null,
   "createdById" : null,
   "createdByName" : null,
-  "createdTime" : 1726176437793,
+  "createdTime" : 1727185874570,
   "description" : null,
   "items" : [ {
     "@class" : "ListDescriptor",
@@ -18292,14 +18292,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270307:3ODdxk",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270308:U6D7Ej",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270307:3ODdxk",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18402,14 +18402,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270316:sSMdCr",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270315:2FQj1o",
           "scope" : "SELF",
           "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270316:sSMdCr",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18457,14 +18457,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270313:5vazuq",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270314:xYgTeS",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270313:5vazuq",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18512,14 +18512,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270300:8VldRF",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270301:ENTNNb",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270300:8VldRF",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18567,6 +18567,11 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270302:oLSsGJ",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
+        }, {
+          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270306:rqYYpO",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
@@ -18575,11 +18580,6 @@
           "refId" : "TransitionDependency:270303:tLWvYK",
           "scope" : "CHILDREN",
           "variableName" : "heuresSupplementaires"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270302:oLSsGJ",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -19450,7 +19450,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Appel d'offres campagne communication\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>Notre association organise le <strong>mUXic Festival,</strong> dont nous fêterons cette année la dixième édition.</p>\\n<p>Nous lançons actuellement un appel d'offre pour la réalisation de la communication média du Festival.</p>\\n<p>Nous avons entendu parler de votre agence et nous vous avons présélectionnés pour participer à l'appel d'offre.</p>\\n<p>Vous trouverez tous les éléments utiles dans le dossier ci-joint.\\n<p>Nous espérons que votre agence sera intéressée à relever les défis de communication média de ce dixième anniversaire.\\n<p>Musicalement vôtre,</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Cahier des charges _simulation_ 1.1.pdf\",\"status\":\"\"}}}}]);",
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Appel d'offres campagne communication\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Notre association organise le <strong>mUXic&nbsp;Festival,</strong> dont nous fêterons cette année la dixième édition.</p>\\n<p>&nbsp;</p>\\n<p>Nous lançons actuellement un appel d'offre pour la réalisation de la communication média du Festival.</p>\\n<p>&nbsp;</p>\\n<p>Nous avons entendu parler de votre agence et nous vous avons présélectionnés pour participer à l'appel d'offre.</p>\\n<p>&nbsp;</p>\\n<p>Vous trouverez tous les éléments utiles dans le dossier ci-joint.</p>\\n<p>&nbsp;</p>\\n<p>Nous espérons que votre agence sera intéressée à relever les défis de communication média de ce dixième anniversaire.</p>\\n<p>&nbsp;</p>\\n<p>Musicalement vôtre,</p>\\n<p>&nbsp;</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Cahier des charges campagne communication.pdf\",\"status\":\"\"}}}}]);\n",
           "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059299qTpwaK",
@@ -19943,14 +19943,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270311:fB96IV",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270312:m2B7Yq",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270311:fB96IV",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -20054,7 +20054,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Présélection\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>Nous vous remercions pour votre proposition.&nbsp;Notre comité de direction a revu l'ensemble des dossiers reçus et nous avons le plaisir de vous informer que votre agence a été retenue pour la phase de sélection finale (avec d'autres agences qui nous ont aussi fait de très bonnes propositions).</p>\\n<p>Afin de prendre notre décision finale d'attribution du mandat, nous vous demandons de bien vouloir nous démontrer vos compétences à travers la réalisation des éléments suivants:</p>\\n<ul>\\n<li>Exemple d'affiche format A3 pour la promotion du Festival</li>\\n<li>Esquisse de la structure de la page d'accueil du futur site web\\n<ul>\\n<li>version écran ordinateur et téléphone mobile</li>\\n<li>maquettes de l'interface (pas besoin d'être interactifs)</li>\\n</ul>\\n</li>\\n<li>Une proposition libre pour le logo de la 10ème édition (statique, animé, jingle, etc)</li>\\n</ul>\\n<p>En option et si vous avez le temps, vous pouvez aussi intégrer les éléments suivants:&nbsp;</p>\\n<ul>\\n<li>Site web. Maquettes ou wireframes interactifs</li>\\n<li>Moodboard: Exemples de vidéos existantes montrant le style que vous nous proposez</li>\\n</ul>\\n<p>En complément à ces livrables, merci de renseigner les points suivants:</p>\\n<ul>\\n<li>Présentation de la capacité économique de votre entreprise (survie de l'entreprise à moyen terme)</li>\\n<li>Présentation des compétences techniques de l'entreprise (capacité technique à réaliser le mandat)</li>\\n<li>Précision des conditions de paiement.</li>\\n</ul>\\n<p>Nous vous remettons en annexe quelques informations vous permettant de réaliser ces propositions (dates, programmation, logos des sponsors).</p>\\n<p>Nous avons conscience du travail demandé pour la réalisation de ces livrables. Aussi le comité a prévu un défraiement de CHF 5'000.- pour les sociétés qui participeront à la short list.</p>\\n<p>Nous nous réjouissons de recevoir vos projets !</p>\\n<p>Musicalement vôtre,</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsorts/AssureTout.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsorts/Logo LaProx.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Themes_pour_affiche.pdf\",\"status\":\"\"}}}}]);",
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Présélection\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>Nous vous remercions pour votre proposition.&nbsp;Notre comité de direction a revu l'ensemble des dossiers reçus et nous avons le plaisir de vous informer que votre agence a été retenue pour la phase de sélection finale (avec d'autres agences qui nous ont aussi fait de très bonnes propositions).</p>\\n<p>Afin de prendre notre décision finale d'attribution du mandat, nous vous demandons de bien vouloir nous démontrer vos compétences à travers la réalisation des éléments suivants:</p>\\n<ul>\\n<li>Exemple d'affiche format A3 pour la promotion du Festival</li>\\n<li>Esquisse de la structure de la page d'accueil du futur site web\\n<ul>\\n<li>version écran ordinateur et téléphone mobile</li>\\n<li>maquettes de l'interface (pas besoin d'être interactifs)</li>\\n</ul>\\n</li>\\n<li>Une proposition libre pour le logo de la 10ème édition (statique, animé, jingle, etc)</li>\\n</ul>\\n<p>En option et si vous avez le temps, vous pouvez aussi intégrer les éléments suivants:&nbsp;</p>\\n<ul>\\n<li>Site web. Maquettes ou wireframes interactifs</li>\\n<li>Moodboard: Exemples de vidéos existantes montrant le style que vous nous proposez</li>\\n</ul>\\n<p>En complément à ces livrables, merci de renseigner les points suivants:</p>\\n<ul>\\n<li>Présentation de la capacité économique de votre entreprise (survie de l'entreprise à moyen terme)</li>\\n<li>Présentation des compétences techniques de l'entreprise (capacité technique à réaliser le mandat)</li>\\n<li>Précision des conditions de paiement.</li>\\n</ul>\\n<p>Nous vous remettons en annexe quelques informations vous permettant de réaliser ces propositions (dates, programmation, logos des sponsors).</p>\\n<p>Nous avons conscience du travail demandé pour la réalisation de ces livrables. Aussi le comité a prévu un défraiement de CHF 5'000.- pour les sociétés qui participeront à la short list.</p>\\n<p>Nous nous réjouissons de recevoir vos projets !</p>\\n<p>Musicalement vôtre,</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsorts/AssureTout.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsorts/Logo LaProx.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Themes pour affiche.docx\",\"status\":\"\"}}}}]);",
           "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059347cY0btX",
@@ -20079,14 +20079,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270297:pDugLT",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
           "refId" : "TransitionDependency:270296:vtvLQ0",
           "scope" : "SELF",
           "variableName" : "a_AccepterLaParticipation"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:270297:pDugLT",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -20216,14 +20216,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923114:5cZlVm",
-                "scope" : "SELF",
-                "variableName" : "phaseMSG"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923115:DGOSjd",
                 "scope" : "SELF",
                 "variableName" : "timeCards"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923114:5cZlVm",
+                "scope" : "SELF",
+                "variableName" : "phaseMSG"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -20632,14 +20632,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923184:PoRz3W",
-                "scope" : "SELF",
-                "variableName" : "depensesMensuelles"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923185:tIlbAE",
                 "scope" : "SELF",
                 "variableName" : "caisse"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923184:PoRz3W",
+                "scope" : "SELF",
+                "variableName" : "depensesMensuelles"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -20657,14 +20657,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923182:SFngBS",
-                "scope" : "SELF",
-                "variableName" : "depensesMensuelles"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923181:GrWyjE",
                 "scope" : "SELF",
                 "variableName" : "caisse"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923182:SFngBS",
+                "scope" : "SELF",
+                "variableName" : "depensesMensuelles"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
