@@ -4,7 +4,7 @@
   "comments" : null,
   "createdById" : null,
   "createdByName" : null,
-  "createdTime" : 1727185874570,
+  "createdTime" : 1737036898945,
   "description" : null,
   "items" : [ {
     "@class" : "ListDescriptor",
@@ -18052,7 +18052,7 @@
               "version" : null
             } ],
             "version" : null,
-            "x" : 462,
+            "x" : 461,
             "y" : 249
           },
           "3" : {
@@ -18192,7 +18192,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270322:RB5UQC",
+          "refId" : "TransitionDependency:33142395:rnVUDi",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         } ],
@@ -18242,7 +18242,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270323:YeLyzM",
+          "refId" : "TransitionDependency:33142402:9C88A7",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         } ],
@@ -18292,12 +18292,12 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270308:U6D7Ej",
+          "refId" : "TransitionDependency:33142382:VugWvN",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270307:3ODdxk",
+          "refId" : "TransitionDependency:33142381:m7JOon",
           "scope" : "SELF",
           "variableName" : "timeCards"
         } ],
@@ -18347,14 +18347,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270309:W9KmvI",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270310:nQkxv7",
+          "refId" : "TransitionDependency:33142384:PQsrXW",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:33142383:B9EvPr",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18402,14 +18402,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270315:2FQj1o",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270316:sSMdCr",
+          "refId" : "TransitionDependency:33142386:89ZGtA",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:33142385:cpqFi0",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18457,12 +18457,12 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270314:xYgTeS",
+          "refId" : "TransitionDependency:33142388:EnUH0n",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270313:5vazuq",
+          "refId" : "TransitionDependency:33142387:SgpCIT",
           "scope" : "SELF",
           "variableName" : "timeCards"
         } ],
@@ -18512,12 +18512,12 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270301:ENTNNb",
+          "refId" : "TransitionDependency:33142390:6vEy65",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270300:8VldRF",
+          "refId" : "TransitionDependency:33142389:d9MA1C",
           "scope" : "SELF",
           "variableName" : "timeCards"
         } ],
@@ -18567,19 +18567,19 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270302:oLSsGJ",
-          "scope" : "SELF",
-          "variableName" : "timeCards"
+          "refId" : "TransitionDependency:33142374:2kBygw",
+          "scope" : "CHILDREN",
+          "variableName" : "heuresSupplementaires"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270306:rqYYpO",
+          "refId" : "TransitionDependency:33142373:oIX0pn",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270303:tLWvYK",
-          "scope" : "CHILDREN",
-          "variableName" : "heuresSupplementaires"
+          "refId" : "TransitionDependency:33142377:Akh77P",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18746,24 +18746,24 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270151:lWOkLe",
-          "scope" : "SELF",
-          "variableName" : "societeCreee"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270187:57wDTW",
-          "scope" : "CHILDREN",
-          "variableName" : "pretDeMartha_2"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270350:OeP7PB",
+          "refId" : "TransitionDependency:33142425:A9lN09",
           "scope" : "SELF",
           "variableName" : "a_Accepter_2"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270150:ghIxAM",
+          "refId" : "TransitionDependency:33142260:N1IaFO",
           "scope" : "SELF",
           "variableName" : "caisse"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:33142261:lbMB1I",
+          "scope" : "CHILDREN",
+          "variableName" : "pretDeMartha_2"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:33142502:jxW39R",
+          "scope" : "SELF",
+          "variableName" : "societeCreee"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -18914,7 +18914,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270361:74oF2J",
+          "refId" : "TransitionDependency:33142436:UQIza3",
           "scope" : "CHILDREN",
           "variableName" : "p1_PropositionDeValeur"
         } ],
@@ -18964,7 +18964,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270370:SPvOO1",
+          "refId" : "TransitionDependency:33142445:jpvp2v",
           "scope" : "CHILDREN",
           "variableName" : "p1_PropositionDeValeur_2"
         } ],
@@ -19014,7 +19014,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270377:6kzZ9N",
+          "refId" : "TransitionDependency:33142452:MWDPhW",
           "scope" : "CHILDREN",
           "variableName" : "p1_PropositionDeValeur_3"
         } ],
@@ -19095,7 +19095,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270321:Jj2myO",
+          "refId" : "TransitionDependency:33142403:dUDLEY",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         } ],
@@ -19244,7 +19244,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270236:10IoMt",
+          "refId" : "TransitionDependency:33142310:k4yAJb",
           "scope" : "CHILDREN",
           "variableName" : "competencesNecessaires_2"
         } ],
@@ -19294,7 +19294,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270250:UpHIYW",
+          "refId" : "TransitionDependency:33142324:NfUwNi",
           "scope" : "CHILDREN",
           "variableName" : "competencesNecessaires_4"
         } ],
@@ -19344,7 +19344,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270258:ryx0Fm",
+          "refId" : "TransitionDependency:33142332:UL8lyC",
           "scope" : "CHILDREN",
           "variableName" : "competencesNecessaires_5"
         } ],
@@ -19425,7 +19425,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270319:6q8aPc",
+          "refId" : "TransitionDependency:33142394:XVZiv0",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         } ],
@@ -19450,7 +19450,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Appel d'offres campagne communication\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>&nbsp;</p>\\n<p>Notre association organise le <strong>mUXic&nbsp;Festival,</strong> dont nous fêterons cette année la dixième édition.</p>\\n<p>&nbsp;</p>\\n<p>Nous lançons actuellement un appel d'offre pour la réalisation de la communication média du Festival.</p>\\n<p>&nbsp;</p>\\n<p>Nous avons entendu parler de votre agence et nous vous avons présélectionnés pour participer à l'appel d'offre.</p>\\n<p>&nbsp;</p>\\n<p>Vous trouverez tous les éléments utiles dans le dossier ci-joint.</p>\\n<p>&nbsp;</p>\\n<p>Nous espérons que votre agence sera intéressée à relever les défis de communication média de ce dixième anniversaire.</p>\\n<p>&nbsp;</p>\\n<p>Musicalement vôtre,</p>\\n<p>&nbsp;</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Cahier des charges campagne communication.pdf\",\"status\":\"\"}}}}]);\n",
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Appel d'offres campagne communication\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour</p><p>Notre association organise le <strong>mUXic&nbsp;Festival,</strong> dont nous fêterons cette année la dixième édition.</p><p>Nous lançons actuellement un appel d'offre pour la réalisation de la communication média du Festival.</p><p>Nous avons entendu parler de votre agence et nous vous avons présélectionnés pour participer à l'appel d'offre.</p><p>Vous trouverez tous les éléments utiles dans le dossier ci-joint.</p><p>Nous espérons que votre agence sera intéressée à relever les défis de communication média de ce dixième anniversaire.</p><p>Musicalement vôtre,</p><p>Laura</p><p>Responsable Communication</p><p>mUXic Festival</p>\",\"status\":\"\",\"lang\":\"FR\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Cahier des charges campagne communication.pdf\",\"status\":\"\"}}}}]);",
           "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059299qTpwaK",
@@ -19475,12 +19475,12 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270318:PWYMOV",
+          "refId" : "TransitionDependency:33142392:hDSvCZ",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270317:nU813n",
+          "refId" : "TransitionDependency:33142391:ao4Vl2",
           "scope" : "SELF",
           "variableName" : "timeCards"
         } ],
@@ -19557,14 +19557,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923118:NpPN6Y",
-                "scope" : "SELF",
-                "variableName" : "timeCards"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923117:QbYVeA",
                 "scope" : "SELF",
                 "variableName" : "phaseMSG"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923118:NpPN6Y",
+                "scope" : "SELF",
+                "variableName" : "timeCards"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -19943,12 +19943,12 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270312:m2B7Yq",
+          "refId" : "TransitionDependency:33142380:GLfuke",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270311:fB96IV",
+          "refId" : "TransitionDependency:33142379:kuWsCZ",
           "scope" : "SELF",
           "variableName" : "timeCards"
         } ],
@@ -19977,6 +19977,61 @@
           "language" : "javascript"
         },
         "refId" : "TriggerDescriptor:26340946:hmIr6s",
+        "scopeType" : "TeamScope",
+        "triggerEvent" : {
+          "@class" : "Script",
+          "content" : "Variable.find(gameModel, 'timeCards').getValue(self) < 8&&\nVariable.find(gameModel, 'phaseMSG').getValue(self) === 3;",
+          "language" : "javascript"
+        },
+        "version" : null,
+        "visibility" : "PRIVATE"
+      }, {
+        "@class" : "TriggerDescriptor",
+        "broadcastScope" : "TeamScope",
+        "comments" : "",
+        "defaultInstance" : {
+          "@class" : "FSMInstance",
+          "currentStateId" : 1,
+          "enabled" : true,
+          "refId" : "StateMachineInstance:82547:aDtYZx",
+          "transitionHistory" : [ ]
+        },
+        "dependencies" : [ {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:82555:xIFt7T",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:82556:bvTxVR",
+          "scope" : "SELF",
+          "variableName" : "timeCards"
+        } ],
+        "dependsOnStrategy" : "AUTO",
+        "disableSelf" : true,
+        "editorTag" : "",
+        "isolation" : "OPEN",
+        "label" : {
+          "@class" : "TranslatableContent",
+          "refId" : "TranslatableContent:82548:78s57w",
+          "translations" : {
+            "FR" : {
+              "@class" : "Translation",
+              "lang" : "FR",
+              "refId" : "TranslatableContent:82548:78s57w::FR",
+              "status" : "",
+              "translation" : "Mail mUXic - choix techniques"
+            }
+          }
+        },
+        "name" : "mailChoixTechniques",
+        "oneShot" : false,
+        "postTriggerEvent" : {
+          "@class" : "Script",
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"@class\":\"Translation\",\"lang\":\"FR\",\"status\":\"\",\"translation\":\"mUXic\"}},\"version\":0}, undefined, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"@class\":\"Translation\",\"lang\":\"FR\",\"status\":\"\",\"translation\":\"<p>Bonjour,</p><p>Suite à une discussion interne avec les membres du comité, des questions ont été soulevées relativement aux choix technologiques pour le site web de notre événement.</p><p>Nous nous demandons comment nous allons pouvoir mettre à jour les contenus (nous n'avons pas beaucoup de compétences informatiques), ainsi que la maintenance et la sécurité du site web.</p><p>Pensez-vous utiliser un CMS ou développer un site web à partir de zéro ? Qu'est-ce que cela changerait pour nous ?</p><p>Merci d'intégrer ces points dans votre offre.</p><p>Musicalement vôtre,</p><p>Laura</p><p>Responsable Communication</p><p>mUXic Festival<br></p><p><br></p>\"}},\"version\":0}, []);",
+          "language" : "javascript"
+        },
+        "refId" : "TriggerDescriptor:82546:6mS3yu",
         "scopeType" : "TeamScope",
         "triggerEvent" : {
           "@class" : "Script",
@@ -20029,7 +20084,7 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270320:4G5NrE",
+          "refId" : "TransitionDependency:33142393:GTLJ6Q",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         } ],
@@ -20054,7 +20109,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Présélection\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>Nous vous remercions pour votre proposition.&nbsp;Notre comité de direction a revu l'ensemble des dossiers reçus et nous avons le plaisir de vous informer que votre agence a été retenue pour la phase de sélection finale (avec d'autres agences qui nous ont aussi fait de très bonnes propositions).</p>\\n<p>Afin de prendre notre décision finale d'attribution du mandat, nous vous demandons de bien vouloir nous démontrer vos compétences à travers la réalisation des éléments suivants:</p>\\n<ul>\\n<li>Exemple d'affiche format A3 pour la promotion du Festival</li>\\n<li>Esquisse de la structure de la page d'accueil du futur site web\\n<ul>\\n<li>version écran ordinateur et téléphone mobile</li>\\n<li>maquettes de l'interface (pas besoin d'être interactifs)</li>\\n</ul>\\n</li>\\n<li>Une proposition libre pour le logo de la 10ème édition (statique, animé, jingle, etc)</li>\\n</ul>\\n<p>En option et si vous avez le temps, vous pouvez aussi intégrer les éléments suivants:&nbsp;</p>\\n<ul>\\n<li>Site web. Maquettes ou wireframes interactifs</li>\\n<li>Moodboard: Exemples de vidéos existantes montrant le style que vous nous proposez</li>\\n</ul>\\n<p>En complément à ces livrables, merci de renseigner les points suivants:</p>\\n<ul>\\n<li>Présentation de la capacité économique de votre entreprise (survie de l'entreprise à moyen terme)</li>\\n<li>Présentation des compétences techniques de l'entreprise (capacité technique à réaliser le mandat)</li>\\n<li>Précision des conditions de paiement.</li>\\n</ul>\\n<p>Nous vous remettons en annexe quelques informations vous permettant de réaliser ces propositions (dates, programmation, logos des sponsors).</p>\\n<p>Nous avons conscience du travail demandé pour la réalisation de ces livrables. Aussi le comité a prévu un défraiement de CHF 5'000.- pour les sociétés qui participeront à la short list.</p>\\n<p>Nous nous réjouissons de recevoir vos projets !</p>\\n<p>Musicalement vôtre,</p>\\n<p>Laura</p>\\n<p>Responsable Communication</p>\\n<p>mUXic Festival</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsorts/AssureTout.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsorts/Logo LaProx.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Themes pour affiche.docx\",\"status\":\"\"}}}}]);",
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Présélection\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p><p>Nous vous remercions pour votre proposition.&nbsp;Notre comité de direction a revu l'ensemble des dossiers reçus et nous avons le plaisir de vous informer que votre agence a été retenue pour la phase de sélection finale (avec d'autres agences qui nous ont aussi fait de très bonnes propositions).</p><p>Afin de prendre notre décision finale d'attribution du mandat, nous vous demandons de bien vouloir nous démontrer vos compétences à travers la réalisation des éléments suivants:</p><ul><li>Moodboard</li><li>Une proposition libre pour le logo de la 10ème édition (statique, animé, jingle, etc)</li><li>Affiche format A3 pour la promotion du Festival</li><li>Esquisse de la structure de la page d'accueil du futur site web<ul><li>Version écran ordinateur et mobile</li><li>Maquettes interactives</li></ul></li></ul><p>Nous vous remettons en annexe quelques informations vous permettant de réaliser ces propositions (dates, programmation, logo des sponsors).</p><p>Nous avons conscience du travail demandé pour la réalisation de ces livrables. Aussi le comité a prévu un défraiement de CHF 5000.- pour les sociétés qui participeront à la short list.</p><p>Nous nous réjouissons de recevoir vos projets !</p><p>Musicalement vôtre,</p><p>Laura</p><p>Responsable Communication</p><p>mUXic Festival<br></p>\",\"status\":\"\",\"lang\":\"FR\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsorts/AssureTout.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsorts/Logo LaProx.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Themes pour affiche.docx\",\"status\":\"\"}}}}]);",
           "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059347cY0btX",
@@ -20079,12 +20134,12 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270296:vtvLQ0",
+          "refId" : "TransitionDependency:33142370:1r5Pws",
           "scope" : "SELF",
           "variableName" : "a_AccepterLaParticipation"
         }, {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270297:pDugLT",
+          "refId" : "TransitionDependency:33142371:e3psoE",
           "scope" : "SELF",
           "variableName" : "phaseMSG"
         } ],
@@ -20134,14 +20189,14 @@
         },
         "dependencies" : [ {
           "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270324:dciH7c",
-          "scope" : "SELF",
-          "variableName" : "phaseMSG"
-        }, {
-          "@class" : "TransitionDependency",
-          "refId" : "TransitionDependency:270325:qscLhU",
+          "refId" : "TransitionDependency:33142397:NbptRl",
           "scope" : "CHILDREN",
           "variableName" : "demandeOffreSous_traitant_5"
+        }, {
+          "@class" : "TransitionDependency",
+          "refId" : "TransitionDependency:33142396:wo1ARs",
+          "scope" : "SELF",
+          "variableName" : "phaseMSG"
         } ],
         "dependsOnStrategy" : "AUTO",
         "disableSelf" : true,
@@ -20216,14 +20271,14 @@
               "@class" : "Transition",
               "dependencies" : [ {
                 "@class" : "TransitionDependency",
-                "refId" : "TransitionDependency:26923115:DGOSjd",
-                "scope" : "SELF",
-                "variableName" : "timeCards"
-              }, {
-                "@class" : "TransitionDependency",
                 "refId" : "TransitionDependency:26923114:5cZlVm",
                 "scope" : "SELF",
                 "variableName" : "phaseMSG"
+              }, {
+                "@class" : "TransitionDependency",
+                "refId" : "TransitionDependency:26923115:DGOSjd",
+                "scope" : "SELF",
+                "variableName" : "timeCards"
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
@@ -21727,6 +21782,15 @@
   "libraries" : [ {
     "@class" : "GameModelContent",
     "content" : "",
+    "contentKey" : "CustomImpacts",
+    "contentType" : "application/typescript",
+    "libraryType" : "ClientScript",
+    "refId" : "GameModelContent:82545:V9oV29",
+    "version" : null,
+    "visibility" : "PRIVATE"
+  }, {
+    "@class" : "GameModelContent",
+    "content" : "",
     "contentKey" : "utils",
     "contentType" : "application/typescript",
     "libraryType" : "ClientScript",
@@ -21806,7 +21870,7 @@
     "version" : null,
     "visibility" : "PRIVATE"
   } ],
-  "name" : "Media Serious Game v3.2",
+  "name" : "Media Serious Game v3.3",
   "pages" : { },
   "properties" : {
     "@class" : "GameModelProperties",
@@ -21815,7 +21879,7 @@
     "freeForAll" : false,
     "guestAllowed" : false,
     "iconUri" : "ICON_black-red_code_fa",
-    "logID" : "media (17)",
+    "logID" : "media (23)",
     "pagesUri" : "",
     "refId" : "GameModelProperties",
     "scriptUri" : "wegas-app/js/server;",
