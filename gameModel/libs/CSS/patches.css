@@ -34,3 +34,7 @@
 	font-weight: normal;
 	border-radius: 2px;
 }
+
+.wegas-question__item-answer {
+  display: none;
+}
