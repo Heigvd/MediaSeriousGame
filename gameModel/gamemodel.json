@@ -4171,8 +4171,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12057985g7d3qg::FR",
-                  "status" : null,
-                  "translation" : "<p>Seule 1 multinationale a accepté de vous recevoir.&nbsp;</p>\n<p>La discussion a montré que cette entreprises voit un intérêt majeur à sa communication tant auprès de ses clients que du grand public.</p>\n<p>Toutefois, sans que ceci ait été clairement explicité,vous avez ressenti que cette entreprise avait peu d'intérêt à travailler avec une petite structure locale et avait son propre service communication interne, ou travaillait parfois avec de grandes agences internationales.</p>\n<p>Seules 2 multinationales ont répondu à l'enquête.</p>\n<ul>\n<li>Les deux disent que la communication externe est très importante.</li>\n<li>Une dit avoir des difficultés à gérer la cohérence de la communication sur l'ensemble des médias</li>\n<li>Une dit qu'elle pourrait éventuellement faire appel à une agence de communication externe locale.</li>\n</ul>\n<p><em>__________</em></p>\n<p><em>Vous ne consommez 3 cartes temps</em></p>"
+                  "status" : "",
+                  "translation" : "<p>Seule 1 multinationale a accepté de vous recevoir.&nbsp;</p><p>La discussion a montré que cette entreprises voit un intérêt majeur à sa communication tant auprès de ses clients que du grand public.</p><p>Toutefois, sans que ceci ait été clairement explicité, vous avez ressenti que cette entreprise avait peu d'intérêt à travailler avec une petite structure locale et avait son propre service communication interne, ou travaillait parfois avec de grandes agences internationales.</p><p>Seules 2 multinationales ont répondu à l'enquête.</p><ul><li>Les deux disent que la communication externe est très importante.</li><li>Une dit avoir des difficultés à gérer la cohérence de la communication sur l'ensemble des médias</li><li>Une dit qu'elle pourrait éventuellement faire appel à une agence de communication externe locale.</li></ul><p><em>__________</em></p><p><em>Vous ne consommez 3 cartes temps</em></p>"
                 }
               }
             },
@@ -5744,7 +5744,7 @@
                   "lang" : "FR",
                   "refId" : "TranslatableContent:15586155:L6GGeU::FR",
                   "status" : "",
-                  "translation" : "<p>Le consultant vous félicite pour la démarche d'entrepreneuriat que vous êtes en train de réaliser. Il partage avec vous son expérience et vous recommande principalement trois éléments:</p><ul><li>Dans tout projet, essayez de vous positionner de façon à maîtriser les données du client. Si vous pouvez exploiter les données sources, vous pouvez offrir des prestations variées.</li><li>Faites très attention aux liquidités. Chercher un support suffisant de la part du banquier.</li><li>Soyez orienté solution avec votre client.</li></ul>"
+                  "translation" : "<p>Le consultant vous félicite pour la démarche d'entrepreneuriat que vous êtes en train de réaliser. Il partage avec vous son expérience et vous recommande principalement trois éléments:</p><ul><li>Dans tout projet, essayez de vous positionner de façon à maîtriser les données du client. Si vous pouvez exploiter les données sources, vous pouvez offrir des prestations variées.</li><li>Faites très attention aux liquidités. Cherchez un support suffisant de la part du banquier.</li><li>Soyez orienté solution avec votre client.</li></ul>"
                 }
               }
             },
@@ -7373,7 +7373,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058234yQ9VwF::FR",
                 "status" : "",
-                "translation" : "<p>Vous choisissez des locaux de standing élevé:</p><ul><li>bien situés (proches du centre ville, mais facilement accessibles)</li><li>100 m2 répartis en 3 salles</li><li>4 places de parc réservées</li></ul><p>Loyer: 3'300 mensuel en début de mois (charges et places de parc compris).</p><p>Vous devez signer un bail de 5 ans et déposer une garantie de 3 mois de loyer.</p><p>&nbsp;<br></p><p><em>Budget temps : 3</em></p><p><em>Coût :</em></p><p><em>- 3'300 pour le premier loyer</em></p><p><em>- 9'900 de garantie à verser sur un compte bloqué</em></p>"
+                "translation" : "<p>Vous choisissez des locaux de standing élevé:</p><ul><li>bien situés (proches du centre ville, mais facilement accessibles)</li><li>100 m2 répartis en 3 salles</li><li>4 places de parc réservées</li></ul><p>Loyer: 3'300 mensuels en début de mois (charges et places de parc comprises).</p><p>Vous devez signer un bail de 5 ans et déposer une garantie de 3 mois de loyer.</p><p>&nbsp;<br></p><p><em>Budget temps : 3</em></p><p><em>Coût :</em></p><p><em>- 3'300 pour le premier loyer</em></p><p><em>- 9'900 de garantie à verser sur un compte bloqué</em></p>"
               }
             }
           },
@@ -8972,8 +8972,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058380kQqpfw::FR",
-                "status" : null,
-                "translation" : "<p>Vous effectuez quelques recherches sur Internet et pour trouver plusieurs exemples de contrats. Sur la base de ces exemples, vous construirez vos contrats types.</p>\n<p><em>Budget temps: 3</em></p>\n<p><em>Coûts: 0.-</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous effectuez quelques recherches sur Internet pour trouver plusieurs exemples de contrats. Sur la base de ces exemples, vous construirez vos contrats types.</p><p><em>Budget temps: 3</em></p><p><em>Coûts: 0.-</em></p>"
               }
             }
           },
@@ -9294,8 +9294,8 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:12058407o22miu::FR",
-              "status" : null,
-              "translation" : "<p>Vous devez choisir en différentes options concernant les services télécommunication pour les locaux de votre société.</p>"
+              "status" : "",
+              "translation" : "<p>Vous devez choisir différentes options concernant les services de télécommunication pour les locaux de votre société.</p>"
             }
           }
         },
@@ -9979,7 +9979,7 @@
               "lang" : "FR",
               "refId" : "translatablecontent:120846855oG3KX::FR",
               "status" : "",
-              "translation" : "<p>Dans votre entreprise, vous avez deux rôles.</p><p>Par votre apport en capital social, vous êtes un Associé de la SàRL (propriétaire de la société).</p><p>Lorsque vous allez travailler, vous allez être un <em>Employé</em> de la SàRL.&nbsp;</p><p>Quelle salaire décidez-vous de vous verser mensuellement ?</p><p>A ce salaire, il faudra ajouter environ 20% de charges (AVS, AI, LPP, etc.). Le salaire sera versé 13 fois par an.</p>"
+              "translation" : "<p>Dans votre entreprise, vous avez deux rôles.</p><p>Par votre apport en capital social, vous êtes un Associé de la SàRL (propriétaire de la société).</p><p>Lorsque vous allez travailler, vous allez être un <em>Employé</em> de la SàRL.&nbsp;</p><p>Quel salaire décidez-vous de vous verser mensuellement ?</p><p>A ce salaire, il faudra ajouter environ 20% de charges (AVS, AI, LPP, etc.). Le salaire sera versé 13 fois par an.</p>"
             }
           }
         },
@@ -10761,7 +10761,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058485sJf5tH::FR",
                 "status" : "",
-                "translation" : "<p>Marina est un spécialiste BD avec cinq ans d'expérience au sein d'une SSII genevoise. Elle fait ses études à l'université de Lyon. Elle vous a été recommandée par un ami.</p><p>Taux activité: 80%</p><p>Coûts totaux à 100%: 6'400.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "translation" : "<p>Marina est une spécialiste BD avec cinq ans d'expérience au sein d'une SSII genevoise. Elle fait ses études à l'université de Lyon. Elle vous a été recommandée par un ami.</p><p>Taux activité: 80%</p><p>Coûts totaux à 100%: 6'400.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -11507,7 +11507,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058553OZWyku::FR",
                 "status" : "",
-                "translation" : "<p>Anna est diplômée de la HEG de Fribourg. Elle a rejoint un groupe média où elle s'est d'abord occupé de la vente d'espaces publicitaires. Par la suite, elle a été engagée dans une agence media internationale où elle gère de grandes campagnes pour des marques prestigieuses. Les voyages réguliers qu'elle doit faire lui pèsent depuis qu'elle a eu sa petite fille.</p><p>Taux activité: 60%</p><p>Coûts totaux à 100%: 6'100.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "translation" : "<p>Anna est diplômée de la HEG de Fribourg. Elle a rejoint un groupe média où elle s'est d'abord occupée de la vente d'espaces publicitaires. Par la suite, elle a été engagée dans une agence media internationale où elle gère de grandes campagnes pour des marques prestigieuses. Les voyages réguliers qu'elle doit faire lui pèsent depuis qu'elle a eu sa petite fille.</p><p>Taux activité: 60%</p><p>Coûts totaux à 100%: 6'100.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -12107,7 +12107,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058607BVj9rQ::FR",
                 "status" : "",
-                "translation" : "<p>Léa est graphiste autodidacte de 29 ans. Née dans une famille créative, Léa se passionne très tôt pour le dessin. Elle a reçu un prix pour l'affiche qu'elle a créée pour un grand festival de musique. Son blog sur la typographie est très suivi.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 6'600.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "translation" : "<p>Léa est une graphiste autodidacte de 29 ans. Née dans une famille créative, Léa se passionne très tôt pour le dessin. Elle a reçu un prix pour l'affiche qu'elle a créée pour un grand festival de musique. Son blog sur la typographie est très suivi.</p><p>Taux activité: 100%</p><p>Coûts totaux à 100%: 6'600.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -12653,7 +12653,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058657ZAH6pD::FR",
                 "status" : "",
-                "translation" : "<p>Johanna est diplômée de la&nbsp;Hochschule für Wirtschafts de l'Université de St Gall. Elle a travaillé à Zurich pendant 6 ans dans une des plus importantes agences digitales de Suisse. Elle y gère plusieurs clients et coordonne leurs projets (web, app. mobile, campagnes). Elle souhaite venir en romandie car son compagnon a trouvé un beau poste à Lausanne.</p><p>Elle serait disponible à 100%. Les coûts totaux (salaire + charges) s'élèveront à 9'200.- par mois (13 fois par année).</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "translation" : "<p>Johanna est diplômée de la&nbsp;Hochschule für Wirtschafts de l'Université de Saint-Gall. Elle a travaillé à Zurich pendant 6 ans dans une des plus importantes agences digitales de Suisse. Elle y gère plusieurs clients et coordonne leurs projets (web, app. mobile, campagnes). Elle souhaite venir en romandie car son compagnon a trouvé un beau poste à Lausanne.</p><p>Elle serait disponible à 100%. Les coûts totaux (salaire + charges) s'élèveront à 9'200.- par mois (13 fois par année).</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -13053,7 +13053,7 @@
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058693TXIdrD::FR",
                 "status" : "",
-                "translation" : "<p>Après son master en systèmes d'information à l'Université de Neuchatel, Claudia a commencé sa carrière chez McKinsey d'abord à Zurich, puis à Berlin. Elle a ensuite rejoint Deloitte Digital à Londres où elle travaille depuis 3 ans. Elle est rentrée en Suisse avec son mari qui a trouvé un poste important dans la recherche académique (EPFL). Claudia cherche actuellement un nouveau poste en Suisse. Elle est très motivée est prête à discuter ses prétentions salariales si elle voit des possibilités de devenir associée de l'entreprise.</p><p>Taux activité: 60%</p><p>Coûts totaux à 100%:&nbsp;14'500.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
+                "translation" : "<p>Après son master en systèmes d'information à l'Université de Neuchatel, Claudia a commencé sa carrière chez McKinsey d'abord à Zurich, puis à Berlin. Elle a ensuite rejoint Deloitte Digital à Londres où elle travaille depuis 3 ans. Elle est rentrée en Suisse avec son mari qui a trouvé un poste important dans la recherche académique (EPFL). Claudia cherche actuellement un nouveau poste en Suisse. Elle est très motivée et prête à discuter ses prétentions salariales si elle voit des possibilités de devenir associée de l'entreprise.</p><p>Taux activité: 60%</p><p>Coûts totaux à 100%:&nbsp;14'500.- par mois (13 fois par année)</p><p>&nbsp;<br></p><p><em>Budget temps pour entretien et engagement : 1</em></p>"
               }
             }
           },
@@ -14000,8 +14000,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:120587822Yw3r5::FR",
-                  "status" : null,
-                  "translation" : "<p>Vous avez pu parler par téléphone à la personne responsable du projet. Elle vous a dit ne pas avoir de disponibilité pour un entretien personnel, mais vous avez pu lui poser quelques questions et obtenir des réponses précisant les objectifs.</p>\n<ul>\n<li>15'000 visiteurs uniques sur le site</li>\n<li>20 articles dans les médias locaux</li>\n<li>10’000 followers sur la page Facebook / Instagram nouvellement créée</li>\n<li>Répartition souhaitée des ventes de billets\n<ul>\n<li>7’000 billets dans un rayon de 30 km</li>\n<li>3’000 billets dans un rayon de plus de 30 km</li>\n</ul>\n</li>\n<li>Développer image écologique (mesuré par enquête sur place)</li>\n<li>Recruter 15 stands nourriture externe éco-responsables</li>\n</ul>\n<p><em>_____________________</em></p>\n<p><em>Ceci vous coûte en tout 3 cartes temps.</em></p>"
+                  "status" : "",
+                  "translation" : "<p>Vous avez pu parler par téléphone à la personne responsable du projet. Elle vous a dit ne pas avoir de disponibilité pour un entretien personnel, mais vous avez pu lui poser quelques questions et obtenir des réponses précisant les objectifs.</p><ul><li>15'000 visiteurs uniques sur le site</li><li>20 articles dans les médias locaux</li><li>10’000 followers sur les pages Facebook / Instagram nouvellement créées</li><li>Répartition souhaitée des ventes de billets<ul><li>7’000 billets dans un rayon de 30 km</li><li>3’000 billets dans un rayon de plus de 30 km</li></ul></li><li>Développer image écologique (mesuré par enquête sur place)</li><li>Recruter 15 stands nourriture externe éco-responsables</li></ul><p><em>_____________________</em></p><p><em>Ceci vous coûte en tout 3 cartes temps.</em></p>"
                 }
               }
             },
@@ -14166,8 +14166,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058796ZyRqP1::FR",
-                "status" : null,
-                "translation" : "<p>Vous envoyez un mail à&nbsp; mUXic&nbsp; pour lui demandez des précisions sur les objectifs généraux de la prochaine édition du festival.</p>\n<p><em>Budget temps: 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous envoyez un mail à mUXic pour lui demandez des précisions sur les objectifs généraux de la prochaine édition du festival.</p><p><em>Budget temps: 1</em></p>"
               }
             }
           },
@@ -14412,8 +14412,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058819SLzQwJ::FR",
-                "status" : null,
-                "translation" : "<p>Vous envoyez un mail à&nbsp; mUXic&nbsp; pour demander des précisions sur l'hébergeur actuel du site web.</p>\n<p><em>Budget temps: 1</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous envoyez un mail à mUXic pour demander des précisions sur l'hébergeur actuel du site web.</p><p><em>Budget temps: 1</em></p>"
               }
             }
           },
@@ -14468,7 +14468,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Hébergement du site web\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\n<p>Suite à votre demande , nous vous informons que notre site est actuellement hébergé de manière mutualisée chez Infomaniak à Genève.</p>\\n<p>Meilleures salutations</p>\\n<p>mUXic</p>\",\"status\":\"\"}}}, []);",
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -1);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Hébergement du site web\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p><p>Suite à votre demande, nous vous informons que notre site est actuellement hébergé de manière mutualisée chez Infomaniak à Genève.</p><p>Meilleures salutations</p><p>mUXic</p>\",\"status\":\"\",\"lang\":\"FR\"}}}, []);",
               "language" : "javascript"
             },
             "label" : {
@@ -15118,8 +15118,8 @@
                 "@class" : "Translation",
                 "lang" : "FR",
                 "refId" : "translatablecontent:12058888x6rVtB::FR",
-                "status" : null,
-                "translation" : "<p>Vous envoyez un mail à&nbsp; mUXic pour demandez des précisions sur les besoins en espaces médias (spots radio, TV, impression et affichage): quelle quantité, est-ce que les montants relatifs doivent être inclus dans l'offre ?</p>\n<p><em>Budget temps: 2</em></p>"
+                "status" : "",
+                "translation" : "<p>Vous envoyez un mail à mUXic pour demandez des précisions sur les besoins en espaces médias (spots radio, TV, impression et affichage): quelle quantité, est-ce que les montants relatifs doivent être inclus dans l'offre ?</p><p><em>Budget temps: 2</em></p>"
               }
             }
           },
@@ -15174,7 +15174,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Achat espaces médias\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\\n<p>Suite à votre demande voici quelques précisions quant à nos besoins en matière d'achat média.</p>\\\n<p>L'année dernière, l'impression des flyers et affiches (environ 13'000 flyers et 1000 affiches) nous est revenu à 1'900.-.</p>\\\n<p>Pour la radio, nous avons la chance de pouvoir compter sur nos partenaires locaux, lesquels nous offrent gratuitement la diffusion de 3 spots journaliers durant deux semaines. Le supplément serait facturé.</p>\\\n<p>L'achat d'espace pour les spots TV devrait être intégré dans votre offre. Prévoir 10 spots (environ 15'' à 30'') par jour, pendant les deux semaines précédent le festival.</p>\\\n<p>Pour les réseaux sociaux, selon notre expérience, il serait bon de prévoir au minimum 500.- par mois pour pousser nos publications. Il faudrait d'intégrer ceci dans votre offre.</p>\\\n<p>Si votre campagne ne rentre pas dans ce cadre, merci de nous faire une proposition de budget.</p>\\\n<p>Meilleures salutations</p>\\n<p>mUXic</p>\",\"status\":\"\"}}}, []);",
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Achat espaces médias\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p><p>Suite à votre demande voici quelques précisions quant à nos besoins en matière d'achat média.</p><p>L'année dernière, l'impression des flyers et affiches (environ 13'000 flyers et 1000 affiches) nous est revenu à 1'900.-.</p><p>Pour la radio, nous avons la chance de pouvoir compter sur nos partenaires locaux, lesquels nous offrent gratuitement la diffusion de 3 spots journaliers durant deux semaines. Le supplément serait facturé.</p><p>L'achat d'espace pour les spots TV devrait être intégré dans votre offre. Prévoir 10 spots (environ 15'' à 30'') par jour, pendant les deux semaines précédent le festival.</p><p>Pour les réseaux sociaux, selon notre expérience, il serait bon de prévoir au minimum 500.- par mois pour pousser nos publications. Il faudrait intégrer ceci dans votre offre.</p><p>Si votre campagne ne rentre pas dans ce cadre, merci de nous faire une proposition de budget.</p><p>Meilleures salutations</p><p>mUXic</p>\",\"status\":\"\",\"lang\":\"FR\"}}}, []);",
               "language" : "javascript"
             },
             "label" : {
@@ -15734,7 +15734,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Imprimerie Corniz\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Impression 20'000 flyers et 1000 affiches\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\\n<p>Suite à votre demande, voici ci-joint un premier devis.&nbsp;</p>\\\n<p>Nous restons à votre disposition pour tout renseignements complémentaires.</p>\\\n<p>Meilleures salutations</p>\\n<p>Imprimerie Corniz</p>\",\"status\":\"\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Devis imprimeurs/Offre 1000 affiches.pdf\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Devis imprimeurs/Offre 20000 flyers.pdf\",\"status\":\"\"}}}}]);",
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -2);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Imprimerie Corniz\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Impression 20'000 flyers et 1000 affiches\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p><p>Suite à votre demande, voici ci-joint un premier devis.&nbsp;</p><p>Nous restons à votre disposition pour tout renseignement complémentaire.</p><p>Meilleures salutations</p><p>Imprimerie Corniz</p>\",\"status\":\"\",\"lang\":\"FR\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Devis imprimeurs/Offre 1000 affiches.pdf\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Devis imprimeurs/Offre 20000 flyers.pdf\",\"status\":\"\"}}}}]);",
               "language" : "javascript"
             },
             "label" : {
@@ -16522,7 +16522,7 @@
                   "lang" : "FR",
                   "refId" : "translatablecontent:12059029yQNNZQ::FR",
                   "status" : "",
-                  "translation" : "<p>Votre recherche donne de très bons résultats. Des fans ont notamment partagé beaucoup de photos HD de concerts sur de sites tels que Flickr.</p><p>Quand vous montrez ces premières images à un collègue, il soulève la question des droits d'utilisation.</p>"
+                  "translation" : "<p>Votre recherche donne de très bons résultats. Des fans ont notamment partagé beaucoup de photos HD de concerts sur des sites tels que Flickr.</p><p>Quand vous montrez ces premières images à un collègue, il soulève la question des droits d'utilisation.</p>"
                 }
               }
             },
@@ -16915,8 +16915,8 @@
               "@class" : "Translation",
               "lang" : "FR",
               "refId" : "translatablecontent:120590662jeNrd::FR",
-              "status" : null,
-              "translation" : "<p>Vous avez la possibilité de contacter un ami spécialiste en UX pour lui demander informations sur les outils permettant de créer des wireframes.</p>"
+              "status" : "",
+              "translation" : "<p>Vous avez la possibilité de contacter un ami spécialiste en UX pour lui demander des informations sur les outils permettant de créer des wireframes.</p>"
             }
           }
         },
@@ -16977,8 +16977,8 @@
                   "@class" : "Translation",
                   "lang" : "FR",
                   "refId" : "translatablecontent:12059075iHwdGe::FR",
-                  "status" : null,
-                  "translation" : "<p>Votre ami vous suggère les outils suivants:</p>\n<ul>\n<li><a href=\"https://moqups.com/\" target=\"_blank\" rel=\"noopener\">moqups.com</a></li>\n<li><a href=\"https://balsamiq.cloud/\" target=\"_blank\" rel=\"noopener\">balsamiq.cloud</a></li>\n<li>Adobe XD</li>\n</ul>"
+                  "status" : "",
+                  "translation" : "<p>Votre ami vous suggère les outils suivants:</p><ul><li><a href=\"https://moqups.com/\" target=\"_blank\" rel=\"noopener\">moqups.com</a></li><li><a href=\"https://balsamiq.cloud/\" target=\"_blank\" rel=\"noopener\">balsamiq.cloud</a></li><li><a href=\"https://www.figma.com/fr-fr/\" target=\"_blank\">figma.com</a></li></ul>"
                 }
               }
             },
@@ -17483,7 +17483,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Marcus\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Suite à notre rencontre\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\\n<p>Suite à notre discussion lors l'apéritif Chambre de Commerce, je vous confirme ma décision de vous confier le projet de refonte de mon site e-commerce, dans l'enveloppe évoquée, soit 40'000.-</p>\\\n<p>Le projet pourrait démarrer d'ici un mois.</p>\\\n<p>Cordialement</p>\\n<p>Marcus</p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
+              "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Marcus\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Suite à notre rencontre\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p><p>Suite à notre discussion lors de l'apéritif de la Chambre de Commerce, je vous confirme ma décision de vous confier le projet de refonte de mon site e-commerce, dans l'enveloppe évoquée, soit 40'000.-</p><p>Le projet pourrait démarrer d'ici un mois.</p><p>Cordialement</p><p>Marcus</p>\",\"status\":\"\",\"lang\":\"FR\"}}}, []);\nVariable.find(gameModel, \"timeCards\").add(self, -3);",
               "language" : "javascript"
             },
             "label" : {
@@ -20109,7 +20109,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Présélection\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p><p>Nous vous remercions pour votre proposition.&nbsp;Notre comité de direction a revu l'ensemble des dossiers reçus et nous avons le plaisir de vous informer que votre agence a été retenue pour la phase de sélection finale (avec d'autres agences qui nous ont aussi fait de très bonnes propositions).</p><p>Afin de prendre notre décision finale d'attribution du mandat, nous vous demandons de bien vouloir nous démontrer vos compétences à travers la réalisation des éléments suivants:</p><ul><li>Moodboard</li><li>Une proposition libre pour le logo de la 10ème édition (statique, animé, jingle, etc)</li><li>Affiche format A3 pour la promotion du Festival</li><li>Esquisse de la structure de la page d'accueil du futur site web<ul><li>Version écran ordinateur et mobile</li><li>Maquettes interactives</li></ul></li></ul><p>Nous vous remettons en annexe quelques informations vous permettant de réaliser ces propositions (dates, programmation, logo des sponsors).</p><p>Nous avons conscience du travail demandé pour la réalisation de ces livrables. Aussi le comité a prévu un défraiement de CHF 5000.- pour les sociétés qui participeront à la short list.</p><p>Nous nous réjouissons de recevoir vos projets !</p><p>Musicalement vôtre,</p><p>Laura</p><p>Responsable Communication</p><p>mUXic Festival<br></p>\",\"status\":\"\",\"lang\":\"FR\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsorts/AssureTout.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsorts/Logo LaProx.png\",\"status\":\"\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Themes pour affiche.docx\",\"status\":\"\"}}}}]);",
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"mUXic\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Présélection\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p><p>Nous vous remercions pour votre proposition.&nbsp;Notre comité de direction a revu l'ensemble des dossiers reçus et nous avons le plaisir de vous informer que votre agence a été retenue pour la phase de sélection finale (avec d'autres agences qui nous ont aussi fait de très bonnes propositions).</p><p>Afin de prendre notre décision finale d'attribution du mandat, nous vous demandons de bien vouloir nous démontrer vos compétences à travers la réalisation des éléments suivants:</p><ul><li>Moodboard</li><li>Une proposition libre pour le logo de la 10ème édition (statique, animé, jingle, etc)</li><li>Affiche format A3 pour la promotion du Festival</li><li>Esquisse de la structure de la page d'accueil du futur site web<ul><li>Version écran ordinateur et mobile</li><li>Maquettes interactives</li></ul></li></ul><p>Nous vous remettons en annexe quelques informations vous permettant de réaliser ces propositions (dates, programmation, logo des sponsors).</p><p>Nous avons conscience du travail demandé pour la réalisation de ces livrables. Aussi le comité a prévu un défraiement de CHF 5000.- pour les sociétés qui participeront à la short list.</p><p>Nous nous réjouissons de recevoir vos projets !</p><p>Musicalement vôtre,</p><p>Laura</p><p>Responsable Communication</p><p>mUXic Festival<br></p>\",\"status\":\"\",\"lang\":\"FR\"}}}, [{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsors/AssureTout.png\",\"status\":\"\",\"lang\":\"FR\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Logos Sponsors/Logo LaProx.png\",\"status\":\"\",\"lang\":\"FR\"}}}},{\"@class\":\"Attachment\",\"file\":{\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"/Themes pour affiche.docx\",\"status\":\"\"}}}}]);",
           "language" : "javascript"
         },
         "refId" : "variabledescriptor:12059347cY0btX",
