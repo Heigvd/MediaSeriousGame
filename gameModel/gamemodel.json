@@ -4,7 +4,7 @@
   "comments" : null,
   "createdById" : null,
   "createdByName" : null,
-  "createdTime" : 1757346080816,
+  "createdTime" : 1757947407899,
   "description" : null,
   "items" : [ {
     "@class" : "ListDescriptor",
@@ -848,7 +848,7 @@
             }
           }
         },
-        "maxReplies" : 1,
+        "maxReplies" : null,
         "minReplies" : null,
         "name" : "pretDeMartha",
         "pictures" : [ ],
@@ -6492,8 +6492,8 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -4);\nVariable.find(gameModel, \"caisse\").add(self, -2000);\nVariable.find(gameModel, \"societeCreee\").setValue(self, true);",
-              "language" : "JavaScript"
+              "content" : "Variable.find(gameModel, \"timeCards\").add(self, -4);\nVariable.find(gameModel, \"caisse\").add(self, -2000);\nVariable.find(gameModel, \"societeCreee\").setValue(self, true);\nVariable.find(gameModel, 'creerLaSarl').setCurrentResult(self, \"Si déjà créée\");",
+              "language" : "javascript"
             },
             "label" : {
               "@class" : "TranslatableContent",
@@ -6510,6 +6510,53 @@
             },
             "name" : "Si reçu prêt Martha",
             "refId" : "Result:2406350:5RYyJJ",
+            "version" : null
+          }, {
+            "@class" : "Result",
+            "answer" : {
+              "@class" : "TranslatableContent",
+              "refId" : "TranslatableContent:36410447:sqcUeK",
+              "translations" : {
+                "FR" : {
+                  "@class" : "Translation",
+                  "lang" : "FR",
+                  "refId" : "TranslatableContent:36410447:sqcUeK::FR",
+                  "status" : "",
+                  "translation" : "<p>La société est déjà créée.</p>"
+                }
+              }
+            },
+            "files" : [ ],
+            "ignorationAnswer" : {
+              "@class" : "TranslatableContent",
+              "refId" : "TranslatableContent:36410448:YJ75jC",
+              "translations" : { }
+            },
+            "ignorationImpact" : {
+              "@class" : "Script",
+              "content" : "",
+              "language" : "JavaScript"
+            },
+            "impact" : {
+              "@class" : "Script",
+              "content" : "",
+              "language" : "JavaScript"
+            },
+            "label" : {
+              "@class" : "TranslatableContent",
+              "refId" : "TranslatableContent:36410449:ON5BrE",
+              "translations" : {
+                "FR" : {
+                  "@class" : "Translation",
+                  "lang" : "FR",
+                  "refId" : "TranslatableContent:36410449:ON5BrE::FR",
+                  "status" : "",
+                  "translation" : "Si déjà créée"
+                }
+              }
+            },
+            "name" : "Si déjà créée",
+            "refId" : "Result:#2:EuwmCO",
             "version" : null
           } ],
           "scopeType" : "TeamScope",
