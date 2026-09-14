@@ -4,7 +4,7 @@
   "comments" : null,
   "createdById" : null,
   "createdByName" : null,
-  "createdTime" : 1757947407899,
+  "createdTime" : 1789364525203,
   "description" : null,
   "items" : [ {
     "@class" : "ListDescriptor",
@@ -1391,7 +1391,7 @@
           "cost" : 0,
           "defaultInstance" : {
             "@class" : "ChoiceInstance",
-            "active" : true,
+            "active" : false,
             "currentResultName" : null,
             "refId" : "ChoiceInstance:2405983:lU6LC3",
             "replies" : [ ],
@@ -1411,7 +1411,7 @@
             }
           },
           "duration" : 1,
-          "editorTag" : "",
+          "editorTag" : "archivée",
           "isolation" : "OPEN",
           "label" : {
             "@class" : "TranslatableContent",
@@ -6740,7 +6740,7 @@
             "ignorationImpact" : null,
             "impact" : {
               "@class" : "Script",
-              "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Chouchou\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"OK, mais...\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p><span style=\\\"font-size: 1em;\\\">Tu pars je dors encore. Uu reviens, je dors déjà.</span></p><p>Et on n'a plus le temps de voir nos amis ni de faire toutes les activités que nous faisions avant que tu ne démarres ce projet !</p>\",\"status\":\"\",\"lang\":\"FR\"}}}, []);\nVariable.find(gameModel, \"timeCards\").add(self, 2);\nVariable.find(gameModel, \"result\").setCurrentResult(self, \"3ème fois\");",
+              "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Chouchou\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"OK, mais...\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p><span style=\\\"font-size: 1em;\\\">Tu pars je dors encore. Tu reviens, je dors déjà.</span></p><p>Et on n'a plus le temps de voir nos amis ni de faire toutes les activités que nous faisions avant que tu ne démarres ce projet !</p>\",\"status\":\"\",\"lang\":\"FR\"}}}, []);\nVariable.find(gameModel, \"timeCards\").add(self, 2);\nVariable.find(gameModel, \"result\").setCurrentResult(self, \"3ème fois\");",
               "language" : "javascript"
             },
             "label" : {
@@ -18183,8 +18183,8 @@
               "refId" : "Transition:2407159:3z0W9n",
               "triggerCondition" : {
                 "@class" : "Script",
-                "content" : "Event.fired(\"PhaseSuivante\")&& Variable.find(gameModel, \"phaseMaxPlayer\").getValue(self) >= 3;",
-                "language" : "JavaScript"
+                "content" : "Event.fired(\"PhaseSuivante\")&&\nVariable.find(gameModel, 'phaseMaxPlayer').getValue(self) >= 3;",
+                "language" : "javascript"
               },
               "version" : null
             } ],
@@ -19167,7 +19167,7 @@
         "oneShot" : false,
         "postTriggerEvent" : {
           "@class" : "Script",
-          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Banque - Dubuis\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Financement de votre entreprise\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Chère Madame, Cher Monsieur,</p>\\n<p>Faisant suite à la présentation de votre projet d’entreprise, notre comité s’est réuni et confirme son accord pour un financement sous forme de prêt bancaire, assorti de la caution déjà évoquée.</p>\\n<p>M. Pasquier suivra votre dossier.</p>\\n<p>Vous voudrez bien préparer un bilan initial et une estimation des dépenses mensuelles prévisionnelles (Burn Rate) et lui remettre ces deux documents.</p>\\n<p>Meilleures salutations</p>\\n<p>R. Dubuis</p>\\n<p>Directeur régional</p>\\n<p><em>______</em></p>\\n<p><em>Ces deux documents sont à remettre à votre formateur pour finaliser la phase de mise en oeuvre.</em></p>\",\"status\":\"\"}}}, []);",
+          "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Banque - Dubuis\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Financement de votre entreprise\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Chère Madame, Cher Monsieur,</p><p>Faisant suite à la présentation de votre projet d’entreprise, notre comité s’est réuni et confirme son accord pour un financement sous forme de prêt bancaire, assorti de la caution déjà évoquée.</p><p>M. Pasquier suivra votre dossier.</p><p>Nous vous souahitons plein succès dans la création de votre entreprise.</p><p>Meilleures salutations</p><p>R. Dubuis</p><p>Directeur régional</p>\",\"status\":\"\",\"lang\":\"FR\"}}}, []);",
           "language" : "javascript"
         },
         "refId" : "TriggerDescriptor:2407266:qlPLdp",
@@ -19646,7 +19646,7 @@
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
-              "label" : null,
+              "label" : "d) home office",
               "nextStateId" : 6,
               "preStateImpact" : {
                 "@class" : "Script",
@@ -19656,8 +19656,8 @@
               "refId" : "Transition:2407327:odeSfl",
               "triggerCondition" : {
                 "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"c_HomeOffice\").hasBeenSelected(self);",
-                "language" : "JavaScript"
+                "content" : "Variable.find(gameModel, 'c_HomeOffice').hasBeenSelected(self);",
+                "language" : "javascript"
               },
               "version" : null
             }, {
@@ -19670,14 +19670,14 @@
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
-              "label" : null,
+              "label" : "b) classique",
               "nextStateId" : 4,
               "preStateImpact" : null,
               "refId" : "Transition:2407329:sWEjOZ",
               "triggerCondition" : {
                 "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"a_BureauxClassiques\").hasBeenSelected(self);",
-                "language" : "JavaScript"
+                "content" : "Variable.find(gameModel, 'a_BureauxClassiques').hasBeenSelected(self);",
+                "language" : "javascript"
               },
               "version" : null
             }, {
@@ -19690,14 +19690,14 @@
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
-              "label" : null,
+              "label" : "a) Haut de gamme",
               "nextStateId" : 3,
               "preStateImpact" : null,
               "refId" : "Transition:2407331:qlQDM2",
               "triggerCondition" : {
                 "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"a_BureauxClassiques_2\").hasBeenSelected(self);",
-                "language" : "JavaScript"
+                "content" : "Variable.find(gameModel, 'a_BureauxClassiques_2').hasBeenSelected(self);",
+                "language" : "javascript"
               },
               "version" : null
             }, {
@@ -19710,7 +19710,7 @@
               } ],
               "dependsOnStrategy" : "AUTO",
               "index" : 0,
-              "label" : null,
+              "label" : "c) coworking",
               "nextStateId" : 5,
               "preStateImpact" : {
                 "@class" : "Script",
@@ -19720,8 +19720,8 @@
               "refId" : "Transition:2407333:IPaSZN",
               "triggerCondition" : {
                 "@class" : "Script",
-                "content" : "Variable.find(gameModel, \"b_\").hasBeenSelected(self);",
-                "language" : "JavaScript"
+                "content" : "Variable.find(gameModel, 'b_').hasBeenSelected(self);",
+                "language" : "javascript"
               },
               "version" : null
             } ],
@@ -19765,8 +19765,8 @@
             "label" : null,
             "onEnterEvent" : {
               "@class" : "Script",
-              "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Journal de la région\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Hey !</p>\\n<p>J'ai vu qu'il y avait un article dans le journal de la région sur les espaces de travail partagés. Il y a un petit reportage et ta société y est citée.&nbsp;</p>\\n<p>Super, ça fait un peu de pub !</p>\\n<p>Martha</p>\",\"status\":\"\"}}}, []);\n\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Equipe\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Locaux de travail\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\\n<p>Juste un mot pour vous dire que l'espace de travail partagé a du bon comme les rencontres à la cafétéria.</p>\\\n<p>Mais il y a aussi du moins bon (bruit et sentiment de ne pas être \\\"chez soi\\\"). On manque aussi parfois d'accès à la salle de conférence qui est souvent réservée.</p>\\\n<p>Salutations</p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, \"moral\").add(self, -2);",
-              "language" : "JavaScript"
+              "content" : "PMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Martha\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Journal de la région\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Hey !</p>\\n<p>J'ai vu qu'il y avait un article dans le journal de la région sur les espaces de travail partagés. Il y a un petit reportage et ta société y est citée.&nbsp;</p>\\n<p>Super, ça fait un peu de pub !</p>\\n<p>Martha</p>\",\"status\":\"\"}}}, []);\nPMGHelper.sendMessage({\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Equipe\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"Locaux de travail\",\"status\":\"\"}}}, {\"@class\":\"TranslatableContent\",\"translations\":{\"FR\":{\"translation\":\"<p>Bonjour,</p>\\\n<p>Juste un mot pour vous dire que l'espace de travail partagé a du bon comme les rencontres à la cafétéria.</p>\\\n<p>Mais il y a aussi du moins bon (bruit et sentiment de ne pas être \\\"chez soi\\\"). On manque aussi parfois d'accès à la salle de conférence qui est souvent réservée.</p>\\\n<p>Salutations</p>\",\"status\":\"\"}}}, []);\nVariable.find(gameModel, \"moral\").add(self, -2);",
+              "language" : "javascript"
             },
             "refId" : "State:2407320:ZlKLH7",
             "transitions" : [ ],
@@ -21829,7 +21829,7 @@
     "version" : null,
     "visibility" : "PRIVATE"
   } ],
-  "name" : "Media Serious Game 4.0",
+  "name" : "Media Serious Game 4.0.1",
   "pages" : { },
   "properties" : {
     "@class" : "GameModelProperties",
